@@ -22,7 +22,8 @@ def get_db():
     finally:
         db.close()
 
-@app.post("/users/", response_model=schemas.User)
+#Registration and login
+@app.post("/register", response_model=schemas.User)
 def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
 
     db_user = crud.get_user_by_email(db, email=user.email) 
@@ -55,3 +56,9 @@ def read_user(user_id: int, db: Session = Depends(get_db)):
     if db_user is None:
         raise HTTPException(status_code=404, detail="User not found")
     return db_user
+
+#Core functionality below
+@app.post("/user/settings/")
+def modify_settings_for_user(settings: schemas.SettingsCreate, db: Session = Depends(get_db)):
+    
+    return crud.modify_user_settings(db=db, settings=settings, user_id= settings.user_id)
