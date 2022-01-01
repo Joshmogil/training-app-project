@@ -1,9 +1,17 @@
-from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
+from sqlalchemy import Table, Boolean, Column, ForeignKey, Integer, String, MetaData
 from sqlalchemy.orm import relationship
 
-from .database import Base
+#from .database import Base
 
-class User(Base):
+
+
+    
+
+
+
+
+
+""" class User(Base):
     __tablename__ = "users"
 
     id = Column(Integer, primary_key=True, index=True)
@@ -23,7 +31,7 @@ class Settings(Base):
     preffered_days = Column(String, default="0110110") # 1 = preffered day, 0 = not preferred day
     user_id = Column(Integer, ForeignKey("users.id"))
 
-    user = relationship("User", back_populates="settings")
+    user = relationship("User", back_populates="settings") """
 
 
 

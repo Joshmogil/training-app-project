@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from sqlalchemy import orm
 from sqlalchemy.sql.sqltypes import String
 
-class SettingsBase(BaseModel):
+""" class SettingsBase(BaseModel):
     goal : str
     split : str
     days_per_week : int
@@ -17,7 +17,7 @@ class Settings(SettingsBase):
     id:int
 
     class Config:
-        orm_mode = True
+        orm_mode = True """
 
 class UserBase(BaseModel):
     email: str
@@ -30,8 +30,5 @@ class UserCreate(UserBase):
 class User(UserBase):
     id: int
     is_active: bool
-    settings: Settings
-
-    class Config:
-        orm_mode = True
+    
 

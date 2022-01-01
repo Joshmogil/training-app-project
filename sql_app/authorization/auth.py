@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 class AuthHandler():
     security = HTTPBearer()
     pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-    secret = 'SECRET'
+    secret = 'SECRETIOU'
 
     def get_password_hash(self, password):
         return self.pwd_context.hash(password)
