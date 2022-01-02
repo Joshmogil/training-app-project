@@ -13,23 +13,46 @@ from .authorization.auth import AuthHandler
 conn = engine.connect()
 auth_handler = AuthHandler()
 
-def create_user(user_credentials: AuthDetails):
 
-    if check_if_email_used(user_credentials.email) is False:
+def create_user(db: Session, user_credentials: AuthDetails):
+
+    s = select(users.c.email).where(users.c.email==user_credentials.email)
+    trueIfEmailExists = False
+    for row in db.execute(s):
+        trueIfEmailExists = True
+    
+    if trueIfEmailExists is False:
 
         gen_hashed_password = auth_handler.get_password_hash(user_credentials.password)
 
-        ins = users.insert().values(email=user_credentials.email,hashed_password=gen_hashed_password, is_active = True)
+        ins = users.insert().values(email=user_credentials.email,hashed_password=gen_hashed_password, is_active = True)        
+        result = db.execute(ins)        
+        newUserId = result.inserted_primary_key
+        
+        db.commit()
 
-        result = conn.execute(ins)
+        userId = ""
 
+        for x in str(newUserId):
+
+            if x.isdigit():
+
+                userId += x
+
+        ins2 = insert(settings).values(user_id=int(userId), goal="hello", split = "hello2", days_per_week=4, preffered_days = "0101010")
+        
+        print(ins2)
+
+        result = db.execute(ins2)
+        db.commit()
+        
         return True
     
     return False
 
-def login(user_credentials: AuthDetails):
+def login(db: Session, user_credentials: AuthDetails):
 
-    db_user = get_user_by_email(user_credentials.email)
+    db_user = get_user_by_email(db, user_credentials.email)
 
     if (db_user is None) or (not auth_handler.verify_password(user_credentials.password, db_user[2])):
         raise HTTPException(status_code=401, detail='Invalid username and/or password')
@@ -37,58 +60,20 @@ def login(user_credentials: AuthDetails):
     token = auth_handler.encode_token(db_user[1])
     return {'token':token}    
 
-def check_if_email_used(email: str):
+def check_if_email_used(db: Session, email: str):
 
     s = select(users.c.email).where(users.c.email==email)
     
     trueIfEmailExists = False
 
-    for row in conn.execute(s):
+    for row in db.execute(s):
         trueIfEmailExists = True
         
     return trueIfEmailExists
 
-def get_user_by_email(email: str):
+def get_user_by_email(db: Session, email: str):
 
     s = select(users).where(users.c.email==email)
 
-    for row in conn.execute(s):
+    for row in db.execute(s):
         return row
-
-    
-        
-
-""" def get_user(db: Session, user_id: int):
-    return db.query(models.User).filter(models.User.id == user_id).first()
-
-
-def get_user_by_email(db: Session, email: str):
-    return db.query(models.User).filter(models.User.email == email).first()
-
-def get_password_hash_by_email(db: Session, email: str):
-    db_user = db.query(models.User).filter(models.User.email == email).first()
-    return db_user.hashed_password
-
-
-def get_users(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(models.User).offset(skip).limit(limit).all()
-
-def create_user(db: Session, user: schemas.UserCreate, hashedPassword):  
-    db_user = models.User(email=user.email, hashed_password=hashedPassword)
-    db.add(db_user)
-    db.commit()
-    db.refresh(db_user)
-    return db_user """
-
-
-
-""" 
-def get_settings(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(models.Settings).offset(skip).limit(limit).all()
-
-def modify_user_settings(db: Session, settings: schemas.SettingsCreate, userId:int):
-    db_settings = models.Settings(**settings.dict(), user_id = userId)
-    db.add(db_settings)
-    db.commit()
-    db.refresh(db_settings)
-    return db_settings """
