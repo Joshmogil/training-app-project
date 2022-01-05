@@ -6,4 +6,4 @@ Currently a user can register for an account, login with encryption, and recieve
 
 Uses FastAPI, SQLAlchemy
 Uses CryptContext for hashing and verifying passwords.
-Database: SQLite
+Database: Postgres
