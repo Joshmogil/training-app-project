@@ -1,0 +1,3443 @@
+{
+    "app_id": 0,
+    "category": "Arms",
+    "description": "Hold two barbells, the arms are streched, the hands are on your side, the palms face inwards. Bend the arms and bring the weight with a fast movement up. At the same time, rotate your arms by 90 degrees at the very beginning of the movement. At the highest point, rotate a little the weights further outwards. Without a pause, bring them down, slowly.Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Biceps Curls With Dumbbell",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 81
+}{
+    "app_id": 1,
+    "category": "Arms",
+    "description": "Hold the SZ-bar shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement.Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Biceps Curls With SZ-bar",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 80
+}{
+    "app_id": 2,
+    "category": "Arms",
+    "description": "Stand around 30 - 40cm away from the cable, the feet are firmly on the floor. Take the bar and lift the weight with a fast movements. Lower the weight as with the dumbbell curls slowly and controlled.",
+    "muscles": [
+        "Biceps brachii"
+    ],
+    "name": "Biceps Curl With Cable",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 129
+}{
+    "app_id": 3,
+    "category": "Arms",
+    "description": "Assume a plank position on the ground. You should be supporting your bodyweight on your toes and forearms, keeping your torso straight. Your forearms should be shoulder-width apart. This will be your starting position.Pressing your palms firmly into the ground, extend through the elbows to raise your body from the ground. Keep your torso rigid as you perform the movement.Slowly lower your forearms back to the ground by allowing the elbows to flex.Repeat as needed.",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Body-Ups",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 341
+}{
+    "app_id": 4,
+    "category": "Legs",
+    "description": "Stand with feet slightly wider than shoulder-width apart, while standing as tall as you can.Grab a weight plate and hold it out in front of your body with arms straight out. Keep your core tight and stand with a natural arch in your back.Now, push hips back and bend knees down into a squat as far as you can. Hold for a few moments and bring yourself back up to the starting position.",
+    "muscles": [
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Braced Squat",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 342
+}{
+    "app_id": 5,
+    "category": "Legs",
+    "description": "1. Find a stable implement (a bench or a chair) and place the left foot hip-distance in front of the right one. Your core should be engaged, your shoulders should be back and your eyes and chest should face forward.2. Raise the right leg off the ground and pulace it on the bench behind you.3. Check your balance and distance between the feet. Your feet should not be on the same line as that will make it difficult to balance.4. Bend your left knee and lower downard. Maintain position and push upward. The right knee is used only for balance and should bend by itself.5. Switch the feet and repeatThe exercise can be done without weights, with dumbbells or a barbell.",
+    "muscles": [
+        "Quadriceps femoris",
+        "Biceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Bulgarian Split Squat",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 914
+}{
+    "app_id": 6,
+    "category": "Chest",
+    "description": "Jump, lay down on your chest, do a pushup then jump, repeat",
+    "muscles": [],
+    "name": "Burpees",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 354
+}{
+    "app_id": 7,
+    "category": "Chest",
+    "description": "Sit on the butterfly machine, the feet have a good contact with the floor, the upper arms are parallel to the floor. Press your arms together till the handles are practically together (but aren't!). Go slowly back. The weights should stay all the time in the air.",
+    "muscles": [
+        "Pectoralis major",
+        "Anterior deltoid"
+    ],
+    "name": "Butterfly",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 98
+}{
+    "app_id": 8,
+    "category": "Chest",
+    "description": "The movement is the same as with a regular butterfly, only that the grip is narrow:Sit on the butterfly machine, the feet have a good contact with the floor, the upper arms are parallel to the floor. Press your arms together till the handles are practically together (but aren't!). Go slowly back. The weights should stay all the time in the air.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Butterfly Narrow Grip",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 99
+}{
+    "app_id": 9,
+    "category": "Shoulders",
+    "description": "",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Butterfly Reverse",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 124
+}{
+    "app_id": 10,
+    "category": "Chest",
+    "description": "Begin with cables at about shoulder height, one in each hand. Take a step forward so that one foot is in front of the other, for stability, and so that there is tension on the cables. Bring hands together in front of you. Try to make your hands overlap (so that the cables cross) a few inches.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Cable Cross-over",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 207
+}{
+    "app_id": 11,
+    "category": "Shoulders",
+    "description": "Steps:Start off placing an extension band around a post or in a secure position where it will not release and is at elbow level.Position yourself to the side of the band and with your hand that is opposite of the band, reach out and grab the handle.Bring the band to your chest keeping your elbow bent in a 90 degree angle then slowly rotate your arm in a backhand motion so that the band externally rotates outContinue out as far as possible so that you feel a stretch in your shoulders, hold for a count and then return back to the starting position.Repeat for as many reps and sets as desired.",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Cable External Rotation",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 265
+}{
+    "app_id": 12,
+    "category": "Abs",
+    "description": "Set cable pulley slightly lower than chest height. Keep body facing forward with hips stable. \u00a0Grab the pulley handle, fully extend your arms and bring your arms forward and across your body. Hold for 1 second at the end of the movement and slowly return to starting position.",
+    "muscles": [
+        "Obliquus externus abdominis"
+    ],
+    "name": "Cable Woodchoppers",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 167
+}{
+    "app_id": 13,
+    "category": "Calves",
+    "description": "Put\u00a0 the balls of your feet on an extended leg press pad.\u00a0 Use your calves to press the weight by flexing your feet/toes into a pointed position, and releasing back into a relaxed position.This exercise builds mass and strength in the Gastrocnemius and Soleus muscles as well, if not better, than any calf exercise.",
+    "muscles": [
+        "Gastrocnemius",
+        "Soleus"
+    ],
+    "name": "Calf Press Using Leg Press Machine",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 308
+}{
+    "app_id": 14,
+    "category": "Calves",
+    "description": "Calf raises are a method of exercising the gastrocnemius, tibialis posterior and soleus muscles of the lower leg. The movement performed is plantar flexion, a.k.a. ankle extension.",
+    "muscles": [
+        "Gastrocnemius",
+        "Soleus"
+    ],
+    "name": "Calf Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        776,
+        104,
+        103,
+        102
+    ],
+    "wg_id": 776
+}{
+    "app_id": 15,
+    "category": "Calves",
+    "description": "Place yourself on the machine with your back firmly against the backrest, the feet are on the platform for calf raises. Check that the feet are half free and that you can completely stretch the calf muscles down.With straight knees pull up your weight as much as you can. Go with a fluid movement down till the calves are completely stretched. Repeat.",
+    "muscles": [
+        "Gastrocnemius",
+        "Soleus"
+    ],
+    "name": "Calf Raises on Hackenschmitt Machine",
+    "regularity": 0,
+    "variation_fam_members": [
+        776,
+        104,
+        103,
+        102
+    ],
+    "wg_id": 104
+}{
+    "app_id": 16,
+    "category": "Back",
+    "description": "The chin-up (also known as a chin or chinup) is a strength training exercise. People frequently do this exercise with the intention of strengthening muscles such as the latissimus dorsi and biceps, which extend the shoulder and flex the elbow, respectively. In this maneuver, the palms are faced towards the body. It is a form of pull-up in which the range of motion is established in relation to a person's chin.",
+    "muscles": [],
+    "name": "Chin Up",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 803
+}{
+    "app_id": 17,
+    "category": "Back",
+    "description": "Like pull-ups but with a reverse grip",
+    "muscles": [
+        "Biceps brachii",
+        "Latissimus dorsi"
+    ],
+    "name": "Chin-ups",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 181
+}{
+    "app_id": 18,
+    "category": "Arms",
+    "description": "Perform a typical bench press, but hold the bar with your hands approximately shoulder-width apart and keep your elbows close to your body.",
+    "muscles": [
+        "Triceps brachii",
+        "Pectoralis major"
+    ],
+    "name": "Close-grip Bench Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        88,
+        217,
+        85,
+        84,
+        386,
+        218,
+        186
+    ],
+    "wg_id": 217
+}{
+    "app_id": 19,
+    "category": "Back",
+    "description": "Grip the pull-down bar with your hands closer than shoulder width apart, with your palms facing away from you. Lean back slightly. Pull the bar down towards your chest, keeping your elbows close to your sides as you come down. Pull your shoulders back at the end of the motion.",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Close-grip Lat Pull Down",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 213
+}{
+    "app_id": 20,
+    "category": "Chest",
+    "description": "Grasp a moderately weighted dumbbell so your palms are flat against the underside of the top plates and your thumbs are around the bar. Lie on your back across a flat bench so only your upper back and shoulders are in contact with the bench. Your feet should be set about shoulder-width apart and your head should hang slightly downward. With the dumbbell supported at arm's length directly about your chest, bend your arms about 15 degrees and keep them bent throughout the movement. Slowly lower the dumbbell backward and downward in a semicircle arc to as low a position as is comfortably possible. Raise it slowly back along the same arc to the starting point, and repeat for the required number of repetitions.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Pectoralis major",
+        "Serratus anterior"
+    ],
+    "name": "Cross-Bench Dumbbell Pullovers",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 194
+}{
+    "app_id": 21,
+    "category": "Abs",
+    "description": "Lay down on your back a soft surface, the feet are on the floor. Ask a partner or use some other help (barbell, etc.) to keep them fixed, your hands are behind your head. From this position move your upper body up till your head or elbows touch your knees. Do this movement by rolling up your back.",
+    "muscles": [
+        "Rectus abdominis",
+        "Serratus anterior"
+    ],
+    "name": "Crunches",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 91
+}{
+    "app_id": 22,
+    "category": "Abs",
+    "description": "The procedure is very similar as for regular crunches, only with the additional weight of the machine. Sit on the machine, put both feet firmly on the ground. Grab the to the weights, cables, etc. and do a rolling motion forwards (the spine should ideally lose touch vertebra by vertebra). Slowly return to the starting position. ",
+    "muscles": [
+        "Rectus abdominis"
+    ],
+    "name": "Crunches on Machine",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 94
+}{
+    "app_id": 23,
+    "category": "Abs",
+    "description": "Take the cable on your hands and hold it next to your temples. Knee down and hold your upper body straight and bend forward. Go down with a fast movement, rolling your back in (your ellbows point to your knees). Once down, go slowly back to the initial position.",
+    "muscles": [
+        "Rectus abdominis"
+    ],
+    "name": "Crunches With Cable",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 92
+}{
+    "app_id": 24,
+    "category": "Abs",
+    "description": "On your back, legs extended straight up, reach toward your toes with your hands and lift your shoulder blades off the ground and back.",
+    "muscles": [
+        "Rectus abdominis",
+        "Obliquus externus abdominis"
+    ],
+    "name": "Crunches With Legs Up",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 416
+}{
+    "app_id": 25,
+    "category": "Arms",
+    "description": "Bicipiti su panca a 45\u00b0. Il movimento deve essere completo",
+    "muscles": [
+        "Biceps brachii"
+    ],
+    "name": "Curl su Panca a 45\u00b0",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 619
+}{
+    "app_id": 26,
+    "category": "Legs",
+    "description": "Cycling, also called bicycling or biking, is the use of bicycles for transport, recreation, exercise or sport. People engaged in cycling are referred to as cyclists, bicyclists, or bikers. Apart from two-wheeled bicycles, cycling also includes the riding of unicycles, tricycles, quadracycles, recumbent and similar human-powered vehicles.",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Trapezius",
+        "Biceps femoris",
+        "Brachialis",
+        "Gluteus maximus",
+        "Latissimus dorsi",
+        "Quadriceps femoris"
+    ],
+    "name": "Cycling",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 806
+}{
+    "app_id": 27,
+    "category": "Abs",
+    "description": "Lie on your back, with your hips and knees bent to 90\u00b0. Raise both arms toward the ceiling. Pull your lower back to the floor to eliminate the gap. Start by pressing one leg out, and tapping the heel to the floor. \"As you extend one leg, exhale as much as you can, keeping your lower back glued to the floor,\" Dunham says. When you can\u2019t exhale any more, pull your knee back to the starting position. Make this more difficult by holding weight in your hands, or by lowering opposite arm and leg.",
+    "muscles": [],
+    "name": "Deadbug",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 544
+}{
+    "app_id": 28,
+    "category": "Arms",
+    "description": "Deadhang performed on an edge\u00a0either with or without added weight (adujst edge or weight to adjust difficulty)",
+    "muscles": [],
+    "name": "Deadhang",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 347
+}{
+    "app_id": 29,
+    "category": "Back",
+    "description": "Stand firmly, with your feet slightly more than shoulder wide apart. Stand directly behind the bar where it should barely touch your shin, your feet pointing a bit out. Bend down with a straight back, the knees also pointing somewhat out. Grab the bar with a shoulder wide grip, one underhand, one reverse grip.Pull the weight up. At the highest point make a slight hollow back and pull the bar back. Hold 1 or 2 seconds that position. Go down, making sure the back is not bent. Once down you can either go back again as soon as the weights touch the floor, or make a pause, depending on the weight.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Deadlifts",
+    "regularity": 0,
+    "variation_fam_members": [
+        105,
+        381,
+        161,
+        351,
+        328,
+        209
+    ],
+    "wg_id": 105
+}{
+    "app_id": 30,
+    "category": "Chest",
+    "description": "Lay down on a decline bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. Push the bar up.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Decline Bench Press Barbell",
+    "regularity": 0,
+    "variation_fam_members": [
+        192,
+        100,
+        101,
+        163,
+        210,
+        211,
+        270,
+        399
+    ],
+    "wg_id": 100
+}{
+    "app_id": 31,
+    "category": "Chest",
+    "description": "Take two dumbbells and sit on a decline bench, the feet are firmly on the floor, the head is resting the bench. Hold the weights next to the chest, at the height of your nipples and press them up till the arms are stretched. Let the weight slowly and controlled down.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Decline Bench Press Dumbbell",
+    "regularity": 0,
+    "variation_fam_members": [
+        192,
+        100,
+        101,
+        163,
+        210,
+        211,
+        270,
+        399
+    ],
+    "wg_id": 101
+}{
+    "app_id": 32,
+    "category": "Chest",
+    "description": "With your feet raised approximately 30cm on a platform, align your shoulders, elbows and hands, then perform regular pushups. This emphasises the clavicular fibers of the pectoralis major.",
+    "muscles": [
+        "Pectoralis major",
+        "Anterior deltoid",
+        "Triceps brachii"
+    ],
+    "name": "Decline Pushups",
+    "regularity": 0,
+    "variation_fam_members": [
+        260,
+        168,
+        182,
+        790,
+        302
+    ],
+    "wg_id": 260
+}{
+    "app_id": 33,
+    "category": "Back",
+    "description": "PreparationStand on weight plate, bumper plate, or shallow elevated platform with loaded bar above feet. Squat down and grasp bar with shoulder width or slightly wider overhand or mixed grip.\u00a0ExecutionLift bar by extending hips and knees to full extension. Pull shoulders back at top of lift if rounded. Return weights to floor by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Repeat.\u00a0CommentsThroughout lift, keep hips low, shoulders high, arms and back straight. Knees should point same direction as feet throughout movement. Keep bar close to body to improve mechanical leverage. Grip strength and strength endurance often limit ability to perform multiple reps at heavy resistances. Gym chalk, wrist straps, grip work, and mixed grip can be used to enhance grip. Mixed grip indicates one hand holding with overhand grip and other hand holding with underhand grip. Lever barbell jack can be used to lift barbell from floor for easier loading and unloading of weight plates.Barbell Deficit Deadlift emphasizes building strength through lowest portion of Deadlift. Target muscle is exercised isometrically. Heavy barbell deadlifts significantly engages Latissmus Dorsi. See Barbell Deficit Deadlift under Gluteus Maximus. Also see Deadlift Analysis.",
+    "muscles": [
+        "Biceps femoris",
+        "Gluteus maximus",
+        "Latissimus dorsi",
+        "Rectus abdominis",
+        "Soleus"
+    ],
+    "name": "Deficit Deadlift",
+    "regularity": 0,
+    "variation_fam_members": [
+        105,
+        381,
+        161,
+        351,
+        328,
+        209
+    ],
+    "wg_id": 381
+}{
+    "app_id": 34,
+    "category": "Shoulders",
+    "description": "You sit at the bench press device, back slightly tilted to the back. The bar should be about 20 cm in front of you. Then you push the bar and take it back again, as you would with a bench press.In this position you strain your chest muscles a lot less, which is nice if you want to train, but your chest hasn't recovered yet.Here's a link to a girl on a machine specialized for this exercise, to give a better description than my failing words above.http://www.schnell-online.de/db_imgs/products/img/t-80400.jpg",
+    "muscles": [],
+    "name": "Diagonal Shoulder Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        227,
+        329,
+        229,
+        190,
+        119,
+        123,
+        152,
+        155
+    ],
+    "wg_id": 329
+}{
+    "app_id": 35,
+    "category": "Chest",
+    "description": "A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, with major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and minor), and the rhomboid muscles of the back (in that order).[1] Wide arm training places additional emphasis on the pectoral muscles, similar in respect to the way a wide grip bench press would focus more on the pectorals and less on the triceps.",
+    "muscles": [
+        "Pectoralis major",
+        "Triceps brachii",
+        "Triceps brachii"
+    ],
+    "name": "Dips",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 781
+}{
+    "app_id": 36,
+    "category": "Arms",
+    "description": "Hold onto the bars at a narrow place (if they are not parallel) and press yourself up, but don't stretch the arms completely, so the muscles stay during the whole exercise under tension. Now bend the arms and go down as much as you can, keeping the elbows always pointing back, At this point, you can make a short pause before repeating the movement.",
+    "muscles": [
+        "Triceps brachii",
+        "Pectoralis major",
+        "Rectus abdominis"
+    ],
+    "name": "Dips",
+    "regularity": 0,
+    "variation_fam_members": [
+        82,
+        83,
+        360,
+        162
+    ],
+    "wg_id": 82
+}{
+    "app_id": 37,
+    "category": "Arms",
+    "description": "Put two benches so far appart, that you can hold onto one with your hands and are just able to reach the other with your feet. The legs stay during the exercise completely stretched. With your elbows facing back, bend them as much as you can. Push yourself up, but don't stretch out the arms.",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Dips Between Two Benches",
+    "regularity": 0,
+    "variation_fam_members": [
+        82,
+        83,
+        360,
+        162
+    ],
+    "wg_id": 83
+}{
+    "app_id": 38,
+    "category": "Arms",
+    "description": "Sit on bench. Grasp dumbbell between feet. Place back of upper arm to inner thigh. Lean into leg to raise elbow slightly.",
+    "muscles": [
+        "Brachialis",
+        "Biceps brachii"
+    ],
+    "name": "Dumbbell Concentration Curl",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 275
+}{
+    "app_id": 39,
+    "category": "Legs",
+    "description": "Grasp dumbbell with both hands at the sides of the upper plates. Hold dumbbell in front of chest, close to torso. Place feet about shoulderwide apart, keep knees slightly bent.Squat down until thighs are parallel to floor. Keep back straight, bend and move hips backward to keep knees above feet. Return, keep knees slightly flexed. Repeat.Keep bodyweight on heels and look ahead or slightly above to keep back straight.",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Dumbbell Goblet Squat",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 300
+}{
+    "app_id": 40,
+    "category": "Arms",
+    "description": "With elbows back to sides, raise one dumbbell and rotate forearm until forearm is vertical and palm faces shoulder. Lower to original position and repeat with opposite arm. Continue to alternate between sides.",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Dumbbell Incline Curl",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 298
+}{
+    "app_id": 41,
+    "category": "Legs",
+    "description": ".",
+    "muscles": [
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Dumbbell Lunges Standing",
+    "regularity": 0,
+    "variation_fam_members": [
+        405,
+        112,
+        113
+    ],
+    "wg_id": 112
+}{
+    "app_id": 42,
+    "category": "Legs",
+    "description": "Take two dumbbells in your hands, stand straight, feet about shoulder wide. Take one long step so that the front knee is approximately forming a right angle. The back leg is streched, the knee is low but doesn't touch the ground. \"Complete\" the step by standing up and repeat the movement with the other leg.",
+    "muscles": [
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Dumbbell Lunges Walking",
+    "regularity": 0,
+    "variation_fam_members": [
+        405,
+        112,
+        113
+    ],
+    "wg_id": 113
+}{
+    "app_id": 43,
+    "category": "Arms",
+    "description": "",
+    "muscles": [
+        "Biceps brachii"
+    ],
+    "name": "Dumbbells on Scott Machine",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 87
+}{
+    "app_id": 44,
+    "category": "Arms",
+    "description": "Position one dumbbell over head with both hands under inner plate (heart shaped grip).With elbows over head, lower forearm behind upper arm by flexing elbows. Flex wrists at bottom to avoid hitting dumbbell on back of neck. Raise dumbbell over head by extending elbows while hyperextending wrists. Return and repeat.",
+    "muscles": [
+        "Triceps brachii",
+        "Anterior deltoid",
+        "Pectoralis major"
+    ],
+    "name": "Dumbbell Triceps Extension",
+    "regularity": 0,
+    "variation_fam_members": [
+        344,
+        274,
+        89,
+        90
+    ],
+    "wg_id": 274
+}{
+    "app_id": 45,
+    "category": "Chest",
+    "description": "En faceTirerrelacher doucement",
+    "muscles": [],
+    "name": "Extenseurs - Face",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 414
+}{
+    "app_id": 46,
+    "category": "Shoulders",
+    "description": "Attach a rope to a pulley station set at about chest level.Step back so you're supporting the weight with arms completely outstretched and assume a staggered (one foot forward) stance. Bend the knees slightly for a stable base.Retract the scapulae (squeeze your partner's finger with your shoulder blades) and pull the center of the rope slightly up towards the face. A good cue is to think about pulling the ends of the rope apart, not just pulling back.As you near your face, externally rotate so your knuckles are facing the ceiling.Hold for one second at the top position and slowly lower.",
+    "muscles": [
+        "Trapezius"
+    ],
+    "name": "Facepull",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 394
+}{
+    "app_id": 47,
+    "category": "Abs",
+    "description": "-Laying on the back, lift your straightened legs from the ground at a 45 degree angle.\u00a0-As your Left foot travels downward and nearly touches the floor, your Right foot should seek to reach a 90 degree angle, or as close to one as possible.-Bring your R foot down until it nearly touches the floor, and bring your L foot upwards.\u00a0 Maintain leg rigidity throughout the exercise.\u00a0 Your head should stay off the ground, supported by tightened upper abdominals.-(L up R down, L down R up, x2)\u00a0 ^v, v^, ^v, v^ = 1 rep-Primarily works the Rectus Abdominus, the hip flexors and the lower back. Secondarily works the Obliques.\u00a0 Emphasis placed on the lower quadrant of the abs.\u00a0",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Rectus abdominis"
+    ],
+    "name": "Flutter Kicks",
+    "regularity": 0,
+    "variation_fam_members": [
+        303,
+        166,
+        125,
+        126,
+        631
+    ],
+    "wg_id": 303
+}{
+    "app_id": 48,
+    "category": "Chest",
+    "description": "",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Fly With Cable",
+    "regularity": 0,
+    "variation_fam_members": [
+        122,
+        145,
+        146,
+        206
+    ],
+    "wg_id": 122
+}{
+    "app_id": 49,
+    "category": "Chest",
+    "description": "Take two dumbbells and lay on a bench, make sure the feet are firmly on the ground and your back is not arched, but has good contact with the bench. The arms are stretched in front of you, about shoulder wide. Bend now the arms a bit and let them down with a half-circle movement to the side. Without changing the angle of the elbow bring them in a fluid movement back up.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Fly With Dumbbells",
+    "regularity": 0,
+    "variation_fam_members": [
+        122,
+        145,
+        146,
+        206
+    ],
+    "wg_id": 145
+}{
+    "app_id": 50,
+    "category": "Chest",
+    "description": "The exercise is the same as with a regular bench:Take two dumbbells and lay on a bench, make sure the feet are firmly on the ground and your back is not arched, but has good contact with the bench. The arms are stretched in front of you, about shoulder wide. Bend now the arms a bit and let them down with a half-circle movement to the side. Without changing the angle of the elbow bring them in a fluid movement back up.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Fly With Dumbbells, Decline Bench",
+    "regularity": 0,
+    "variation_fam_members": [
+        122,
+        145,
+        146,
+        206
+    ],
+    "wg_id": 146
+}{
+    "app_id": 51,
+    "category": "Legs",
+    "description": "Start at a standing position. Lift and move one foot forward until your front calf and thigh are at 90 degrees to one another. At the same time, bend your back leg forward while keeping the back foot in place. Return to starting position. Repeat with other leg.",
+    "muscles": [],
+    "name": "Forward Lunge",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 874
+}{
+    "app_id": 52,
+    "category": "Arms",
+    "description": "Hold the dumbbells and lay down on a flat bench in such a way that around 1/4 of your head is over the edge. Stretch your arms with the weights and bend them so that the dumbbells are lowered (make sure they don't touch each other). Just before they touch your forehead, push them up.Pay attention to your elbows and arms: only the triceps are doing the work, the rest of the arms should not move.",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "French Press (skullcrusher) Dumbbells",
+    "regularity": 0,
+    "variation_fam_members": [
+        88,
+        217,
+        85,
+        84,
+        386,
+        218,
+        186
+    ],
+    "wg_id": 85
+}{
+    "app_id": 53,
+    "category": "Arms",
+    "description": "Hold the SZ-bar and lay down on a flat bench in such a way that around 1/4 of your head is over the edge. Stretch your arms with the bar and bend them so that the bar is lowered. Just before it touches your forehead, push it up.Pay attention to your elbows and arms: only the triceps are doing the work, the rest of the arms should not move.",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "French Press (skullcrusher) SZ-bar",
+    "regularity": 0,
+    "variation_fam_members": [
+        88,
+        217,
+        85,
+        84,
+        386,
+        218,
+        186
+    ],
+    "wg_id": 84
+}{
+    "app_id": 54,
+    "category": "Shoulders",
+    "description": "To execute the exercise, the lifter stands with their feet shoulder width apart and weights or resistance handles held by their side with a pronated (overhand) grip.The movement is to bring the arms up in front of the body to eye level and with only a slight bend in the elbow. This isolates the anterior deltoid muscle (front of the shoulder) and uses the anterior deltoid to lift the weight.When lifting it is important to keep the body still so the anterior deltoid is fully utilised; if the weight cannot be lifted by standing still then it is too heavy and a lower weight is needed. It is important to keep a slight bend in the elbow when lifting as keeping the elbow locked will add stress to the elbow joint and could cause injury.A neutral grip, similar to that used in the hammer curl, can also be used. With this variation the weight is again raised to eye level, but out to a 45 degree angle from the front of the body. This may be beneficial for those with shoulder injuries, particularly those related to the rotator cuff.",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Front Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        421,
+        233,
+        148,
+        149,
+        306,
+        237
+    ],
+    "wg_id": 233
+}{
+    "app_id": 55,
+    "category": "Legs",
+    "description": "Squats",
+    "muscles": [
+        "Gluteus maximus",
+        "Rectus abdominis"
+    ],
+    "name": "Front Squats",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 191
+}{
+    "app_id": 56,
+    "category": "Abs",
+    "description": "(A) Get in high plank position on your hands and toes.(B) Shift your weight to your left hand as you turn your body to the right; bend your right leg behind you and extend your right arm up. Return to the center and repeat on the opposite side. Continue, alternating sides.Make it easier:\u00a0Don\u2019t raise your arm after you bend your leg behind you.Make it harder:\u00a0Balance with your arm and leg extended for two counts.",
+    "muscles": [
+        "Gluteus maximus",
+        "Obliquus externus abdominis",
+        "Rectus abdominis"
+    ],
+    "name": "Full Sit Outs",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 326
+}{
+    "app_id": 57,
+    "category": "Legs",
+    "description": "Lie on you back with your hips and knees flexed, feet on the ground. From this position, raise your butt off of the ground to a height where your body makes a straight line from your knees to your shoulders. To make the exercise more intense, you can add weight by letting a barbell rest on your hips as you complete the motion, or you can put your feet on a slightly higher surface such as a step or a bench.",
+    "muscles": [
+        "Gluteus maximus",
+        "Biceps femoris"
+    ],
+    "name": "Glute Bridge",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 408
+}{
+    "app_id": 58,
+    "category": "Legs",
+    "description": "",
+    "muscles": [
+        "Biceps femoris"
+    ],
+    "name": "Good Mornings",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 116
+}{
+    "app_id": 59,
+    "category": "Arms",
+    "description": "Hold two dumbbells and sit on a bench with a straight back, the shoulders are slightly rolled backwards. Your pals point to your body. Bend the arms and bring the weight up with a fast movement. Don't rotate your hands, as with the curls. Without any pause bring the dumbbell down with a slow, controlled movement.Don't swing your body during the exercise, the biceps should do all the work here. The elbows are at your side and don't move.",
+    "muscles": [
+        "Biceps brachii"
+    ],
+    "name": "Hammercurls",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 86
+}{
+    "app_id": 60,
+    "category": "Arms",
+    "description": "Take a cable in your hands (palms parallel, point to each other), the body is straight. Bend the arms and bring the weight up with a fast movement. Without any pause bring it back down with a slow, controlled movement, but don't stretch completely your arms.Don't swing your body during the exercise, the biceps should do all the work here. The elbows are at your side and don't move.",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Hammercurls on Cable",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 138
+}{
+    "app_id": 61,
+    "category": "Arms",
+    "description": "chrome Hand Flex Grip to build up forearms muscles",
+    "muscles": [],
+    "name": "Hand Grip",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 317
+}{
+    "app_id": 62,
+    "category": "Shoulders",
+    "description": "The handstand push-up (press-up) - also called the vertical push-up (press-up) or the inverted push-up (press-up) also called commandos- is a type of push-up exercise where the body is positioned in a handstand. For a true handstand, the exercise is performed free-standing, held in the air. To prepare the strength until one has built adequate balance, the feet are often placed against a wall, held by a partner, or secured in some other way from falling. Handstand pushups require significant strength, as well as balance and control if performed free-standing.",
+    "muscles": [
+        "Trapezius",
+        "Triceps brachii"
+    ],
+    "name": "Handstand Pushup",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 807
+}{
+    "app_id": 63,
+    "category": "Abs",
+    "description": "Hanging from bar or straps, bring legs up with knees extended or flexed",
+    "muscles": [
+        "Rectus abdominis"
+    ],
+    "name": "Hanging Leg Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        303,
+        166,
+        125,
+        126,
+        631
+    ],
+    "wg_id": 166
+}{
+    "app_id": 64,
+    "category": "Arms",
+    "description": "Grab two cables stand in the middle so both have tension and hold",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis",
+        "Triceps brachii",
+        "Anterior deltoid"
+    ],
+    "name": "Hercules Pillars",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 291
+}{
+    "app_id": 65,
+    "category": "Legs",
+    "description": "-Start with legs slightly wider than shoulder width-Drop into a bodyweight squat-As you hit the bottom of the squat, explode upwards into a jump while simultaneously tucking your knees into your chest midflight.\u00a0 Remain tucked until the apex of your jump.-Land on both feet, making sure your knees are not locked so as to avoid excessive strain upon your joints.\u00a0 Collect yourself into the next rep as quickly but under control as possible.",
+    "muscles": [
+        "Biceps femoris",
+        "Gastrocnemius",
+        "Quadriceps femoris",
+        "Soleus",
+        "Obliquus externus abdominis",
+        "Rectus abdominis",
+        "Serratus anterior"
+    ],
+    "name": "High Knee Jumps",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 304
+}{
+    "app_id": 66,
+    "category": "Legs",
+    "description": "-Start with legs at a comfortable standing width-Run in place, bringing knees to or above waist level",
+    "muscles": [
+        "Gastrocnemius",
+        "Quadriceps femoris",
+        "Soleus",
+        "Rectus abdominis"
+    ],
+    "name": "High Knees",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 432
+}{
+    "app_id": 67,
+    "category": "Shoulders",
+    "description": "Use a light barbell, perform explosive lift up starting from underneath knee cap level. Lift/raise explosively using hips, at shoulder level. Tempo: 2111",
+    "muscles": [
+        "Anterior deltoid",
+        "Gluteus maximus"
+    ],
+    "name": "High Pull",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 164
+}{
+    "app_id": 68,
+    "category": "Legs",
+    "description": "Start with your feet shoulder width apart and arms slightly behind your back.As you descend towards the floor, raise your heels off the ground, while keeping your back as vertical\u00a0 as possible.\u00a0Upon attaining the bottom position, touch the hands to the heels.Then stand up ending with the heels on the ground, arms extended in front of the chest then rowing into the start position.",
+    "muscles": [
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Hindu Squats",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 650
+}{
+    "app_id": 69,
+    "category": "Back",
+    "description": "Lying down on your back, with your feet flat on the floor. Raise your hips up evenly as high as you can and hold for as long as you can.",
+    "muscles": [
+        "Biceps femoris",
+        "Gluteus maximus",
+        "Latissimus dorsi",
+        "Obliquus externus abdominis",
+        "Rectus abdominis",
+        "Trapezius"
+    ],
+    "name": "Hip Raise, Lying",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 376
+}{
+    "app_id": 70,
+    "category": "Legs",
+    "description": "The bar should go directly on your upper thigh, directly below your crotch. Your feet should be directly under your knees. Push your hips up so that you form a straight line from your knees to your shoulders. Use a pad for comfort.",
+    "muscles": [
+        "Gluteus maximus"
+    ],
+    "name": "Hip Thrust",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 854
+}{
+    "app_id": 71,
+    "category": "Abs",
+    "description": "Get on a mat and lie on your back. Contract your abs, stretch your raise and legs and raise them (your head and shoulders are also be raised). Make sure your lower back remains in contact with the mat.",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Rectus abdominis"
+    ],
+    "name": "Hollow Hold",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 383
+}{
+    "app_id": 72,
+    "category": "Back",
+    "description": "Lay on the hyperextension pad with the belly button just at the leading edge, the upper body can hang freely. Tense your whole back's muscles and bring your upper body up till it is horizontal, but not more. Go slowly down and don't relax your muscles.",
+    "muscles": [
+        "Trapezius"
+    ],
+    "name": "Hyperextensions",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 128
+}{
+    "app_id": 73,
+    "category": "Chest",
+    "description": "To do slowly, tempo is 4010",
+    "muscles": [
+        "Pectoralis major",
+        "Triceps brachii"
+    ],
+    "name": "Incline Bench Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        192,
+        100,
+        101,
+        163,
+        210,
+        211,
+        270,
+        399
+    ],
+    "wg_id": 163
+}{
+    "app_id": 74,
+    "category": "Chest",
+    "description": "Use inclined bench. Hold dumbbells straight out to your sides, elbows slightly bent. Bring arms together above you, keeping angle of elbows fixed.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Incline Dumbbell Flye",
+    "regularity": 0,
+    "variation_fam_members": [
+        122,
+        145,
+        146,
+        206
+    ],
+    "wg_id": 206
+}{
+    "app_id": 75,
+    "category": "Chest",
+    "description": "Bench should be angled anywhere from 30 to 45 degreesBe sure to press dumbbells straight upward (perpendicular to the floor)",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Incline Dumbbell Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        192,
+        100,
+        101,
+        163,
+        210,
+        211,
+        270,
+        399
+    ],
+    "wg_id": 210
+}{
+    "app_id": 76,
+    "category": "Back",
+    "description": "Using a neutral grip, lean into an incline bench.Take a dumbbell in each hand with a neutral grip, beginning with the arms straight. This will be your starting position.Retract the shoulder blades and flex the elbows to row the dumbbells to your side.Pause at the top of the motion, and then return to the starting position.",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Incline Dumbbell Row",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 340
+}{
+    "app_id": 77,
+    "category": "Abs",
+    "description": "Perform the plank with legs elevated, feet on a gymball. Once stabilised, slowly move one foot sideways off the ball, then make it touch the floor, then come back to starting position. Alternate with the other foot.This is a core exercise.",
+    "muscles": [
+        "Rectus abdominis",
+        "Obliquus externus abdominis"
+    ],
+    "name": "Incline Plank With Alternate Floor Touch",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 165
+}{
+    "app_id": 78,
+    "category": "Chest",
+    "description": "Regular push with a 30 degree incline.",
+    "muscles": [
+        "Pectoralis major",
+        "Biceps femoris"
+    ],
+    "name": "Incline Pushups",
+    "regularity": 0,
+    "variation_fam_members": [
+        260,
+        168,
+        182,
+        790,
+        302
+    ],
+    "wg_id": 168
+}{
+    "app_id": 79,
+    "category": "Chest",
+    "description": "Assume push-up position, with hands slightly wider than\u00a0shoulder width.Shift body weight as far as possible to one side,\u00a0allowing the elbow on that side to flex.\u00a0Reverse the motion, moving completely over to the other side.Return to the starting position, and repeat for the desired number of repetitions.",
+    "muscles": [
+        "Pectoralis major",
+        "Rectus abdominis"
+    ],
+    "name": "Isometric Wipers",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 338
+}{
+    "app_id": 80,
+    "category": "Legs",
+    "description": "Get your shoes on, go outside and start running at a moderate pace.",
+    "muscles": [],
+    "name": "Jogging",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 423
+}{
+    "app_id": 81,
+    "category": "Legs",
+    "description": "A jumping jack or star jump, also called side-straddle hop in the US military, is a physical jumping exercise performed by jumping to a position with the legs spread wide and the hands going overhead, sometimes in a clap, and then returning to a position with the feet together and the arms at the sides",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Jumping Jacks",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 810
+}{
+    "app_id": 82,
+    "category": "Legs",
+    "description": "Hold the kettlebell securely in both hands. Keep your back flat throughout the move, avoiding any rounding of the spine.Keeping your knees \"soft\", hinge your hips backwards, letting the kettlebell swing between your knees.You want to bend from the hips as far as you can without letting your back round forwards. Then, snap your hips forwards quickly and standing up straight, locking your body in an upright posture.The speed you do this will cause your arms and the kettlebell to swing up in front of you. Don't try to lift the kettlebell with your arms. The snapping forwards of your hips will cause the kettlebell to swing forwards through momentum. Depending on the weight of the kettlebell and the speed of your hip movement, your arms will swing up to about shoulder height. At the top of this swing, let your hips hinge backwards again as the kettlebell swings back down to between your legs and the start of the next repetition.",
+    "muscles": [
+        "Gluteus maximus",
+        "Biceps femoris"
+    ],
+    "name": "Kettlebell Swings",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 249
+}{
+    "app_id": 83,
+    "category": "Shoulders",
+    "description": ".",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Lateral Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        421,
+        233,
+        148,
+        149,
+        306,
+        237
+    ],
+    "wg_id": 148
+}{
+    "app_id": 84,
+    "category": "Shoulders",
+    "description": ".",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Lateral Raises on Cable, One Armed",
+    "regularity": 0,
+    "variation_fam_members": [
+        421,
+        233,
+        148,
+        149,
+        306,
+        237
+    ],
+    "wg_id": 149
+}{
+    "app_id": 85,
+    "category": "Shoulders",
+    "description": "-(1) Perform a lateral raise, pausing at the top of the lift (2).-Instead of lowering the weight, bring it to the front of your body so that you appear to be at the top position of a front raise.\u00a0 You will do this by using a Pec Fly motion, maintaining straight arms. (3)-Now lower the weight to your quadriceps, or, in other words, lower the dumbbells as though you are completing a Front Raise repetition. (4)-Reverse the motion:\u00a0 Perform a front raise (5), at the apex of the lift use a Reverse Fly motion to position the weights at the top of a Lateral Raise (6), and finally, lower the weights until your palms are essentially touching the sides of your thighs (7).\u00a0 THIS IS ONE REP.(1) l\u00a0 front view \u00a0(2) -l-\u00a0 FV \u00a0\u00a0 (3) l-\u00a0 side view \u00a0 (4) l\u00a0 SV/FV \u00a0 (5) l-\u00a0 SV \u00a0 (6) -l- \u00a0FV \u00a0\u00a0 (7)\u00a0 l\u00a0 FV/SV",
+    "muscles": [
+        "Anterior deltoid",
+        "Trapezius"
+    ],
+    "name": "Lateral-to-Front Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        421,
+        233,
+        148,
+        149,
+        306,
+        237
+    ],
+    "wg_id": 306
+}{
+    "app_id": 86,
+    "category": "Back",
+    "description": "Lean Back, Pull into chest",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Lat Pull Down (Leaning Back)",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 188
+}{
+    "app_id": 87,
+    "category": "Back",
+    "description": "Pull bar down to strenum and keep straight back.",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Lat Pull Down (Straight Back)",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 187
+}{
+    "app_id": 88,
+    "category": "Legs",
+    "description": "The leg curl, also known as the hamstring curl, is an isolation exercise that targets the hamstring muscles. The exercise involves flexing the lower leg against resistance towards the buttocks. Other exercises that can be used to strengthen the hamstrings are the glute-ham raise and the deadlift.",
+    "muscles": [
+        "Biceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Leg Curl",
+    "regularity": 0,
+    "variation_fam_members": [
+        792,
+        154,
+        117,
+        118
+    ],
+    "wg_id": 792
+}{
+    "app_id": 89,
+    "category": "Legs",
+    "description": "Lay on a bench and put your calves behind the leg holder (better if they are hold on around the lower calves). Hold a grip on the bars to make sure the body is firmly in place. Bend your legs bringing the weight up, go slowly back. During the exercise the body should not move, all work is done by the legs.",
+    "muscles": [
+        "Biceps femoris"
+    ],
+    "name": "Leg Curls (laying)",
+    "regularity": 0,
+    "variation_fam_members": [
+        792,
+        154,
+        117,
+        118
+    ],
+    "wg_id": 154
+}{
+    "app_id": 90,
+    "category": "Legs",
+    "description": "",
+    "muscles": [
+        "Biceps femoris"
+    ],
+    "name": "Leg Curls (sitting)",
+    "regularity": 0,
+    "variation_fam_members": [
+        792,
+        154,
+        117,
+        118
+    ],
+    "wg_id": 117
+}{
+    "app_id": 91,
+    "category": "Legs",
+    "description": "",
+    "muscles": [
+        "Biceps femoris"
+    ],
+    "name": "Leg Curls (standing)",
+    "regularity": 0,
+    "variation_fam_members": [
+        792,
+        154,
+        117,
+        118
+    ],
+    "wg_id": 118
+}{
+    "app_id": 92,
+    "category": "Legs",
+    "description": "The leg extension is a resistance weight training exercise that targets the quadriceps muscle in the legs. The exercise is done using a machine called the Leg Extension Machine. There are various manufacturers of these machines and each one is slightly different. Most gym and weight rooms will have the machine in their facility. The leg extension is an isolated exercise targeting one specific muscle group, the quadriceps. It should not be considered as a total leg workout, such as the squat or deadlift. The exercise consists of bending the leg at the knee and extending the legs, then lowering them back to the original position.",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Leg Extension",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 796
+}{
+    "app_id": 93,
+    "category": "Legs",
+    "description": "The leg extension is a resistance weight training exercise that targets the quadriceps muscle in the legs. The exercise is done using a machine called the Leg Extension Machine. There are various manufacturers of these machines and each one is slightly different. Most gym and weight rooms will have the machine in their facility. The leg extension is an isolated exercise targeting one specific muscle group, the quadriceps. It should not be considered as a total leg workout, such as the squat or deadlift. The exercise consists of bending the leg at the knee and extending the legs, then lowering them back to the original position.",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Leg Extension",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 804
+}{
+    "app_id": 94,
+    "category": "Legs",
+    "description": "Seated Leg Extension Machine",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Leg Extension",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 177
+}{
+    "app_id": 95,
+    "category": "Legs",
+    "description": "The leg press is a weight training exercise in which the individual pushes a weight or resistance away from them using their legs.",
+    "muscles": [
+        "Biceps femoris",
+        "Gastrocnemius",
+        "Gluteus maximus",
+        "Quadriceps femoris",
+        "Gastrocnemius",
+        "Gluteus maximus"
+    ],
+    "name": "Leg Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        788,
+        115,
+        114,
+        130
+    ],
+    "wg_id": 788
+}{
+    "app_id": 96,
+    "category": "Legs",
+    "description": "The exercise is very similar to the wide leg press:Sit on the machine and put your feet on the platform so far apart\u00a0 that you could just put another foot in between them. The feet are parallel and point up.Lower the weight so much, that the knees form a right angle. Push immediately the platform up again, without any pause. When in the lower position, the knees point a bit outwards and the movement should be always fluid.",
+    "muscles": [
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Leg Presses (narrow)",
+    "regularity": 0,
+    "variation_fam_members": [
+        788,
+        115,
+        114,
+        130
+    ],
+    "wg_id": 115
+}{
+    "app_id": 97,
+    "category": "Legs",
+    "description": "Sit on the machine and put your feet on the platform, a bit more than shoulder wide. The feet are turned outwards by a few degrees.Lower the weight so much, that the knees form a right angle. Push immediately the platform up again, without any pause. When in the lower position, the knees point a bit outwards and the movement should be always fluid.",
+    "muscles": [
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Leg Presses (wide)",
+    "regularity": 0,
+    "variation_fam_members": [
+        788,
+        115,
+        114,
+        130
+    ],
+    "wg_id": 114
+}{
+    "app_id": 98,
+    "category": "Legs",
+    "description": "",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Leg Press on Hackenschmidt Machine",
+    "regularity": 0,
+    "variation_fam_members": [
+        788,
+        115,
+        114,
+        130
+    ],
+    "wg_id": 130
+}{
+    "app_id": 99,
+    "category": "Legs",
+    "description": "The leg raise is a strength training exercise which targets the iliopsoas (the anterior hip flexors). Because the abdominal muscles are used isometrically to stabilize the body during the motion, leg raises are also often used to strengthen the rectus abdominis muscle and the internal and external oblique muscles.",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Rectus abdominis"
+    ],
+    "name": "Leg Raise",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 791
+}{
+    "app_id": 100,
+    "category": "Abs",
+    "description": "Lay down on a bench and hold onto the recliner with your hands to keep you stable. Hold your legs straight and lift them till they make an angle of about 45\u00b0. Make a short pause of 1 sec. and go slowly down to the initial position. To increase the intensity you can make a longer pause of 7 sec. every 5th time.",
+    "muscles": [
+        "Rectus abdominis",
+        "Serratus anterior"
+    ],
+    "name": "Leg Raises, Lying",
+    "regularity": 0,
+    "variation_fam_members": [
+        303,
+        166,
+        125,
+        126,
+        631
+    ],
+    "wg_id": 125
+}{
+    "app_id": 101,
+    "category": "Abs",
+    "description": "Put your forearms on the pads on the leg raise machine, the body is hanging freely. Lift now your legs with a fast movement as high as you can, make a short pause of 1sec at the top, and bring them down again. Make sure that during the exercise your body does not swing, only the legs should move.",
+    "muscles": [
+        "Rectus abdominis",
+        "Serratus anterior"
+    ],
+    "name": "Leg Raises, Standing",
+    "regularity": 0,
+    "variation_fam_members": [
+        303,
+        166,
+        125,
+        126,
+        631
+    ],
+    "wg_id": 126
+}{
+    "app_id": 102,
+    "category": "Chest",
+    "description": "Be sure to adjust seat height so that the handles are towards the bottom of your pectorals.",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Leverage Machine Chest Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        192,
+        100,
+        101,
+        163,
+        210,
+        211,
+        270,
+        399
+    ],
+    "wg_id": 211
+}{
+    "app_id": 103,
+    "category": "Back",
+    "description": "Adjust seat height so that the handles are at the bottom of your pectorals or just below.",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Leverage Machine Iso Row",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 214
+}{
+    "app_id": 104,
+    "category": "Abs",
+    "description": "Hold the L position for as long as possible",
+    "muscles": [],
+    "name": "L Hold",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 281
+}{
+    "app_id": 105,
+    "category": "Back",
+    "description": "Sit down, put your feet on the supporting points and grab the bar with a wide grip. Pull the weight with a rapid movement towards your belly button, not upper. Keep your arms and elbows during the movement close to your body. Your shoulders are pulled together. Let the weight slowly down till your arms are completely stretched.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Long-Pulley (low Row)",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 143
+}{
+    "app_id": 106,
+    "category": "Back",
+    "description": "The exercise is the same as the regular long pulley, but with a narrow grip:Sit down, put your feet on the supporting points and grab the bar with a wide grip. Pull the weight with a rapid movement towards your belly button, not upper. Keep your arms and elbows during the movement close to your body. Your shoulders are pulled together. Let the weight slowly down till your arms are completely stretched.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Long-Pulley, Narrow",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 144
+}{
+    "app_id": 107,
+    "category": "Legs",
+    "description": "Unrack the bar and set your stance wide, beyond your hips.\u00a0 Push your hips back and sit down to a box that takes you below parallel.\u00a0 Sit completely down, do not touch and go.\u00a0 Then explosively stand up.\u00a0 Stay tight in your upper back and torso throughout the movement.",
+    "muscles": [
+        "Gluteus maximus",
+        "Quadriceps femoris"
+    ],
+    "name": "Low Box Squat - Wide Stance",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 389
+}{
+    "app_id": 108,
+    "category": "Shoulders",
+    "description": "This is an excercise for problems with the levator muscles. Primary\u00a0\u00a0Infraspinatus, secondary Teres Minor.Lying on side. Keep elbow on waist and in 90 dgr angle. Rotate towards stomach. Add weight as fit.",
+    "muscles": [],
+    "name": "Lying Rotator Cuff Exercise",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 312
+}{
+    "app_id": 109,
+    "category": "Back",
+    "description": "",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "MGM Machine",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 141
+}{
+    "app_id": 110,
+    "category": "Arms",
+    "description": "On an SZ-bar grip your hands on the outside of each bend and stand with your arms straight down, palms facing your legs.\u00a0Pull the bar (bending your arms at the elbow) to your chest, and the push the bar above your head (arms as straight as possible).\u00a0Return the bar to your chest by dropping your arms at the elbows.\u00a0Return the bar to it's origional position (stand with your arms straight down, palms facing your legs.)",
+    "muscles": [],
+    "name": "Military Press",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 256
+}{
+    "app_id": 111,
+    "category": "Shoulders",
+    "description": "The military press is a variation of the overhead press weight training exercise using very strict form and no pre-movement momentum.The military press targets the deltoid muscles in the shoulders as well as the triceps. Additionally, it works the core and legs, which the lifter uses to help stabilize the weight.The lift begins with the lifter standing and the barbell on the anterior deltoids. The lifter then raises the barbell overhead by pressing the palms of the hands against the underside of the barbell.",
+    "muscles": [
+        "Anterior deltoid",
+        "Pectoralis major",
+        "Triceps brachii"
+    ],
+    "name": "Military Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        227,
+        329,
+        229,
+        190,
+        119,
+        123,
+        152,
+        155
+    ],
+    "wg_id": 229
+}{
+    "app_id": 112,
+    "category": "Back",
+    "description": "The body is then explosively pulled up by the arms in a radial pull-up, with greater speed than a regular\u00a0pull-up. When the bar approaches the upper chest, the wrists are swiftly flexed to bring the forearms above the bar. The body is leaned forward, and the elbows are straightened by activating the triceps. The routine is considered complete when the bar is at the level of the waist and the arms are fully straight.To dismount, the arms are bent at the elbow, and the body is lowered to the floor, and the exercise can be repeated.As a relatively advanced exercise, muscle-ups are typically first learned with an assistive kip. The legs swing (kip) up and provide momentum to assist in the explosive upward force needed to ascend above the bar. More advanced athletes can perform a strict variation of the muscle-up which is done slowly, without any kip. This variation begins with a still dead hang and uses isometric muscle contraction to ascend above the bar in a slow, controlled fashion.",
+    "muscles": [
+        "Biceps brachii",
+        "Biceps femoris"
+    ],
+    "name": "Muscle up",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 626
+}{
+    "app_id": 113,
+    "category": "Abs",
+    "description": "Sit yourself on the decline bench and fix your legs. Cross your arms over the chest and bring with a rolling movement your upper body up, go now without a pause and with a slow movement down again. Don't let your head move during the exercise.",
+    "muscles": [
+        "Rectus abdominis"
+    ],
+    "name": "Negative Crunches",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 93
+}{
+    "app_id": 114,
+    "category": "Abs",
+    "description": "Hands at shoulder height, curl arms in toward head, then back out.",
+    "muscles": [
+        "Biceps brachii"
+    ],
+    "name": "Overhand Cable Curl",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 197
+}{
+    "app_id": 115,
+    "category": "Legs",
+    "description": "The barbell is held overhead in a wide-arm\u00a0snatch\u00a0grip; however, it is also possible to use a closer grip if balance allows.",
+    "muscles": [],
+    "name": "Overhead Squat",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 355
+}{
+    "app_id": 116,
+    "category": "Chest",
+    "description": "Lower the bar to your chest and pause (but do not rest) there for 2 seconds. Press back up. use the same weight you would on bench press, but perform only single reps. Total the number of reps you did in one set of bench press (if you did 3 sets of 8 do 8 sinlge pause bench reps.",
+    "muscles": [
+        "Pectoralis major",
+        "Triceps brachii"
+    ],
+    "name": "Pause Bench",
+    "regularity": 0,
+    "variation_fam_members": [
+        192,
+        100,
+        101,
+        163,
+        210,
+        211,
+        270,
+        399
+    ],
+    "wg_id": 270
+}{
+    "app_id": 117,
+    "category": "Back",
+    "description": "Back excercise with a barbell with a starting position which is in a bent over position with the back paralell to the ground. The barbell is on the ground at chest level.For the movement grab the barbell at shoulder width grip and pull towards your chest without losing the bent over position and without moving anything but your arms",
+    "muscles": [
+        "Latissimus dorsi",
+        "Trapezius",
+        "Biceps brachii",
+        "Triceps brachii"
+    ],
+    "name": "Pendelay Rows",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 202
+}{
+    "app_id": 118,
+    "category": "Chest",
+    "description": "Push up with perfect push up",
+    "muscles": [
+        "Pectoralis major"
+    ],
+    "name": "Perfect Push Up",
+    "regularity": 0,
+    "variation_fam_members": [
+        260,
+        168,
+        182,
+        790,
+        302
+    ],
+    "wg_id": 182
+}{
+    "app_id": 119,
+    "category": "Arms",
+    "description": "Push Up performed from a pike position (optional to have feet elevated).",
+    "muscles": [
+        "Pectoralis major",
+        "Triceps brachii"
+    ],
+    "name": "Pike Push Ups",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 361
+}{
+    "app_id": 120,
+    "category": "Legs",
+    "description": "One legged squat",
+    "muscles": [
+        "Biceps femoris",
+        "Gluteus maximus",
+        "Anterior deltoid",
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Pistol Squat",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 160
+}{
+    "app_id": 121,
+    "category": "Abs",
+    "description": "Get into a position on the floor supporting your weight on your forearms and toes. Arms are bent and directly below the shoulder.\u00a0Keep your body straight at all times and hold this position as long as possible. To increase difficulty an arm or leg can be raised while performing this exercise. \u00a0",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Rectus abdominis",
+        "Biceps brachii",
+        "Quadriceps femoris",
+        "Triceps brachii"
+    ],
+    "name": "Plank",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 238
+}{
+    "app_id": 122,
+    "category": "Shoulders",
+    "description": "Olympic weight lifting",
+    "muscles": [
+        "Pectoralis major",
+        "Quadriceps femoris"
+    ],
+    "name": "Power Clean",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 189
+}{
+    "app_id": 123,
+    "category": "Arms",
+    "description": "\u00a0Place the EZ curl bar on the rest handles in front of the preacher bench.\u00a0Lean over the bench and grab the EZ curl bar with palms up.\u00a0Sit down on the preacher bench seat so your upper arms rest on top of the pad and your chest is pressed against the pad.\u00a0Lower the weight until your elbows are extended and arms are straight.\u00a0Bring the weights back up to the starting point by contracting biceps. Repeat",
+    "muscles": [
+        "Brachialis",
+        "Brachialis"
+    ],
+    "name": "Preacher Curls",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 193
+}{
+    "app_id": 124,
+    "category": "Back",
+    "description": "Lying on stomach with head on towel.Stretch arms straight out to your sides.Slowly lift your arms, pulling your shoulderblades together, hold for 3 seconds.\u00a0",
+    "muscles": [
+        "Trapezius"
+    ],
+    "name": "Prone Scapular Retraction - Arms at Side",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 429
+}{
+    "app_id": 125,
+    "category": "Back",
+    "description": "Grab the pull up bar with a wide grip, the body is hanging freely. Keep your chest out and pull yourself up till your chin reaches the bar or it touches your neck, if you want to pull behind you. Go with a slow and controlled movement down, always keeping the chest out.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Anterior deltoid",
+        "Biceps brachii",
+        "Trapezius"
+    ],
+    "name": "Pull-ups",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 107
+}{
+    "app_id": 126,
+    "category": "Back",
+    "description": "",
+    "muscles": [
+        "Latissimus dorsi",
+        "Anterior deltoid",
+        "Biceps brachii",
+        "Trapezius"
+    ],
+    "name": "Pull Ups on Machine",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 140
+}{
+    "app_id": 127,
+    "category": "Shoulders",
+    "description": "olympic weight lifting",
+    "muscles": [
+        "Trapezius",
+        "Gluteus maximus"
+    ],
+    "name": "Push Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        227,
+        329,
+        229,
+        190,
+        119,
+        123,
+        152,
+        155
+    ],
+    "wg_id": 190
+}{
+    "app_id": 128,
+    "category": "Chest",
+    "description": "A push-up (or press-up if the hands are wider than shoulders placing more emphasis on the pectoral muscles) is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole. Push-ups are a basic exercise used in civilian athletic training or physical education and commonly in military physical training. They are also a common form of punishment used in the military, school sport, or some martial arts disciplines.",
+    "muscles": [
+        "Anterior deltoid",
+        "Pectoralis major",
+        "Triceps brachii",
+        "Brachialis",
+        "Serratus anterior"
+    ],
+    "name": "Pushups",
+    "regularity": 0,
+    "variation_fam_members": [
+        260,
+        168,
+        182,
+        790,
+        302
+    ],
+    "wg_id": 790
+}{
+    "app_id": 129,
+    "category": "Arms",
+    "description": "Start with your body streched, your hands are shoulder-wide appart on the ground. Push yourself off the ground till you strech your arms. The back is always straight and as well as the neck (always look to the ground). Lower yourself to the initial position and repeat.",
+    "muscles": [
+        "Triceps brachii",
+        "Anterior deltoid",
+        "Pectoralis major",
+        "Rectus abdominis"
+    ],
+    "name": "Push Ups",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 195
+}{
+    "app_id": 130,
+    "category": "Back",
+    "description": "Deadlift to be done using a Smith machine or a free rack. Bar or barbell hould be just right under the knee cap level. Lift using the glutes and through the heels, then come back to starting postion with a control movement of 2 seconds.This exercise targets mainly the lower back and glutes.",
+    "muscles": [
+        "Gluteus maximus",
+        "Biceps brachii"
+    ],
+    "name": "Rack Deadlift",
+    "regularity": 0,
+    "variation_fam_members": [
+        105,
+        381,
+        161,
+        351,
+        328,
+        209
+    ],
+    "wg_id": 161
+}{
+    "app_id": 131,
+    "category": "Shoulders",
+    "description": "Seated on a bench bWith the dumbbells on the floor bend over at 45 Degrees and then slowly raise each dumbbell to shoulder height and hold for a couple seconds before lowering to the starting position.\u00a0\u00a0",
+    "muscles": [],
+    "name": "Rear Delt Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        421,
+        233,
+        148,
+        149,
+        306,
+        237
+    ],
+    "wg_id": 237
+}{
+    "app_id": 132,
+    "category": "Back",
+    "description": "Get into pushup position gripping some dumbbells. Perform one pushup, then drive your left elbo up, bringing the dumbell up to your body. Return the dumbell to starting position.\u00a0Perform another pushup and then row with the other arm to complete one rep.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Trapezius"
+    ],
+    "name": "Renegade Row",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 670
+}{
+    "app_id": 133,
+    "category": "Arms",
+    "description": "Hold bar with reverse (or \"overhand\") grip, palms facing the floor.",
+    "muscles": [
+        "Biceps brachii"
+    ],
+    "name": "Reverse Bar Curl",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 208
+}{
+    "app_id": 134,
+    "category": "Arms",
+    "description": "The reverse-grip barbell curl is a variation on the biceps curl where the palms face downward. The switch from an underhand to an overhand grip brings the forearm and brachialis muscles more into the exercise.",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis",
+        "Biceps brachii"
+    ],
+    "name": "Reverse Curl",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 771
+}{
+    "app_id": 135,
+    "category": "Chest",
+    "description": "Upper chest focuses exercise that also works triceps",
+    "muscles": [
+        "Pectoralis major",
+        "Triceps brachii",
+        "Anterior deltoid"
+    ],
+    "name": "Reverse Grip Bench Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        192,
+        100,
+        101,
+        163,
+        210,
+        211,
+        270,
+        399
+    ],
+    "wg_id": 399
+}{
+    "app_id": 136,
+    "category": "Abs",
+    "description": "Plank with stomach towards ceiling",
+    "muscles": [],
+    "name": "Reverse Plank",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 409
+}{
+    "app_id": 137,
+    "category": "Arms",
+    "description": "Dips peformed on gymnastic rings.",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Ring Dips",
+    "regularity": 0,
+    "variation_fam_members": [
+        82,
+        83,
+        360,
+        162
+    ],
+    "wg_id": 360
+}{
+    "app_id": 138,
+    "category": "Abs",
+    "description": "Crunches on roman chair",
+    "muscles": [],
+    "name": "Roman Chair",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 263
+}{
+    "app_id": 139,
+    "category": "Legs",
+    "description": "DL from top to pos 2:\u00a0https://www.youtube.com/watch?v=WtWtjViRsKo",
+    "muscles": [],
+    "name": "Romanian Deadlift",
+    "regularity": 0,
+    "variation_fam_members": [
+        105,
+        381,
+        161,
+        351,
+        328,
+        209
+    ],
+    "wg_id": 351
+}{
+    "app_id": 140,
+    "category": "Back",
+    "description": "In strength training, rowing (or a row, usually preceded by a qualifying adjective \u2014 for instance a seated row) is an exercise where the purpose is to strengthen the muscles that draw the rower's arms toward the body (latissimus dorsi) as well as those that retract the scapulae (trapezius and rhomboids) and those that support the spine (erector spinae). When done on a rowing machine, rowing also exercises muscles that extend and support the legs (quadriceps and thigh muscles). In all cases, the abdominal and lower back muscles must be used in order to support the body and prevent back injury.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Trapezius",
+        "Quadriceps femoris"
+    ],
+    "name": "Row",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 801
+}{
+    "app_id": 141,
+    "category": "Back",
+    "description": "",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Rowing, Lying on Bench",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 142
+}{
+    "app_id": 142,
+    "category": "Back",
+    "description": "",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Rowing, Seated",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 108
+}{
+    "app_id": 143,
+    "category": "Back",
+    "description": "The execution of this exercise is very similar to the regular bent over rowing, only that the bar is fixed here.Grab the barbell with a wide grip (slightly more than shoulder wide) and lean forward. Your upper body is not quite parallel to the floor, but forms a slight angle. The chest's out during the whole exercise. Pull now the barbell with a fast movement towards your belly button, not further up. Go slowly down to the initial position. Don't swing with your body and keep your arms next to your body.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Anterior deltoid",
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Rowing, T-bar",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 106
+}{
+    "app_id": 144,
+    "category": "Legs",
+    "description": "Running or jogging outside in a park, on the tracks,...",
+    "muscles": [],
+    "name": "Run",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 397
+}{
+    "app_id": 145,
+    "category": "Legs",
+    "description": "Run and do some interval trainings such as hill repat, fartlek,..",
+    "muscles": [],
+    "name": "Run - Interval Training ",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 398
+}{
+    "app_id": 146,
+    "category": "Legs",
+    "description": "Run on a treadmill",
+    "muscles": [],
+    "name": "Run - Treadmill",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 269
+}{
+    "app_id": 147,
+    "category": "Abs",
+    "description": "To perform the Russian twist one sits on the floor and bends both knees while feet are be kept together and held slightly above the ground (or put under a stable surface). Ideally, the torso is kept straight with the back kept off the ground at a 45 degree angle with arms held together away from the body in a straight fashion and hands kept locked together like a ball or one can hold a weight to increase the difficulty. Next, the arms should be swung from one side to another in a twisting motion, with each swing to a side counting as one repetition. The slower one moves the arms from side to side, the harder the exercise becomes, working the abdomen that much better. When moving one's arms during the exercise, it is crucial to not stop between repetitions or else one will lose the effect of working the abdomen. As with all exercise, consistent breathing in and out during the exercise is important as one must ensure proper oxygen flow.",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Rectus abdominis"
+    ],
+    "name": "Russian Twists",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 879
+}{
+    "app_id": 148,
+    "category": "Abs",
+    "description": "Scissors is an abdominal exercise that strengthens the transverse abdominals, helping flatten your belly and strengthen your entire core. Scissors is not only a core strength move, but it is also a great stretch for your hamstrings and your lower back. Everyone is looking for new ways to work the core, to\u00a0flatten the belly\u00a0and to improve flexibility. If you learn how to do Scissors you will get everything rolled together in one move.",
+    "muscles": [
+        "Rectus abdominis"
+    ],
+    "name": "Scissors",
+    "regularity": 0,
+    "variation_fam_members": [
+        303,
+        166,
+        125,
+        126,
+        631
+    ],
+    "wg_id": 631
+}{
+    "app_id": 149,
+    "category": "Arms",
+    "description": "Sit down on a back (better with back support). Take a dumbbell firmly with both hands and hold it with extended arms over your head. With your palms facing upward and holding the weight of the dumbbell, slowly lower the weight behind your head.\u00a0",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Seated Triceps Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        88,
+        217,
+        85,
+        84,
+        386,
+        218,
+        186
+    ],
+    "wg_id": 386
+}{
+    "app_id": 150,
+    "category": "Back",
+    "description": "Attach a single handle to a low cable.After selecting the correct weight, stand a couple feet back with a wide-split stance. Your arm should be extended and your shoulder forward. This will be your starting position.Perform the movement by retracting the shoulder and flexing the elbow. As you pull, supinate the wrist, turning the palm upward as you go.After a brief pause, return to the starting position.",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Shotgun Row",
+    "regularity": 0,
+    "variation_fam_members": [
+        412,
+        362,
+        109,
+        110,
+        340,
+        214,
+        202,
+        670,
+        142,
+        108,
+        106,
+        339
+    ],
+    "wg_id": 339
+}{
+    "app_id": 151,
+    "category": "Shoulders",
+    "description": "The shoulder fly (also known as a lateral raise) works the deltoid muscle of the shoulder. The movement starts with the arms straight, and the hands holding weights at the sides or in front of the body. Body is in a slight forward-leaning position with hips and knees bent a little. Arms are kept straight or slightly bent, and raised through an arc of movement in the coronal plane that terminates when the hands are at approximately shoulder height. Weights are lowered to the starting position, completing one rep. When using a cable machine the individual stands with the coronal plane in line with the pulley, which is at or near the ground.[9] The exercise can be completed one shoulder at a time (with the other hand used to stabilize the body against the weight moved), or with both hands simultaneously if two parallel pulleys are available.",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Shoulder Fly",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 802
+}{
+    "app_id": 152,
+    "category": "Shoulders",
+    "description": "Sit on a bench, the back rest should be almost vertical. Take a barbell with a shoulder wide grip and bring it up to chest height. Press the weight up, but don't stretch the arms completely. Go slowly down and repeat.",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Shoulder Press, Barbell",
+    "regularity": 0,
+    "variation_fam_members": [
+        227,
+        329,
+        229,
+        190,
+        119,
+        123,
+        152,
+        155
+    ],
+    "wg_id": 119
+}{
+    "app_id": 153,
+    "category": "Shoulders",
+    "description": "Sit on a bench, the back rest should be almost vertical. Take two dumbbells and bring them up to shoulder height, the palms and the elbows point during the whole exercise to the front. Press the weights up, at the highest point they come very near but don't touch. Go slowly down and repeat.",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Shoulder Press, Dumbbells",
+    "regularity": 0,
+    "variation_fam_members": [
+        227,
+        329,
+        229,
+        190,
+        119,
+        123,
+        152,
+        155
+    ],
+    "wg_id": 123
+}{
+    "app_id": 154,
+    "category": "Shoulders",
+    "description": "",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Shoulder Press, on Machine",
+    "regularity": 0,
+    "variation_fam_members": [
+        227,
+        329,
+        229,
+        190,
+        119,
+        123,
+        152,
+        155
+    ],
+    "wg_id": 152
+}{
+    "app_id": 155,
+    "category": "Shoulders",
+    "description": "The exercise is basically the same as with a free barbell:Sit on a bench, the back rest should be almost vertical. Take a bar with a shoulder wide grip and bring it down to chest height. Press the weight up, but don't stretch the arms completely. Go slowly down and repeat.",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Shoulder Press, on Multi Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        227,
+        329,
+        229,
+        190,
+        119,
+        123,
+        152,
+        155
+    ],
+    "wg_id": 155
+}{
+    "app_id": 156,
+    "category": "Shoulders",
+    "description": "The shoulder shrug (usually called simply the shrug) is an exercise in weight training used to develop the upper trapezius muscle. The lifter stands erect, hands about shoulder width apart, and raises the shoulders as high as possible, and then lowers them, while not bending the elbows, or moving the body at all. The lifter may not have as large a range of motion as in a normal shrug done for active flexibility. It is usually considered good form if the slope of the shoulders is horizontal in the elevated position.",
+    "muscles": [
+        "Trapezius"
+    ],
+    "name": "Shoulder Shrug",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 805
+}{
+    "app_id": 157,
+    "category": "Shoulders",
+    "description": "Take a barbell and stand with a straight body, the arms are hanging freely in front of you. Lift from this position the shoulders as high as you can, but don't bend the arms during the movement. On the highest point, make a short pause of 1 or 2 seconds before returning slowly to the initial position.When training with a higher weight, make sure that you still do the whole movement!",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Shrugs, Barbells",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 150
+}{
+    "app_id": 158,
+    "category": "Shoulders",
+    "description": "Stand with straight body, the hands are hanging freely on the side and hold each a dumbbell. Lift from this position the shoulders as high as you can, but don't bend the arms during the movement. On the highest point, make a short pause of 1 or 2 seconds before returning slowly to the initial position.When training with a higher weight, make sure that you still do the whole movement!",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Shrugs, Dumbbells",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 151
+}{
+    "app_id": 159,
+    "category": "Abs",
+    "description": "Hold weight in one hand. Bend side ways to the knee. Pull upo to upright position using your obliquus.",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Rectus abdominis"
+    ],
+    "name": "Side Crunch",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 176
+}{
+    "app_id": 160,
+    "category": "Back",
+    "description": "AKA dumbbell side bends. Stand in line with the hips with slightly bent knees, maintain the natural curvature of the spine, hand stretched by the body, grip the barbell with one hand. \u00a0Make slow and controlled torso side flexions till you reach the angle of approximately 45\u00b0.",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Rectus abdominis"
+    ],
+    "name": "Side Dumbbell Trunk Flexion",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 278
+}{
+    "app_id": 161,
+    "category": "Shoulders",
+    "description": "With a weight in one hand, lie on your side opposite the weight. Keep your knees slightly bent. Hold your elbow against your side, and extend your upper arm straight ahead of you. While continuing to hold your elbow against your side, rotate your upper arm 90 degrees upwards.It is helpful to place a towel under your armpit to help with the form on this exercise. Placing a support under your head for the duration of the exercise is also a good idea.",
+    "muscles": [],
+    "name": "Side-lying External Rotation",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 422
+}{
+    "app_id": 162,
+    "category": "Abs",
+    "description": "Works your obliques and helps stabilize your spine. Lie on your side and support your body between your forearm and knee to your feet.",
+    "muscles": [
+        "Rectus abdominis",
+        "Obliquus externus abdominis"
+    ],
+    "name": "Side Plank",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 325
+}{
+    "app_id": 163,
+    "category": "Shoulders",
+    "description": "Stand up or sit , keep both weights in front against legs or at side. Keep arms at around a 90 degree angle. Lift elbows up slowly and squeese traps when at topmost position. Lower the weights slowly back to starting position.2 seconds up, 2 seconds down",
+    "muscles": [],
+    "name": "Side Raise",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 319
+}{
+    "app_id": 164,
+    "category": "Chest",
+    "description": "-start in push up position-lean the body weight to the right side, and complete a push up with the chest over the right hand-come back to the centered position-on rep 2, lean to the left side",
+    "muscles": [
+        "Anterior deltoid",
+        "Obliquus externus abdominis",
+        "Pectoralis major",
+        "Triceps brachii"
+    ],
+    "name": "Side to Side Push Ups",
+    "regularity": 0,
+    "variation_fam_members": [
+        260,
+        168,
+        182,
+        790,
+        302
+    ],
+    "wg_id": 302
+}{
+    "app_id": 165,
+    "category": "Arms",
+    "description": "Sit on the preacher curl bench and perform a bicep curl with a dumbbell in one hand. Your other hand can be at rest, or beneath your curling arm's elbow.",
+    "muscles": [
+        "Biceps brachii"
+    ],
+    "name": "Single-arm Preacher Curl",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 205
+}{
+    "app_id": 166,
+    "category": "Calves",
+    "description": "Sit on a bench for calf raises and check that the feet are half free and that you can completely stretch the calf muscles down. Pull your calves up, going as far (up) as you can. Make at the highest point a short pause of 1 or 2 seconds and go down.",
+    "muscles": [
+        "Soleus",
+        "Gastrocnemius"
+    ],
+    "name": "Sitting Calf Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        776,
+        104,
+        103,
+        102
+    ],
+    "wg_id": 103
+}{
+    "app_id": 167,
+    "category": "Abs",
+    "description": "Sit on a mat, your calves are resting on a bench, the knees make a right angle. Hold your hands behind your neck. Go now up with a rolling movement of your back, you should feel how the individual vertebrae lose contact with the mat. At the highest point, contract your abs as much as you can and hold there for 2 sec. Go now down, unrolling your back.\u00a0",
+    "muscles": [
+        "Rectus abdominis"
+    ],
+    "name": "Sit-ups",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 95
+}{
+    "app_id": 168,
+    "category": "Calves",
+    "description": "Do a single, double footed jump for each swing of the rope.Work on a smooth, rhythmical movement, bouncing lightly on the balls of your feet.",
+    "muscles": [
+        "Gastrocnemius"
+    ],
+    "name": "Skipping - Standard",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 411
+}{
+    "app_id": 169,
+    "category": "Arms",
+    "description": "Perform a standard bench press on the smith machine, but have your hands on the bar about shoulder width apart, and keep your elbows close to your body.",
+    "muscles": [
+        "Triceps brachii",
+        "Pectoralis major"
+    ],
+    "name": "Smith Machine Close-grip Bench Press",
+    "regularity": 0,
+    "variation_fam_members": [
+        88,
+        217,
+        85,
+        84,
+        386,
+        218,
+        186
+    ],
+    "wg_id": 218
+}{
+    "app_id": 170,
+    "category": "Shoulders",
+    "description": "Stand with your feet at hip width and your shins against the bar. Grasp the bar at double shoulder width and, keeping your lower back flat, drive your heels into the floor to begin lifting the bar. When it's above your knees, explosively extend your hips and shrug your shoulders. Let the momentum carry the weight overhead.",
+    "muscles": [
+        "Anterior deltoid"
+    ],
+    "name": "Snach",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 271
+}{
+    "app_id": 171,
+    "category": "Legs",
+    "description": "Deadlift with short (&lt;1min) rest between sets.",
+    "muscles": [],
+    "name": "Speed Deadlift",
+    "regularity": 0,
+    "variation_fam_members": [
+        105,
+        381,
+        161,
+        351,
+        328,
+        209
+    ],
+    "wg_id": 328
+}{
+    "app_id": 172,
+    "category": "Abs",
+    "description": "Lie on your back with your legs straight and arms at your sides, keeping your elbows bent at 90 degrees. As you sit up, twist your upper body to the left and bring your left knee toward your right elbow while you swing your left arm back. Lower your body to the starting position, and repeat to your right. That's 1 rep.",
+    "muscles": [
+        "Obliquus externus abdominis"
+    ],
+    "name": "Splinter Sit-ups",
+    "regularity": 0,
+    "variation_fam_members": [
+        91,
+        94,
+        92,
+        416,
+        93,
+        176,
+        95,
+        170
+    ],
+    "wg_id": 170
+}{
+    "app_id": 173,
+    "category": "Legs",
+    "description": "Jump wide, then close",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Squat Jumps",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 185
+}{
+    "app_id": 174,
+    "category": "Legs",
+    "description": "Make sure you have put the barbell at a height where you can comfortably take it out and put it back in. Take it out and make yourself ready:The bar is somewhat lower than your shouldersThe feet are quite apart and point outThe head is in your neck and looks upThe chest is outGo now slowly down, till your thighs are parallel with the floor, not lower. The knees point outwards, your butt, out. Make a small pause of 1 second and with as much energy as you can, push the weight up. Make a pause of 2 seconds and repeat.",
+    "muscles": [
+        "Quadriceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Squats",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 111
+}{
+    "app_id": 175,
+    "category": "Legs",
+    "description": "The burpee, or squat thrust, is a full body exercise used in strength training and as an aerobic exercise. The basic movement is performed in four steps and known as a four-count burpee: Begin in a standing position. Move into a squat position with your hands on the ground. (count 1) Kick your feet back into a plank position, while keeping your arms extended. (count 2) Immediately return your feet into squat position. (count 3) Stand up from the squat position (count 4)",
+    "muscles": [
+        "Gluteus maximus",
+        "Quadriceps femoris",
+        "Rectus abdominis",
+        "Soleus"
+    ],
+    "name": "Squat Thrust",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 795
+}{
+    "app_id": 176,
+    "category": "Arms",
+    "description": "Stand holding dumbbells at shoulder width apart. Face forearm upward and keep upper arm still while raising each dumbbell up to your shoulder.",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis",
+        "Brachialis"
+    ],
+    "name": "Standing Bicep Curl",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 768
+}{
+    "app_id": 177,
+    "category": "Calves",
+    "description": "Get onto the calf raises machine, you should able to completely push your calves down. Stand straight, don't make a hollow back and don't bend your legs. Pull yourself up as high as you can. Make a small pause of 1 - 2 seconds and go slowly down.",
+    "muscles": [
+        "Gastrocnemius",
+        "Soleus"
+    ],
+    "name": "Standing Calf Raises",
+    "regularity": 0,
+    "variation_fam_members": [
+        776,
+        104,
+        103,
+        102
+    ],
+    "wg_id": 102
+}{
+    "app_id": 178,
+    "category": "Arms",
+    "description": "Grab a wrist roller tool with both hands while standing with your feet about shoulder width apart. If your gym does not have a wrist roller tool, you can easily put one together. All you need is a 5 or 10 pound weight plate, a strong thin rope about 3 feet long and a 6-8 inch stick or bar. Securely fasten the rope to the middle of the bar/stick and tie the other end of the rope to the weight plate. To begin this exercise, grab the bar/stick with both hands using an overhand grip. Extend both arms straight out in front of you, parallel to the floor. Next, roll the weight up from the floor by rapidly twisting the bar/stick with your hands and wrists. Once the weight reaches the top, slowly lower the plate back to the floor by reversing the motion of your hands and wrists. Repeat (if you can!).",
+    "muscles": [],
+    "name": "Standing Rope Forearm",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 382
+}{
+    "app_id": 179,
+    "category": "Legs",
+    "description": "Ride a Stationary Bike with various\u00a0tensions.",
+    "muscles": [],
+    "name": "Stationary Bike",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 293
+}{
+    "app_id": 180,
+    "category": "Legs",
+    "description": "Keep legs straightKeep back straight",
+    "muscles": [
+        "Biceps femoris",
+        "Gluteus maximus"
+    ],
+    "name": "Stiff-legged Deadlifts",
+    "regularity": 0,
+    "variation_fam_members": [
+        105,
+        381,
+        161,
+        351,
+        328,
+        209
+    ],
+    "wg_id": 209
+}{
+    "app_id": 181,
+    "category": "Back",
+    "description": "Use the straight bar attachment on a high pulley. Grasp the two ends of the bar with your palms facing downward and your arms straight out in front of you. Pull your hands down towards your hips, while keeping your arms straight, then raise them back up to the starting position.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Triceps brachii"
+    ],
+    "name": "Straight-arm Pull Down (bar Attachment)",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 216
+}{
+    "app_id": 182,
+    "category": "Back",
+    "description": "Use the rope attachment on a high pulley. Grasp the two ends of the rope with your arms straight out in front of you. Pull your hands down towards your hips, while keeping your arms straight, then raise them back up to the starting position.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Triceps brachii"
+    ],
+    "name": "Straight-arm Pull Down (rope Attachment)",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 215
+}{
+    "app_id": 183,
+    "category": "Legs",
+    "description": "Begin with a bar loaded on the ground. Approach the bar so that the bar intersects the middle of the feet. The feet should be set very wide, near the collars. Bend at the hips to grip the bar. The arms should be directly below the shoulders, inside the legs, and you can use a pronated grip, a mixed grip, or hook grip. Relax the shoulders, which in effect lengthens your arms.Take a breath, and then lower your hips, looking forward with your head with your chest up. Drive through the floor, spreading your feet apart, with your weight on the back half of your feet. Extend through the hips and knees.As the bar passes through the knees, lean back and drive the hips into the bar, pulling your shoulder blades together.Return the weight to the ground by bending at the hips and controlling the weight on the way down.",
+    "muscles": [
+        "Quadriceps femoris"
+    ],
+    "name": "Sumo Deadlift",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 557
+}{
+    "app_id": 184,
+    "category": "Legs",
+    "description": "Stand with your feet wider than your shoulders, with your toes pointed out at a 45 degree angle and barbell on your shoulder.While keeping your back straight, descend slowly by bending at the knees and hips as if you are sitting down (squatting).Lower yourself until your quadriceps and hamstrings are parallel to the floor.Return to the starting position by pressing upwards and extending your legs while maintaining an equal distribution of weight on your forefoot and heel.",
+    "muscles": [
+        "Gluteus maximus",
+        "Quadriceps femoris"
+    ],
+    "name": "Sumo Squats",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 570
+}{
+    "app_id": 185,
+    "category": "Back",
+    "description": "Lay flat on your stomach with your arms extended in front of you on the ground as your legs are lying flat. Lift both your arms and legs at the same time, as if you were flying, and contract the lower back. Make sure that you are breathing and, depending on your fitness level, hold the movement for at least two to five seconds per repetition.",
+    "muscles": [
+        "Gluteus maximus",
+        "Latissimus dorsi"
+    ],
+    "name": "Superman",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 330
+}{
+    "app_id": 186,
+    "category": "Legs",
+    "description": "Start by doing a front squatAt the top position, push the bar above your head (similar to a press)Lower the bar to the shoulders",
+    "muscles": [
+        "Anterior deltoid",
+        "Quadriceps femoris",
+        "Biceps femoris",
+        "Gluteus maximus",
+        "Trapezius",
+        "Triceps brachii"
+    ],
+    "name": "Thruster",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 396
+}{
+    "app_id": 187,
+    "category": "Arms",
+    "description": "Start with a dumbbell in each hand and your palms facing your torso. Keep your back straight with a slight bend in the knees and bend forward at the waist. Your torso should be almost parallel to the floor. Make sure to keep your head up. Your upper arms should be close to your torso and parallel to the floor. Your forearms should be pointed towards the floor as you hold the weights. There should be a 90-degree angle formed between your forearm and upper arm. This is your starting position.Now, while keeping your upper arms stationary, exhale and use your triceps to lift the weights until the arm is fully extended. Focus on moving the forearm.After a brief pause at the top contraction, inhale and slowly lower the dumbbells back down to the starting position.Repeat the movement for the prescribed amount of repetitions.Variations: This exercise can be executed also one arm at a time much like the one arm rows are performed.Also, if you like the one arm variety, you can use a low pulley handle instead of a dumbbell for better peak contraction. In this case, the palms should be facing up (supinated grip) as opposed to the torso (neutral grip).",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Tricep Dumbbell Kickback",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 279
+}{
+    "app_id": 188,
+    "category": "Arms",
+    "description": "\u010cinka v jedn\u00e9 ruce v \u00farovni ramene. Zvedat do v\u00fd\u0161ky napnut\u00e9 pa\u017ee a zp\u011bt. Prov\u00e1d\u011bt pomalu.",
+    "muscles": [
+        "Triceps brachii",
+        "Anterior deltoid"
+    ],
+    "name": "Triceps Bench Press One Barbell",
+    "regularity": 0,
+    "variation_fam_members": [
+        88,
+        217,
+        85,
+        84,
+        386,
+        218,
+        186
+    ],
+    "wg_id": 186
+}{
+    "app_id": 189,
+    "category": "Arms",
+    "description": "lift on parallel bars hold for 1 second, and lower slowly and control for 4 seconds, then come back with no rest (tempo: 4010)",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Triceps Dips",
+    "regularity": 0,
+    "variation_fam_members": [
+        82,
+        83,
+        360,
+        162
+    ],
+    "wg_id": 162
+}{
+    "app_id": 190,
+    "category": "Arms",
+    "description": "Grab the cable, stand with your feet shoulder wide, keep your back straight and lean forward a little. Push the bar down, making sure the elbows don't move during the exercise. Rotate your hands outwards at the very end and go back to the initial position without pause.",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Triceps Extensions on Cable",
+    "regularity": 0,
+    "variation_fam_members": [
+        344,
+        274,
+        89,
+        90
+    ],
+    "wg_id": 89
+}{
+    "app_id": 191,
+    "category": "Arms",
+    "description": "Grab the bar, stand with your feet shoulder wide, keep your back straight and lean forward a little. Push the bar down, making sure the elbows don't move during the exercise. Without pause go back to the initial position.",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Triceps Extensions on Cable With Bar",
+    "regularity": 0,
+    "variation_fam_members": [
+        344,
+        274,
+        89,
+        90
+    ],
+    "wg_id": 90
+}{
+    "app_id": 192,
+    "category": "Arms",
+    "description": ".",
+    "muscles": [
+        "Triceps brachii"
+    ],
+    "name": "Triceps Machine",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 139
+}{
+    "app_id": 193,
+    "category": "Abs",
+    "description": "Seated trunk rotation with cable ",
+    "muscles": [
+        "Obliquus externus abdominis",
+        "Latissimus dorsi"
+    ],
+    "name": "Trunk Rotation With Cable ",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 310
+}{
+    "app_id": 194,
+    "category": "Abs",
+    "description": "Starting on back, move to the standing position with dumbbell in one hand. \u00a0Switch hands between reps.",
+    "muscles": [
+        "Anterior deltoid",
+        "Gluteus maximus",
+        "Obliquus externus abdominis",
+        "Serratus anterior",
+        "Anterior deltoid",
+        "Gluteus maximus",
+        "Obliquus externus abdominis",
+        "Serratus anterior"
+    ],
+    "name": "Turkish Get-Up",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 318
+}{
+    "app_id": 195,
+    "category": "Back",
+    "description": "Grip the pull-down bar with your palms facing you and your hands closer than shoulder-width apart. Lean back slightly and keep your back straight. Pull the bar down towards your chest, pulling your shoulders back slightly at the end of the motion.",
+    "muscles": [
+        "Latissimus dorsi",
+        "Biceps brachii"
+    ],
+    "name": "Underhand Lat Pull Down",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 212
+}{
+    "app_id": 196,
+    "category": "Chest",
+    "description": "Full workout of the upper arms body n chest. Focusing on the core",
+    "muscles": [
+        "Anterior deltoid",
+        "Pectoralis major",
+        "Trapezius",
+        "Triceps brachii"
+    ],
+    "name": "Upper Body",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 393
+}{
+    "app_id": 197,
+    "category": "Chest",
+    "description": "Exercise for upper external oblique muscles",
+    "muscles": [
+        "Obliquus externus abdominis"
+    ],
+    "name": "Upper External Oblique",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 258
+}{
+    "app_id": 198,
+    "category": "Shoulders",
+    "description": "The movements are basically the same as with an SZ-bar, but you use the bar on the multi press:Stand straight, your feet are shoulder-width apart. Hold the bar with an overhand grip on your thighs, the arms are stretched. Lift the bar close to the body till your chin. The elbows point out so that at the highest point they form a V. Make here a short pause before going slowly down and repeating the movement.",
+    "muscles": [
+        "Anterior deltoid",
+        "Trapezius",
+        "Biceps brachii"
+    ],
+    "name": "Upright Row, on Multi Press",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 147
+}{
+    "app_id": 199,
+    "category": "Shoulders",
+    "description": "Stand straight, your feet are shoulder-width apart. Hold the SZ-bar with an overhand grip on your thighs, the arms are stretched. Lift the bar close to the body till your chin. The elbows point out so that at the highest point they form a V. Make here a short pause before going slowly down and repeating the movement.",
+    "muscles": [
+        "Anterior deltoid",
+        "Trapezius",
+        "Biceps brachii"
+    ],
+    "name": "Upright Row, SZ-bar",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 127
+}{
+    "app_id": 200,
+    "category": "Shoulders",
+    "description": "Feet apart at shoulder width. Nice and Slow!",
+    "muscles": [
+        "Anterior deltoid",
+        "Trapezius",
+        "Biceps brachii"
+    ],
+    "name": "Upright Row w/ Dumbbells",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 311
+}{
+    "app_id": 201,
+    "category": "Back",
+    "description": "Pulldowns using close grip v-bar.",
+    "muscles": [],
+    "name": "V-Bar Pulldown",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 424
+}{
+    "app_id": 202,
+    "category": "Shoulders",
+    "description": "Handstand against a wall for support (chest facing wall).",
+    "muscles": [],
+    "name": "Wall Handstand",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 359
+}{
+    "app_id": 203,
+    "category": "Arms",
+    "description": "Pushup against a wall",
+    "muscles": [
+        "Anterior deltoid",
+        "Pectoralis major",
+        "Triceps brachii",
+        "Gluteus maximus",
+        "Rectus abdominis",
+        "Serratus anterior",
+        "Trapezius"
+    ],
+    "name": "Wall Pushup",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 203
+}{
+    "app_id": 204,
+    "category": "Back",
+    "description": "Stand with heels,\u00a0 shoulders, back of head,\u00a0 and hips touching the wall. Start with biceps straight out and elbows at a 90 degree angle. Straighten the arms while remaining againstthe wall without arching the back off of the wall, mimicking a shoulder press movement.\u00a0",
+    "muscles": [
+        "Biceps brachii",
+        "Biceps femoris",
+        "Pectoralis major",
+        "Trapezius",
+        "Triceps brachii"
+    ],
+    "name": "Wall Slides",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 548
+}{
+    "app_id": 205,
+    "category": "Legs",
+    "description": "Find a nice flat piece of wall and stand with your back leaning against the wall. Slowly slide down the wall while moving your feet away from it, until your thighs are parallel to the ground and both your knees and your hips are bent at a 90\u00b0 angle. Cross your arms in front of your chest and hold this position for 30 seconds.Variant: put a big inflated rubber ball (like a small basketball) between your knees and squeeze the ball while holding the squat position",
+    "muscles": [
+        "Biceps femoris",
+        "Quadriceps femoris"
+    ],
+    "name": "Wall Squat",
+    "regularity": 0,
+    "variation_fam_members": [
+        407,
+        342,
+        300,
+        191,
+        650,
+        389,
+        355,
+        160,
+        185,
+        111,
+        795,
+        387
+    ],
+    "wg_id": 387
+}{
+    "app_id": 206,
+    "category": "Legs",
+    "description": "Seated with your back against a wall, put the bottoms of your feet together and add weight plates to your knees to deepen the butterfly stretch. Hold this for at least a minute or until youve comfortably elongated the groin and hip flexor.\u00a0",
+    "muscles": [],
+    "name": "Weighted Butterfly Stretch",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 886
+}{
+    "app_id": 207,
+    "category": "Legs",
+    "description": "Box step-ups w/ barbell, 45's on each side",
+    "muscles": [],
+    "name": "Weighted Step",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 320
+}{
+    "app_id": 208,
+    "category": "Legs",
+    "description": "box step ups w/ barbell and 45's on each side",
+    "muscles": [],
+    "name": "Weighted Step-ups",
+    "regularity": 0,
+    "variation_fam_members": [],
+    "wg_id": 321
+}{
+    "app_id": 209,
+    "category": "Back",
+    "description": "Lat pulldowns with a wide grip on the bar.",
+    "muscles": [
+        "Latissimus dorsi"
+    ],
+    "name": "Wide-grip Pulldown",
+    "regularity": 0,
+    "variation_fam_members": [
+        213,
+        188,
+        187,
+        216,
+        215,
+        212,
+        424,
+        204
+    ],
+    "wg_id": 204
+}{
+    "app_id": 210,
+    "category": "Arms",
+    "description": "-Perform a traditional dumbbell biceps curl, pausing at the top of the motion.-Twist your hands until your palms are facing away from your shoulders (in reverse curl position).\u00a0 Basically, twist your right wrist inwards to the left, and vice versa.-In a slow, controlled movement, lower the Dbells with your palms facing the ground.\u00a0 At the bottom of the motion, twist your wrists back into the traditional curl grip (palms facing up, towards shoulder).-That is 1 rep\u00a0",
+    "muscles": [
+        "Biceps brachii",
+        "Brachialis"
+    ],
+    "name": "Z Curls",
+    "regularity": 0,
+    "variation_fam_members": [
+        74,
+        81,
+        80,
+        129,
+        275,
+        298,
+        86,
+        138,
+        193,
+        208,
+        205,
+        768,
+        305
+    ],
+    "wg_id": 305
+}
