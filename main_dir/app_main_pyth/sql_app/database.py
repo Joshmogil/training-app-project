@@ -14,7 +14,7 @@ SessionLocal = sessionmaker(bind=engine)
 metadata_obj = MetaData()
 
 users = Table("users", metadata_obj,
-    Column('id',Integer, Sequence('some_id_seq'), primary_key=True, index=True),
+    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),
     Column('email',String(100), unique=True, index=True),
     Column('hashed_password',String(255)),
     Column('is_active',Boolean),

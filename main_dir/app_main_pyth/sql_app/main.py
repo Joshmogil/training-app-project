@@ -41,11 +41,12 @@ def login(user_credentials: AuthDetails, db: Session = Depends(get_db)):
 
     return user_crud.login(db, user_credentials)
 
-#app fucntions
+#app functions
 @app.post("/test")
 def send_user_exercise_preferences(exerciseList: exerciseList, db: Session = Depends(get_db)):
 
     return app_crud.send_user_exercise_preference(db, exerciseList)
 
+    
 
 
