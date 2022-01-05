@@ -1,14 +1,12 @@
 from sqlalchemy.orm import Session
-from sqlalchemy.sql.expression import false
-from sqlalchemy.sql.functions import user
 from sqlalchemy.sql import insert, select
 
 from fastapi import HTTPException
 
-from .database import engine, users, settings
+from ..database import engine, users, settings
 
-from .authorization.authschemas import AuthDetails
-from .authorization.auth import AuthHandler
+from ..authorization.authschemas import AuthDetails
+from ..authorization.auth import AuthHandler
 
 conn = engine.connect()
 auth_handler = AuthHandler()

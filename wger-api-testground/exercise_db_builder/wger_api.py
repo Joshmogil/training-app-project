@@ -17,11 +17,43 @@ response = requests.get(
 
 exercise_results = json.loads(response.text)["results"]
 
+
 listOfExerciseDataObj = []
+
+with open("exercises.json", "a") as outfile:
+        outfile.write("[")
+        
+
+for x in exercise_results:
+
+    name = x["name"]
+    category = "Weights"
+    desc= x["description"]
+    cleanedDesc = re.sub(re.compile('\u00a0'), '', re.sub(re.compile('\n'), '', re.sub(re.compile('<.*?>'), '', desc)))
+    regularity_factor = 0
+    fatigue_factor = 0
+    parent_variation_id = 0
+
+    exerciseToAdd = exercise_data.Exercise(name,category,cleanedDesc,regularity_factor,fatigue_factor,parent_variation_id)
+
+    listOfExerciseDataObj.append(exerciseToAdd)
+
+
+for x in listOfExerciseDataObj:
+    with open("exercises.json", "a") as outfile:
+        outfile.write(x.toJSON())
+        outfile.write(",\n")
+
+with open("exercises.json", "a") as outfile:
+        outfile.write("]")
+
+
+
+
+
+""" listOfExerciseDataObj = []
 listOfAllMuscles= []
-
 entryNum = 0 
-
 for x in exercise_results:
 
     app_id = entryNum
@@ -54,8 +86,8 @@ for x in exercise_results:
 
 
 for x in listOfExerciseDataObj:
-    with open("sample.json", "a") as outfile:
-        outfile.write(x.toJSON())
+    with open("XX_exercises.json", "a") as outfile:
+        outfile.write(x.toJSON()) """
 
 
 
