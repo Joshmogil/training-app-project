@@ -1,0 +1,19 @@
+[
+{
+    "name":"upper",
+    "exercises":[1,5,10]
+},
+{
+    "name":"lower",
+    "exercises":[1,5,10]
+},
+{
+    "name":"push",
+    "exercises":[1,5,10]
+},
+{
+    "name":"pull",
+    "exercises":[1,5,10]
+}
+
+]

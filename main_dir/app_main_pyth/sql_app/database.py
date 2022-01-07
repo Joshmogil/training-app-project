@@ -21,11 +21,17 @@ users = Table("users", metadata_obj,
     
 )
 
+splits = Table("splits", metadata_obj,
+    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),
+    Column('name',String(55), unique=True, index=True)
+    
+)
+
 settings =Table("settings", metadata_obj,
 
     Column('user_id',Integer, ForeignKey("users.id")),
     Column('goal',String(55)),
-    Column('split',String(55)),
+    Column('split',Integer, ForeignKey("splits.id")),
     Column('days_per_week',Integer),
     Column('preffered_days',String(7)) 
 
@@ -42,6 +48,21 @@ exercises = Table("exercises", metadata_obj,
 
 )
 
+sub_splits = Table("sub_splits", metadata_obj,
+    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),
+    Column('name',String(55), unique=True, index=True)
+)
+
+splits_sub_splits = Table("splits_sub_splits", metadata_obj,
+    Column('split_id',Integer, ForeignKey("splits.id")),
+    Column('sub_splits',Integer, ForeignKey("sub_splits.id")),
+)
+
+sub_splits_exercises = Table("sub_splits_exercises", metadata_obj,
+    Column('sub_splits',Integer, ForeignKey("sub_splits.id")),
+    Column('exercises',Integer, ForeignKey("exercises.id")),
+)
+
 user_exercises = Table("user_exercises", metadata_obj,
     Column('user_id',Integer, ForeignKey("users.id")),
     Column('exercises_id',Integer, ForeignKey("exercises.id")),
@@ -56,6 +77,7 @@ metadata_obj.create_all(engine)
 
 #database data loader
 
+#EXERCISE TABLE
 #Check if there is anything in database
 
 db = SessionLocal()
@@ -88,6 +110,115 @@ if(trueIfExercisesContainsData is False):
         ins = exercises.insert().values(name=name,category=cat,description = desc,regularity_factor=rf,fatigue_factor=ff,parent_variation_id=pvi)
 
         db.execute(ins)
+        db.commit()
+        
+    db.close()
+
+#SUB_SPLITS AND SUB_SPLITS_EXERCISES TABLE
+#Check if there is anything in database
+db = SessionLocal()
+
+s = select(sub_splits.c.id).where(sub_splits.c.id == 1)
+trueIfSsTableContainsData = False
+for row in db.execute(s):
+        trueIfSsTableContainsData = True
+        
+db.close()
+
+if(trueIfSsTableContainsData is False):
+
+    print("Populating sub_splits table ...")
+
+    jsonfile = open("m_sub_splits.json")
+    data = json.load(jsonfile)
+
+    db = SessionLocal()
+
+    for x in data:
+        
+        name = x["name"]
+        
+        ins = sub_splits.insert().values(name=name)
+
+        result = db.execute(ins)
+        newSsId = result.inserted_primary_key
+
+        for y in x["exercises"]:
+
+            newSubSplitId = ""
+            for x in str(newSsId):
+
+                if x.isdigit():
+
+                    newSubSplitId += x
+
+            ins = sub_splits_exercises.insert().values(sub_splits=int(newSubSplitId), exercises = y)
+
+            db.execute(ins)
+
+    db.commit()
+
+        
+    db.close()
+
+
+
+
+
+
+#SPLITS TABLE
+#Check if there is anything in database
+
+db = SessionLocal()
+
+s = select(splits.c.id).where(splits.c.id == 1)
+trueIfTableContainsData = False
+for row in db.execute(s):
+        trueIfTableContainsData = True
+        
+db.close()
+
+if(trueIfTableContainsData is False):
+
+    print("Populating splits table ...")
+
+    jsonfile = open("m_splits.json")
+    data = json.load(jsonfile)
+
+    db = SessionLocal()
+
+    for x in data:
+        
+        name = x["name"]
+        
+        ins = splits.insert().values(name=name)
+
+        result = db.execute(ins)
+
+        splitId = result.inserted_primary_key
+
+        for y in x["sub_splits"]:
+            #inserts for sss table begin
+            newSplitId = ""
+            for x in str(splitId):
+
+                if x.isdigit():
+
+                    newSplitId += x
+
+            print(y)
+            
+            s = select(sub_splits.c.id).where(sub_splits.c.name==y)
+            ssId = 0
+            for row in db.execute(s):
+                print(row)
+                ssId = row.id
+
+
+            ins = splits_sub_splits.insert().values(split_id=int(newSplitId), sub_splits = ssId)
+
+            db.execute(ins)
+
         db.commit()
         
     db.close()

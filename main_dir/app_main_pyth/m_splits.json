@@ -1,0 +1,14 @@
+[
+    {
+    "name" : "Upper/Lower",
+    "sub_splits" :["upper","lower"]
+    },
+    {
+    "name" : "Push/Pull/Legs",
+    "sub_splits" :["push","pull","lower"]
+    },
+    {
+    "name" : "Full Body",
+    "sub_splits" :["upper","lower"]
+    }
+]
