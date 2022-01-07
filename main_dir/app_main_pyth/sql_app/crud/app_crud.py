@@ -10,14 +10,11 @@ from ..database import engine, users, settings, user_exercises
 conn = engine.connect()
 
 def send_user_exercise_preference(db: Session, exerciseList: exerciseList):
-
-    print(exerciseList.user_id)
-    print(exerciseList.exercise_list[0])
     
     user_id = exerciseList.user_id
 
     for x in exerciseList.exercise_list:
-        print(type(x))
+        
         
         id= x.id
         max = x.max

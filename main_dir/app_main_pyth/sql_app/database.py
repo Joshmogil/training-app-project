@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import insert, select
 import json
 
-#SQLALCHEMY_DATABASE_URL = "sqlite:///./sql_app.db"
+
 SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:postgres1@localhost:5432/fitness-app"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
@@ -162,10 +162,6 @@ if(trueIfSsTableContainsData is False):
     db.close()
 
 
-
-
-
-
 #SPLITS TABLE
 #Check if there is anything in database
 
@@ -211,7 +207,7 @@ if(trueIfTableContainsData is False):
             s = select(sub_splits.c.id).where(sub_splits.c.name==y)
             ssId = 0
             for row in db.execute(s):
-                print(row)
+                
                 ssId = row.id
 
 
