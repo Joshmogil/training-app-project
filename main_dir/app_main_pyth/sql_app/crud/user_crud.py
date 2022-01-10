@@ -5,25 +5,28 @@ from fastapi import HTTPException
 
 from ..database import engine, users, settings
 
-from ..authorization.authschemas import AuthDetails
+from ..authorization.authschemas import AuthDetails, RegisterDetails
 from ..authorization.auth import AuthHandler
 
 conn = engine.connect()
 auth_handler = AuthHandler()
 
 
-def create_user(db: Session, user_credentials: AuthDetails):
+def create_user(db: Session, reg_details: RegisterDetails):
 
-    s = select(users.c.email).where(users.c.email==user_credentials.email)
+    if (reg_details.password != reg_details.confirmPassword):
+        raise HTTPException(status_code=401, detail='Password and Confirm password must match')
+
+    s = select(users.c.email).where(users.c.email==reg_details.email)
     trueIfEmailExists = False
     for row in db.execute(s):
         trueIfEmailExists = True
     
     if trueIfEmailExists is False:
 
-        gen_hashed_password = auth_handler.get_password_hash(user_credentials.password)
+        gen_hashed_password = auth_handler.get_password_hash(reg_details.password)
 
-        ins = users.insert().values(email=user_credentials.email,hashed_password=gen_hashed_password, is_active = True)        
+        ins = users.insert().values(email=reg_details.email,hashed_password=gen_hashed_password, is_active = True)        
         result = db.execute(ins)        
         newUserId = result.inserted_primary_key
         
@@ -37,9 +40,7 @@ def create_user(db: Session, user_credentials: AuthDetails):
 
                 userId += x
 
-        ins2 = insert(settings).values(user_id=int(userId), goal="hello", split = "hello2", days_per_week=4, preffered_days = "0101010")
-        
-        print(ins2)
+        ins2 = insert(settings).values(user_id=int(userId), goal="General Health", split = "Full Body", days_per_week=4, preffered_days = "0101010")
 
         result = db.execute(ins2)
         db.commit()

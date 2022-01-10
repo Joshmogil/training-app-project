@@ -18,7 +18,6 @@ class Settings(SettingsBase):
 
     class Config:
         orm_mode = True """
-
 class UserBase(BaseModel):
     email: str
 
@@ -30,5 +29,11 @@ class UserCreate(UserBase):
 class User(UserBase):
     id: int
     is_active: bool
+
+class LoginResponse(BaseModel):
+    token: str
+    user: User
+
+
     
 

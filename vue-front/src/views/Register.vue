@@ -5,13 +5,13 @@
       <div class="alert alert-danger" role="alert" v-if="registrationErrors">
         {{ registrationErrorMsg }}
       </div>
-      <label for="username" class="sr-only">Username</label>
+      <label for="email" class="sr-only">email</label>
       <input
         type="text"
-        id="username"
+        id="email"
         class="form-control"
-        placeholder="Username"
-        v-model="user.username"
+        placeholder="email"
+        v-model="user.email"
         required
         autofocus
       />
@@ -48,10 +48,9 @@ export default {
   data() {
     return {
       user: {
-        username: '',
+        email: '',
         password: '',
         confirmPassword: '',
-        role: 'user',
       },
       registrationErrors: false,
       registrationErrorMsg: 'There were problems registering this user.',
