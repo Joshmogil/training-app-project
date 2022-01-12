@@ -40,7 +40,7 @@ def create_user(db: Session, reg_details: RegisterDetails):
 
                 userId += x
 
-        ins2 = insert(settings).values(user_id=int(userId), goal="General Health", split = "Full Body", days_per_week=4, preffered_days = "0101010")
+        ins2 = insert(settings).values(user_id=int(userId), goal="General Health", split = 3, days_per_week=4, preffered_days = "0101010")
 
         result = db.execute(ins2)
         db.commit()

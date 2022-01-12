@@ -73,6 +73,16 @@ user_exercises = Table("user_exercises", metadata_obj,
     
 )
 
+user_next_workout = Table("user_next_workout", metadata_obj,
+    Column('user_id',Integer, ForeignKey("users.id"),unique=True),
+    Column('workout_object',String(2255)),    
+)
+
+user_past_workouts = Table("user_past_workouts", metadata_obj,
+    Column('user_id',Integer, ForeignKey("users.id")),
+    Column('workout_object',String(2255)),    
+)
+
 metadata_obj.create_all(engine)
 
 #database data loader
