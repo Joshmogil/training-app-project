@@ -9,7 +9,7 @@ from sql_app.crud.models import exerciseList, settings
 
 from sql_app.crud import user_crud
 from sql_app.crud import app_crud
-
+from sql_app.workoutBuilder.golangInterface import go_test
 
 from . import schemas
 from .database import SessionLocal, engine
@@ -19,6 +19,7 @@ from .authorization.authschemas import AuthDetails, RegisterDetails
 
 ####USE BELOW COMMAND TO START####
 #uvicorn sql_app.main:app --reload
+
 
 
 app = FastAPI()
@@ -38,7 +39,7 @@ app.add_middleware(
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-#Registration and login
+go_test()
 
 def get_db():
     db = SessionLocal()
@@ -46,11 +47,13 @@ def get_db():
         yield db
     finally:
         db.close()
-
-@app.get("/cors")
+#Tests
+@app.get("/test")
 def cors_test():
 
-    return "HTTP Get Success"
+    return "Success"
+
+#Registration and login
 
 @app.get("/items/")
 async def read_items(token: str = Depends(oauth2_scheme)):
