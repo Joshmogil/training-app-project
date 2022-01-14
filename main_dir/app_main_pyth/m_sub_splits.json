@@ -1,19 +1,18 @@
 [
 {
     "name":"upper",
-    "exercises":[1,5,10]
+    "exercise_categories":["Biceps","Triceps","Chest","Incline-Chest","Shoulder-Push","Shoulder-Pull","Horizontal-Pull","Vertical-Pull"]
 },
 {
     "name":"lower",
-    "exercises":[1,5,10]
+    "exercise_categories":["Leg-Push","Leg-Pull"]
 },
 {
     "name":"push",
-    "exercises":[1,5,10]
+    "exercise_categories":["Triceps","Chest","Incline-Chest","Shoulder-Push","Leg-Push"]
 },
 {
     "name":"pull",
-    "exercises":[1,5,10]
+    "exercise_categories":["Leg-Pull","Horizontal-Pull","Vertical-Pull","Biceps","Shoulder-Pull"]
 }
-
 ]

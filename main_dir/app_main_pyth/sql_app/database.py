@@ -43,7 +43,6 @@ exercises = Table("exercises", metadata_obj,
     Column('category',String(55)),
     Column('regularity_factor',Integer),
     Column('fatigue_factor',Integer),
-    Column('parent_variation_id',Integer),
     Column('description',String(2555)),
 
 )
@@ -115,9 +114,8 @@ if(trueIfExercisesContainsData is False):
         desc = x["description"]
         rf = x["regularity_factor"]
         ff = x["fatigue_factor"]
-        pvi = x["parent_variation_id"]
 
-        ins = exercises.insert().values(name=name,category=cat,description = desc,regularity_factor=rf,fatigue_factor=ff,parent_variation_id=pvi)
+        ins = exercises.insert().values(name=name,category=cat,description = desc,regularity_factor=rf,fatigue_factor=ff)
 
         db.execute(ins)
         db.commit()
@@ -153,8 +151,9 @@ if(trueIfSsTableContainsData is False):
         result = db.execute(ins)
         newSsId = result.inserted_primary_key
 
-        for y in x["exercises"]:
+        for y in x["exercise_categories"]:
 
+            #Cleans up the returned Id 
             newSubSplitId = ""
             for x in str(newSsId):
 
@@ -162,9 +161,15 @@ if(trueIfSsTableContainsData is False):
 
                     newSubSplitId += x
 
-            ins = sub_splits_exercises.insert().values(sub_splits=int(newSubSplitId), exercises = y)
+            # selects exercises in category y
+            s = select(exercises.c.id).where(exercises.c.category == y)
+            
+            for row in db.execute(s):
+                print(row)
+                exerciseId = row.id
 
-            db.execute(ins)
+                ins = sub_splits_exercises.insert().values(sub_splits=int(newSubSplitId), exercises = exerciseId)
+                db.execute(ins)
 
     db.commit()
 

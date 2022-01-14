@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from sqlalchemy.sql import insert, select
+from sqlalchemy.sql import insert, select, update
 
 from fastapi import HTTPException
 
@@ -26,4 +26,19 @@ def send_user_exercise_preference(db: Session, exerciseList: exerciseList):
         result = db.execute(ins)     
         
     db.commit()
-    
+
+def update_user_settings(db:Session, newSettings: settings):
+
+    user_id = newSettings.user_id
+    goal = newSettings.goal
+    split  = newSettings.split
+    dpw = newSettings.days_per_week
+    pd = newSettings.preffered_days
+
+    stmt = update(settings).where(settings.c.user_id == newSettings.user_id).values(user_id = user_id ,goal = goal, split = split, days_per_week = dpw, preffered_days =pd)
+
+    print(update(settings))
+
+    result = db.execute(stmt)
+
+    db.commit()
