@@ -4,6 +4,7 @@ from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 
 from sql_app.crud.models import exerciseList, settings
 
@@ -80,4 +81,7 @@ def update_user_settings(newSettings: settings, db: Session = Depends(get_db)):
 
     return app_crud.update_user_settings(db, newSettings)
 
+@app.get("/scheduledata")
+def get_schedule_data(db: Session = Depends(get_db)):
 
+    return app_crud.send_schedule_data(db)
