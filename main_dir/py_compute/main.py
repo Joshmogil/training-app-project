@@ -4,7 +4,7 @@ import uvicorn
 from typing import List
 
 ####USE BELOW COMMAND TO START####
-#uvicorn main:app--5000 --reload
+#uvicorn main:app --port 5000 --reload
 
 app = FastAPI()
 
