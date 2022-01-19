@@ -82,6 +82,11 @@ user_past_workouts = Table("user_past_workouts", metadata_obj,
     Column('workout_object',String(2255)),    
 )
 
+user_schedule= Table("user_schedule", metadata_obj,
+    Column('user_id',Integer, ForeignKey("users.id"),unique=True),
+    Column('schedule',String(35)),    
+)
+
 metadata_obj.create_all(engine)
 
 #database data loader
@@ -165,7 +170,7 @@ if(trueIfSsTableContainsData is False):
             s = select(exercises.c.id).where(exercises.c.category == y)
             
             for row in db.execute(s):
-                print(row)
+                
                 exerciseId = row.id
 
                 ins = sub_splits_exercises.insert().values(sub_splits=int(newSubSplitId), exercises = exerciseId)
@@ -216,15 +221,12 @@ if(trueIfTableContainsData is False):
                 if x.isdigit():
 
                     newSplitId += x
-
-            print(y)
             
             s = select(sub_splits.c.id).where(sub_splits.c.name==y)
             ssId = 0
             for row in db.execute(s):
                 
                 ssId = row.id
-
 
             ins = splits_sub_splits.insert().values(split_id=int(newSplitId), sub_splits = ssId)
 

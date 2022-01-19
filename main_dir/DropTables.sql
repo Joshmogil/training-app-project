@@ -5,3 +5,5 @@ DROP TABLE "public"."sub_splits_exercises" CASCADE;
 DROP TABLE "public"."user_exercises" CASCADE;
 DROP TABLE "public"."exercises" CASCADE;
 DROP TABLE "public"."settings" CASCADE;
+DROP TABLE "public"."user_schedule" CASCADE;
+DROP TABLE "public"."users" CASCADE;

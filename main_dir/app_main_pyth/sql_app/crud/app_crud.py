@@ -1,15 +1,13 @@
-import pickle
-import sched
-from sqlalchemy.orm import Session
-from sqlalchemy.sql import insert, select, update
 
-from fastapi import HTTPException
+from sqlalchemy.orm import Session
+from sqlalchemy.sql import select, update
 
 from sql_app.crud.models import ScheduleData, exerciseList
+from sql_app.workoutBuilder.py_compute_interface import update_schedule
 
-from ..database import engine, users, settings, user_exercises, splits_sub_splits
+from ..database import settings, user_exercises, splits_sub_splits
 
-conn = engine.connect()
+
 
 def send_user_exercise_preference(db: Session, exerciseList: exerciseList):
     
@@ -45,9 +43,9 @@ def update_user_settings(db:Session, newSettings: settings):
 
     db.commit()
 
-def send_schedule_data(db:Session):
+    update_schedule(db, user_id)
 
-    
+def send_all_schedule_data(db:Session):
 
     s = select(settings.c)
     scheduleData = []
@@ -67,8 +65,24 @@ def send_schedule_data(db:Session):
 
         scheduleData.append(sd)
 
-
     return scheduleData
         
+""" def send_single_schedule_data(db:Session,user_id):
 
+    s = select(settings.c).where(user_id==settings.c.user_id)
+    sd = ScheduleData()
+    for row in db.execute(s):
+        
+        row = dict(row)
+        sd.user_id = row["user_id"]
+        sd.days_per_week = row["days_per_week"]
+        sd.preffered_days = row["preffered_days"]
+        sd.sub_splits = [0]
+
+        s = select(splits_sub_splits.c.sub_splits).where(row["split"] == splits_sub_splits.c.split_id)
+        for row in db.execute(s):
+            row = dict(row)
+            sd.sub_splits.append(row["sub_splits"])
+        
+    return sd """
     

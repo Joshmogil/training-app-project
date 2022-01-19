@@ -3,6 +3,8 @@ from sqlalchemy.sql import insert, select
 
 from fastapi import HTTPException
 
+from sql_app.workoutBuilder.py_compute_interface import fetch_schedule
+
 from ..database import engine, users, settings
 
 from ..authorization.authschemas import AuthDetails, RegisterDetails
@@ -44,6 +46,8 @@ def create_user(db: Session, reg_details: RegisterDetails):
 
         result = db.execute(ins2)
         db.commit()
+
+        fetch_schedule(db, int(userId))
         
         return True
     

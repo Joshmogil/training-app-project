@@ -1,6 +1,6 @@
 import json
 from lib2to3.pgen2.token import BACKQUOTE
-from typing import List
+from typing import List, Optional
 from pydantic import BaseModel
 
 class personalExercise(BaseModel):
@@ -23,12 +23,15 @@ class settings(BaseModel):
     days_per_week: int
     preffered_days: str
 
-class ScheduleData():
+class ScheduleData(BaseModel):
 
-    user_id: int
-    days_per_week: int
-    preffered_days: str
-    sub_splits: List[int]
+    user_id: Optional[int]
+    days_per_week: Optional[int]
+    preffered_days: Optional[str]
+    sub_splits: Optional[List[int]]
 
     def toJSON(self):
-        return json.dumps(self, default=lambda o: o.__dict__, indent=4)
+        return json.dumps(self, default=lambda o: o.__dict__, 
+            sort_keys=True, indent=4)
+
+    

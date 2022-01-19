@@ -4,19 +4,18 @@ from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+
 
 from sql_app.crud.models import exerciseList, settings
 
 from sql_app.crud import user_crud
 from sql_app.crud import app_crud
 
-
-from . import schemas
-from .database import SessionLocal, engine
+from .database import SessionLocal
 
 from .authorization.authschemas import AuthDetails, RegisterDetails
 
+from .workoutBuilder.py_compute_interface import fetch_schedule
 
 ####USE BELOW COMMAND TO START####
 #uvicorn sql_app.main:app --reload
@@ -49,9 +48,8 @@ def get_db():
         db.close()
 
 @app.get("/cors")
-def cors_test():
-
-    return "HTTP Get Success"
+def cors_test(db: Session = Depends(get_db)):
+    fetch_schedule(db,1)   
 
 @app.get("/items/")
 async def read_items(token: str = Depends(oauth2_scheme)):
@@ -81,7 +79,4 @@ def update_user_settings(newSettings: settings, db: Session = Depends(get_db)):
 
     return app_crud.update_user_settings(db, newSettings)
 
-@app.get("/scheduledata")
-def get_schedule_data(db: Session = Depends(get_db)):
 
-    return app_crud.send_schedule_data(db)
