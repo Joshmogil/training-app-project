@@ -9,6 +9,6 @@
     },
     {
     "name" : "Full Body",
-    "sub_splits" :["upper","lower"]
+    "sub_splits" :["full"]
     }
 ]

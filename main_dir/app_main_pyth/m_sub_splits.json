@@ -1,7 +1,7 @@
 [
 {
     "name":"upper",
-    "exercise_categories":["Biceps","Triceps","Chest","Incline-Chest","Shoulder-Push","Shoulder-Pull","Horizontal-Pull","Vertical-Pull"]
+    "exercise_categories":["Upper-Push","Upper-Pull"]
 },
 {
     "name":"lower",
@@ -9,10 +9,14 @@
 },
 {
     "name":"push",
-    "exercise_categories":["Triceps","Chest","Incline-Chest","Shoulder-Push","Leg-Push"]
+    "exercise_categories":["Upper-Push","Leg-Push"]
 },
 {
     "name":"pull",
-    "exercise_categories":["Leg-Pull","Horizontal-Pull","Vertical-Pull","Biceps","Shoulder-Pull"]
+    "exercise_categories":["Leg-Pull","Upper-Pull"]
+},
+{
+    "name":"full",
+    "exercise_categories":["Leg-Pull","Upper-Pull","Upper-Push","Leg-Push"]
 }
 ]
