@@ -2,15 +2,15 @@
 
 import random
 
-from readDb import getExerciseData, getExercisePoints, getIntensityPoints, getVolumePoints
+from readDb import getExerciseData, getExercisePoints, getVolume
 
 
 def generateWorkout(userId:int):
     
     exerciseData = getExerciseData(userId)
-    volumePoints = getVolumePoints(userId)
     exercisePoints = getExercisePoints(userId)
-    intensityPoints = getIntensityPoints(userId)
+    
+    
 
     exercises = []
     catTrack = 0
@@ -18,7 +18,10 @@ def generateWorkout(userId:int):
 
     proofOfConcept = []
     for x in exercises:
-        proofOfConcept.append([x['name'],int(volumePoints/len(exercises)),10])
+
+        setsReps = getVolume(userId, x)
+
+        proofOfConcept.append([x['name'],setsReps[0],setsReps[1]])
 
 
     return proofOfConcept

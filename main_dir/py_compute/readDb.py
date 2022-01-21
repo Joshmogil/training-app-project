@@ -1,5 +1,6 @@
 from datetime import date
 from inspect import _void
+from typing import Match
 from sqlalchemy import MetaData, create_engine, select
 
 SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:postgres1@localhost:5432/fitness-app"
@@ -14,6 +15,7 @@ schedulesTable = metadata.tables['user_schedule']
 userExercisesTable = metadata.tables['user_exercises']
 subSplitsExercisesTable = metadata.tables['sub_splits_exercises']
 exercisesTable = metadata.tables['exercises']
+settingsTable = metadata.tables['settings']
 
 def getExerciseData(userId):
     
@@ -26,6 +28,7 @@ def getExerciseData(userId):
         for row in engine.execute(s):
             row = dict(row)
             schedule = row['schedule']
+    
            
         subSplitDay = schedule[date.today().day+i]
         i += 1
@@ -40,8 +43,6 @@ def getExerciseData(userId):
     for row in engine.execute(s):
         row = dict(row)
         localExercises.add(row["exercises"])
-
-    
 
     #join exercises on user exercises by exercise id
     #add the exercises and all their data to a list and return it
@@ -58,35 +59,58 @@ def getExerciseData(userId):
         
     return exerciseData
 
-def getVolumePoints(userId): #this is a junk way of doing this, the better way is to use a dependent schedule between volume and intensity
-    vp = 120
+
+
+def getVolume(userId, exercise): #this is a junk way of doing this, the better way is to use a dependent schedule between volume and intensity
+    setsReps = [3,10]
+
+    s = select(settingsTable.c.goal).where(settingsTable.c.user_id == userId)
     
-    schedule = ""
-    try:
-        s = select(schedulesTable.c.schedule).where(schedulesTable.c.user_id == userId)  
-        for row in engine.execute(s):
-            row = dict(row)
-            schedule = row['schedule']
-    except:
-        print("User: " + str(userId) + " has no schedule")
-    else:
-        schedSample = schedule[0:6]
-
-        volDivCount = 0
-
-        for x in schedSample:
-            if x != "0":
-                volDivCount+= 1
-                vp += 10 # magic number, volume allowed to slightly increase with more workouts per week
-
+    case = None
+    for row in engine.execute(s):
+        settings = dict(row)    
+        case = settings['goal']
         
-        vp = vp/volDivCount
-        
-    return vp/2
+
+    if case == "General Health":
+        setsReps = [3,12]
+
+        if exercise['fatigue_factor'] >= 25:
+            setsReps = [3,8]
+
+        if exercise['fatigue_factor'] > 30:
+            setsReps = [3,6]
+
+    if case == "Strength":
+        setsReps = [3,10]
+
+        if exercise['fatigue_factor'] >= 25:
+            setsReps = [5,5]
+
+        if exercise['fatigue_factor'] > 30:
+            setsReps = [4,5]
+
+    return setsReps
 
 def getExercisePoints(userId):
-    vp = 100
-    return vp
+    ep = 100
+
+    s = select(settingsTable.c.goal).where(settingsTable.c.user_id == userId)
+    
+    case = None
+    for row in engine.execute(s):
+        settings = dict(row)    
+        case = settings['goal']
+        
+
+    if case == "General Health":
+        ep = 100
+
+
+    if case == "Strength":
+        ep = 75
+
+    return ep
 
 def getIntensityPoints(userId):
     vp = 100
