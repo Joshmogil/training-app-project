@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import List
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from calendar import monthrange 
 
 class ScheduleData(BaseModel):
@@ -10,19 +10,22 @@ class ScheduleData(BaseModel):
     preffered_days: str
     sub_splits: List[int]
 
-def build_schedule(scheduleData : ScheduleData):
+def build_schedule(scheduleData : ScheduleData):#scheduleData : ScheduleData
 
     now = datetime.now()
     daysInMonth =  monthrange(now.year, now.month)[1]
     
     currentDay = date.today().day
-    currentWeekDay = date.today().isoweekday()
     
+    firstOfMonth = date.today() + timedelta(days = -(currentDay-1))
+    firstWeekDay = firstOfMonth.isoweekday()
     prefferedDays = scheduleData.preffered_days
 
-    periodBeginPd = prefferedDays[currentWeekDay:]
-    fullPrefferedDays = periodBeginPd+prefferedDays*4
-    fullPrefferedDays = fullPrefferedDays[:daysInMonth-currentDay+1]
+    scheduleObj = prefferedDays[firstWeekDay-1:]
+    
+    scheduleObj += prefferedDays*5
+    
+    fullPrefferedDays = scheduleObj[:daysInMonth]
     
     subSplits = scheduleData.sub_splits
 
