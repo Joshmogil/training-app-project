@@ -15,7 +15,7 @@ from .database import SessionLocal
 
 from .authorization.authschemas import AuthDetails, RegisterDetails
 
-from .workoutBuilder.py_compute_interface import fetch_schedule
+from .workoutBuilder.schedule_compute import fetch_schedule
 
 ####USE BELOW COMMAND TO START####
 #uvicorn sql_app.main:app --reload

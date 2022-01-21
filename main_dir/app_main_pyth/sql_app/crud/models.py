@@ -23,15 +23,6 @@ class settings(BaseModel):
     days_per_week: int
     preffered_days: str
 
-class ScheduleData(BaseModel):
 
-    user_id: Optional[int]
-    days_per_week: Optional[int]
-    preffered_days: Optional[str]
-    sub_splits: Optional[List[int]]
-
-    def toJSON(self):
-        return json.dumps(self, default=lambda o: o.__dict__, 
-            sort_keys=True, indent=4)
 
     

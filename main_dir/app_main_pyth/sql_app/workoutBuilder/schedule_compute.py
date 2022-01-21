@@ -1,3 +1,6 @@
+import json
+from typing import List, Optional
+from pydantic import BaseModel
 import requests
 from sqlalchemy import update
 from sql_app.database import SessionLocal, user_schedule
@@ -5,9 +8,19 @@ from sql_app.database import SessionLocal, user_schedule
 from sqlalchemy.orm import Session
 from sqlalchemy.sql import select
 
-from sql_app.crud.models import ScheduleData
 from ..database import settings, splits_sub_splits
 
+class ScheduleData(BaseModel):
+
+    user_id: Optional[int]
+    days_per_week: Optional[int]
+    preffered_days: Optional[str]
+    sub_splits: Optional[List[int]]
+
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__, 
+            sort_keys=True, indent=4)
+            
 def send_single_schedule_data(db:Session,user_id):
 
     s = select(settings.c).where(user_id==settings.c.user_id)

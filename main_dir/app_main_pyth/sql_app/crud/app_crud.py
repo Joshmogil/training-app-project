@@ -2,8 +2,8 @@
 from sqlalchemy.orm import Session
 from sqlalchemy.sql import select, update
 
-from sql_app.crud.models import ScheduleData, exerciseList
-from sql_app.workoutBuilder.py_compute_interface import update_schedule
+from sql_app.crud.models import exerciseList
+from sql_app.workoutBuilder.schedule_compute import update_schedule
 
 from ..database import settings, user_exercises, splits_sub_splits
 
@@ -45,7 +45,7 @@ def update_user_settings(db:Session, newSettings: settings):
 
     update_schedule(db, user_id)
 
-def send_all_schedule_data(db:Session):
+""" def send_all_schedule_data(db:Session):
 
     s = select(settings.c)
     scheduleData = []
@@ -65,7 +65,7 @@ def send_all_schedule_data(db:Session):
 
         scheduleData.append(sd)
 
-    return scheduleData
+    return scheduleData """
         
 """ def send_single_schedule_data(db:Session,user_id):
 

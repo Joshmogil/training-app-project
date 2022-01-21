@@ -12,8 +12,11 @@ from schedule import ScheduleData, build_schedule
 
 app = FastAPI()
 
-
 @app.post("/schedule")
-def login(scheduleData:ScheduleData):
+def schedule(scheduleData:ScheduleData):
 
     return build_schedule(scheduleData)
+
+@app.post("/workout")
+def workout():
+    return
