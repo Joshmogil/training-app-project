@@ -1,0 +1,20 @@
+[
+    {
+    "name" : "Strength",
+    "cardio" :0,
+    "base_reps" : 5,
+    "periods" : "Volume-Strength-Power"
+    },
+    {
+    "name" : "Athleticism",
+    "cardio" :1,
+    "base_reps" : 5,
+    "periods" : "Conditioning-Volume-Strength"
+    },
+    {
+    "name" : "Health",
+    "cardio" :1,
+    "base_reps" : 10,
+    "periods" : "Conditioning-Volume"
+    }
+]

@@ -20,8 +20,8 @@ class settings(BaseModel):
     user_id: int
     goal: str
     split: int
-    days_per_week: int
     preffered_days: str
+    cardio:bool
 
 
 

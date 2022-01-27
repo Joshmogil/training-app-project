@@ -13,7 +13,7 @@ from ..database import settings, splits_sub_splits
 class ScheduleData(BaseModel):
 
     user_id: Optional[int]
-    days_per_week: Optional[int]
+    cardio: Optional[bool]
     preffered_days: Optional[str]
     sub_splits: Optional[List[int]]
 
@@ -29,7 +29,7 @@ def send_single_schedule_data(db:Session,user_id):
         
         row = dict(row)
         sd.user_id = row["user_id"]
-        sd.days_per_week = row["days_per_week"]
+        sd.cardio = row["cardio"]
         sd.preffered_days = row["preffered_days"]
         sd.sub_splits = [0]
 

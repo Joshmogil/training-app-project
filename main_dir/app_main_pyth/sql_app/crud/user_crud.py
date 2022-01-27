@@ -5,7 +5,7 @@ from fastapi import HTTPException
 
 from sql_app.workoutBuilder.schedule_compute import fetch_schedule
 
-from ..database import engine, users, settings
+from ..database import engine, users, settings, user_misc
 
 from ..authorization.authschemas import AuthDetails, RegisterDetails
 from ..authorization.auth import AuthHandler
@@ -41,13 +41,20 @@ def create_user(db: Session, reg_details: RegisterDetails):
             if x.isdigit():
 
                 userId += x
+        
+        userId =int(userId)
 
-        ins2 = insert(settings).values(user_id=int(userId), goal="General Health", split = 3, days_per_week=4, preffered_days = "0101010")
+        ins2 = insert(settings).values(user_id=userId, goal="Health", split = 3, preffered_days = "0101010", cardio = 1)
 
         result = db.execute(ins2)
         db.commit()
 
-        fetch_schedule(db, int(userId))
+        ins = insert(user_misc).values(user_id=userId,current_period="Conditioning",variation_pref="Medium",str_level="Novice")
+
+        result = db.execute(ins)
+        db.commit()
+
+        fetch_schedule(db, userId)
         
         return True
     

@@ -32,10 +32,10 @@ def update_user_settings(db:Session, newSettings: settings):
     user_id = newSettings.user_id
     goal = newSettings.goal
     split  = newSettings.split
-    dpw = newSettings.days_per_week
     pd = newSettings.preffered_days
+    cardio = newSettings.cardio
 
-    stmt = update(settings).where(settings.c.user_id == newSettings.user_id).values(user_id = user_id ,goal = goal, split = split, days_per_week = dpw, preffered_days =pd)
+    stmt = update(settings).where(settings.c.user_id == newSettings.user_id).values(user_id = user_id ,goal = goal, split = split, preffered_days = pd, cardio = cardio)
 
     print(update(settings))
 

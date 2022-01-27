@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 from schedule import ScheduleData, build_schedule
-from workout import generateWorkout
+from workout import generateMonthOfWorkouts, generateMonthOfWorkouts
 
 ####USE BELOW COMMAND TO START####
 #uvicorn appmain:app --port 5000 --reload
@@ -15,7 +15,7 @@ def schedule(scheduleData:ScheduleData):
 
 @app.get("/workout")
 def workout(userId:int):
-    workout = generateWorkout(userId)
+    workout = generateMonthOfWorkouts(userId)
     return workout
 
 
