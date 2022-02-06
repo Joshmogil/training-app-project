@@ -19,7 +19,11 @@ if(currentToken != null) {
 export default new Vuex.Store({
   state: {
     token: currentToken || '',
-    user: currentUser || {}
+    user: currentUser || {},
+    allGoals: ["Strength","Athleticism"],
+    allSplits: ["Upper/Lower","Push/Pull/Legs","Full Body"],
+    days:["S","Mo","Tu","W","Th","F","S"],
+    cardio:["Yes","No"]
   },
   mutations: {
     SET_AUTH_TOKEN(state, token) {
@@ -37,6 +41,12 @@ export default new Vuex.Store({
       state.token = '';
       state.user = {};
       axios.defaults.headers.common = {};
+    },
+    SET_GOALS(state, listOfGoals) {
+      state.allGoals = listOfGoals; 
+    },
+    SET_SPLITS(state, listOfSplits) {
+      state.allSplits = listOfSplits; 
     }
   }
 })

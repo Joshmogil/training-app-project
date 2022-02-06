@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from readDb import getExerciseData
 
 from schedule import ScheduleData, build_schedule
 from workout import generateMonthOfWorkouts, generateMonthOfWorkouts
@@ -7,6 +8,8 @@ from workout import generateMonthOfWorkouts, generateMonthOfWorkouts
 #uvicorn appmain:app --port 5000 --reload
 
 app = FastAPI()
+
+print(getExerciseData(1))
 
 @app.post("/schedule")
 def schedule(scheduleData:ScheduleData):

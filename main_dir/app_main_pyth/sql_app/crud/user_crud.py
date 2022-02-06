@@ -28,7 +28,7 @@ def create_user(db: Session, reg_details: RegisterDetails):
 
         gen_hashed_password = auth_handler.get_password_hash(reg_details.password)
 
-        ins = users.insert().values(email=reg_details.email,hashed_password=gen_hashed_password, is_active = True)        
+        ins = users.insert().values(email=reg_details.email,hashed_password=gen_hashed_password, is_active = True, needs_setup = True)        
         result = db.execute(ins)        
         newUserId = result.inserted_primary_key
         
@@ -67,8 +67,16 @@ def login(db: Session, user_credentials: AuthDetails):
     if (db_user is None) or (not auth_handler.verify_password(user_credentials.password, db_user[2])):
         raise HTTPException(status_code=401, detail='Invalid username and/or password')
 
+    user_response = dict(db_user)
+    print(type(user_response))
+    user_response.pop("hashed_password")
+    print(user_response)
+
     token = auth_handler.encode_token(db_user[1])
-    return {'token':token}    
+
+    
+
+    return {'token':token, 'user':user_response}    
 
 def check_if_email_used(db: Session, email: str):
 

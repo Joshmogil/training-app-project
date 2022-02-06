@@ -6,10 +6,12 @@ from fastapi.security import OAuth2PasswordBearer
 from fastapi.middleware.cors import CORSMiddleware
 
 
+
 from sql_app.crud.models import exerciseList, settings
 
 from sql_app.crud import user_crud
 from sql_app.crud import app_crud
+from sql_app.crud import dynamicDB_crud
 
 from .database import SessionLocal
 
@@ -51,11 +53,6 @@ def get_db():
 def cors_test(db: Session = Depends(get_db)):
     fetch_schedule(db,1)   
 
-@app.get("/items/")
-async def read_items(token: str = Depends(oauth2_scheme)):
-    return {"token": token}
-
-
 @app.post("/register")
 def create_user(reg_details: RegisterDetails, db: Session = Depends(get_db)):
 
@@ -79,4 +76,9 @@ def update_user_settings(newSettings: settings, db: Session = Depends(get_db)):
 
     return app_crud.update_user_settings(db, newSettings)
 
+#passive data flow
+
+@app.get("/goalsAndSplits")
+def passiveGetGoalsAndSplits(db: Session = Depends(get_db)):
+    return dynamicDB_crud.get_all_goals_and_all_splits(db)  
 

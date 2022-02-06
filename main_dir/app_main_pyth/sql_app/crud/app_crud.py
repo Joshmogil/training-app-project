@@ -34,7 +34,7 @@ def update_user_settings(db:Session, newSettings: settings):
     split  = newSettings.split
     pd = newSettings.preffered_days
     cardio = newSettings.cardio
-
+    
     stmt = update(settings).where(settings.c.user_id == newSettings.user_id).values(user_id = user_id ,goal = goal, split = split, preffered_days = pd, cardio = cardio)
 
     print(update(settings))

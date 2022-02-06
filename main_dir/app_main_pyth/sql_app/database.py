@@ -19,6 +19,7 @@ users = Table("users", metadata_obj,
     Column('email',String(100), unique=True, index=True),
     Column('hashed_password',String(255)),
     Column('is_active',Boolean),
+    Column('needs_setup',Boolean)
     
 )
 

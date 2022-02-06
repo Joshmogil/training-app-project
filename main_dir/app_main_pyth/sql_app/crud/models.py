@@ -23,6 +23,8 @@ class settings(BaseModel):
     preffered_days: str
     cardio:bool
 
-
+class goalsListSplitsList(BaseModel):
+    goalsList : List[str]
+    splitsList :List[str]
 
     
