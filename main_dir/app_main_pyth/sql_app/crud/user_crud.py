@@ -2,8 +2,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.sql import insert, select
 
 from fastapi import HTTPException
-
-from sql_app.workoutBuilder.schedule_compute import fetch_schedule
+from sql_app.workoutBuilder.schedule import create_schedule
 
 from ..database import engine, users, settings, user_misc
 
@@ -54,7 +53,7 @@ def create_user(db: Session, reg_details: RegisterDetails):
         result = db.execute(ins)
         db.commit()
 
-        fetch_schedule(db, userId)
+        create_schedule(db, userId)
         
         return True
     
@@ -95,3 +94,17 @@ def get_user_by_email(db: Session, email: str):
 
     for row in db.execute(s):
         return row
+
+def get_user_data(db: Session, userId: int):
+
+    s = select(settings.c).where(settings.c.user_id == userId)
+
+    for row in db.execute(s):
+        return dict(row)
+
+def get_user_misc(db: Session, userId: int):
+
+    s = select(user_misc.c).where(user_misc.c.user_id == userId)
+
+    for row in db.execute(s):
+        return dict(row)

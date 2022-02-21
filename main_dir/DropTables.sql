@@ -13,3 +13,4 @@ DROP TABLE "public"."user_future_workouts" CASCADE;
 DROP TABLE "public"."user_misc" CASCADE;
 DROP TABLE "public"."muscle_groups" CASCADE;
 DROP TABLE "public"."muscles_exercises" CASCADE;
+DROP TABLE "public"."sub_splits_muscle_groups" CASCADE;

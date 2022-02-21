@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.sql import select, update
 
 from sql_app.crud.models import exerciseList
-from sql_app.workoutBuilder.schedule_compute import update_schedule
+from sql_app.workoutBuilder.schedule import update_schedule
 
 from ..database import settings, user_exercises, splits_sub_splits
 

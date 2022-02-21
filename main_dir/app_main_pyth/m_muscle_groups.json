@@ -1,50 +1,50 @@
 [
     {
     "name" : "Biceps",
-    "novice_ideal_sets" :4,
-    "intermediate_ideal_sets" :6,
-    "advanced_ideal_sets" :8
+    "Novice" :4,
+    "Intermediate" :6,
+    "Advanced" :8
     },
     {
     "name" : "Triceps",
-    "novice_ideal_sets" :4,
-    "intermediate_ideal_sets" :6,
-    "advanced_ideal_sets" :8
+    "Novice" :4,
+    "Intermediate" :6,
+    "Advanced" :8
     },
     {
     "name" : "Quads",
-    "novice_ideal_sets" :10,
-    "intermediate_ideal_sets" :14,
-    "advanced_ideal_sets" :18
+    "Novice" :10,
+    "Intermediate" :14,
+    "Advanced" :18
     },
     {
     "name" : "Hamstrings",
-    "novice_ideal_sets" :10,
-    "intermediate_ideal_sets" :14,
-    "advanced_ideal_sets" :18
+    "Novice" :10,
+    "Intermediate" :14,
+    "Advanced" :18
     },
     {
     "name" : "Chest",
-    "novice_ideal_sets" :10,
-    "intermediate_ideal_sets" :14,
-    "advanced_ideal_sets" :18
+    "Novice" :10,
+    "Intermediate" :14,
+    "Advanced" :18
     },
     {
     "name" : "Back",
-    "novice_ideal_sets" :10,
-    "intermediate_ideal_sets" :14,
-    "advanced_ideal_sets" :18
+    "Novice" :10,
+    "Intermediate" :14,
+    "Advanced" :18
     },
     {
     "name" : "Shoulders",
-    "novice_ideal_sets" :6,
-    "intermediate_ideal_sets" :8,
-    "advanced_ideal_sets" :10
+    "Novice" :6,
+    "Intermediate" :8,
+    "Advanced" :10
     },
     {
     "name" : "Upperback",
-    "novice_ideal_sets" :6,
-    "intermediate_ideal_sets" :8,
-    "advanced_ideal_sets" :10
+    "Novice" :6,
+    "Intermediate" :8,
+    "Advanced" :10
     }
 ]

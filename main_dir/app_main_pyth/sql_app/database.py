@@ -1,4 +1,5 @@
 
+from hashlib import sha3_224
 from sqlalchemy import create_engine, Table, Boolean, Column, ForeignKey, Integer, String, Sequence, MetaData, Identity, not_
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -6,7 +7,7 @@ from sqlalchemy.sql import insert, select
 import json
 
 
-SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:postgres1@localhost:5432/fitness-app"
+SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:postgres1@localhost:5432/wamuu-life"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
@@ -20,7 +21,6 @@ users = Table("users", metadata_obj,
     Column('hashed_password',String(255)),
     Column('is_active',Boolean),
     Column('needs_setup',Boolean)
-    
 )
 
 splits = Table("splits", metadata_obj,
@@ -82,6 +82,11 @@ sub_splits_exercises = Table("sub_splits_exercises", metadata_obj,
     Column('exercises',Integer, ForeignKey("exercises.id")),
 )
 
+sub_splits_muscle_groups = Table("sub_splits_muscle_groups", metadata_obj,
+    Column('sub_splits',Integer, ForeignKey("sub_splits.id")),
+    Column('muscle_groups',Integer, ForeignKey("muscle_groups.id"))
+)
+
 goals_exercises = Table("goals_exercises", metadata_obj,
     Column('goals',Integer, ForeignKey("goals.id")),
     Column('exercises',Integer, ForeignKey("exercises.id")),
@@ -91,9 +96,9 @@ goals_exercises = Table("goals_exercises", metadata_obj,
 muscle_groups = Table("muscle_groups", metadata_obj,
     Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),
     Column('name',String(55), unique=True, index=True),
-    Column('novice_ideal_sets',Integer),
-    Column('intermediate_ideal_sets',Integer),
-    Column('advanced_ideal_sets',Integer)
+    Column('Novice',Integer),
+    Column('Intermediate',Integer),
+    Column('Advanced',Integer)
 )
 
 muscles_exercises = Table("muscles_exercises", metadata_obj,
@@ -166,6 +171,43 @@ if(trueIfExercisesContainsData is False):
         
     db.close()
 
+#muscle_groups table and muscles _exercises
+
+db = SessionLocal()
+s = select(muscle_groups.c.id).where(muscle_groups.c.id == 1)
+trueIfTableContainsData = False
+for row in db.execute(s):
+        trueIfTableContainsData = True   
+db.close()
+
+if(trueIfTableContainsData is False):
+    print("Populating muscle groups table ...")
+    jsonfile = open("m_muscle_groups.json")
+    data = json.load(jsonfile)
+    db = SessionLocal()
+
+    for x in data:
+        name = x["name"]
+        nis = x["Novice"]
+        iis = x["Intermediate"]
+        ais = x["Advanced"]
+
+        ins = muscle_groups.insert().values(name=name, Novice=nis,Intermediate=iis,Advanced=ais)
+        result = db.execute(ins)
+        muscleGroupId = dict(result.inserted_primary_key)["id"]
+
+        s = select(exercises.c.id).where(exercises.c.description.contains(name))
+        
+        for row in db.execute(s):
+            dict(row)
+            ins = muscles_exercises.insert().values(muscles=muscleGroupId, exercises=row["id"])
+        
+            result = db.execute(ins)
+        
+    
+    db.commit()      
+    db.close()
+
 #SUB_SPLITS AND SUB_SPLITS_EXERCISES TABLE
 #Check if there is anything in database
 db = SessionLocal()
@@ -186,6 +228,7 @@ if(trueIfSsTableContainsData is False):
 
     db = SessionLocal()
 
+    print("Connecting the dots...")
     for x in data:
         
         name = x["name"]
@@ -199,11 +242,11 @@ if(trueIfSsTableContainsData is False):
 
             #Cleans up the returned Id 
             newSubSplitId = ""
-            for x in str(newSsId):
+            for k in str(newSsId):
 
-                if x.isdigit():
+                if k.isdigit():
 
-                    newSubSplitId += x
+                    newSubSplitId += k
 
             # selects exercises in category y
             s = select(exercises.c.id).where(exercises.c.category == y)
@@ -215,10 +258,29 @@ if(trueIfSsTableContainsData is False):
                 ins = sub_splits_exercises.insert().values(sub_splits=int(newSubSplitId), exercises = exerciseId)
                 db.execute(ins)
 
+    for x in data:
+        for y in x["muscle_groups"]:
+            
+            s = select(muscle_groups.c.id).where(y==muscle_groups.c.name)
+            for row in db.execute(s):                
+                muscle_groupId = row.id
+                s2 = select(sub_splits.c.id).where(sub_splits.c.name == x["name"])
+                
+                sub_splitId = 0
+                for row in db.execute(s2):
+                
+                    sub_splitId = row.id
+
+
+                ins = sub_splits_muscle_groups.insert().values(sub_splits=sub_splitId, muscle_groups = muscle_groupId)
+                db.execute(ins)
+
+
     db.commit()
 
         
     db.close()
+
 
 
 #SPLITS TABLE
@@ -315,39 +377,3 @@ if(trueIfTableContainsData is False):
     db.commit()      
     db.close()
 
-#muscle_groups table and muscles _exercises
-
-db = SessionLocal()
-s = select(muscle_groups.c.id).where(muscle_groups.c.id == 1)
-trueIfTableContainsData = False
-for row in db.execute(s):
-        trueIfTableContainsData = True   
-db.close()
-
-if(trueIfTableContainsData is False):
-    print("Populating muscle groups table ...")
-    jsonfile = open("m_muscle_groups.json")
-    data = json.load(jsonfile)
-    db = SessionLocal()
-
-    for x in data:
-        name = x["name"]
-        nis = x["novice_ideal_sets"]
-        iis = x["intermediate_ideal_sets"]
-        ais = x["advanced_ideal_sets"]
-
-        ins = muscle_groups.insert().values(name=name, novice_ideal_sets=nis,intermediate_ideal_sets=iis,advanced_ideal_sets=ais)
-        result = db.execute(ins)
-        muscleGroupId = dict(result.inserted_primary_key)["id"]
-
-        s = select(exercises.c.id).where(exercises.c.description.contains(name))
-        
-        for row in db.execute(s):
-            dict(row)
-            ins = muscles_exercises.insert().values(muscles=muscleGroupId, exercises=row["id"])
-        
-            result = db.execute(ins)
-        
-    
-    db.commit()      
-    db.close()

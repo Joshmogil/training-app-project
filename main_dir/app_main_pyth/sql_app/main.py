@@ -12,12 +12,14 @@ from sql_app.crud.models import exerciseList, settings
 from sql_app.crud import user_crud
 from sql_app.crud import app_crud
 from sql_app.crud import dynamicDB_crud
+from sql_app.workoutBuilder.schedule import create_schedule, update_schedule
+from sql_app.workoutBuilder.workout import generateMonthOfWorkouts
 
 from .database import SessionLocal
 
 from .authorization.authschemas import AuthDetails, RegisterDetails
 
-from .workoutBuilder.schedule_compute import fetch_schedule
+
 
 ####USE BELOW COMMAND TO START####
 #uvicorn sql_app.main:app --reload
@@ -49,9 +51,12 @@ def get_db():
     finally:
         db.close()
 
+
+
+
 @app.get("/cors")
 def cors_test(db: Session = Depends(get_db)):
-    fetch_schedule(db,1)   
+    generateMonthOfWorkouts(db,1) 
 
 @app.post("/register")
 def create_user(reg_details: RegisterDetails, db: Session = Depends(get_db)):
@@ -74,11 +79,10 @@ def send_user_exercise_preferences(exerciseList: exerciseList, db: Session = Dep
 @app.post("/settings")
 def update_user_settings(newSettings: settings, db: Session = Depends(get_db)):
 
+    update_schedule(db,1)
+
     return app_crud.update_user_settings(db, newSettings)
 
-#passive data flow
 
-@app.get("/goalsAndSplits")
-def passiveGetGoalsAndSplits(db: Session = Depends(get_db)):
-    return dynamicDB_crud.get_all_goals_and_all_splits(db)  
+
 
