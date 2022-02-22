@@ -1,0 +1,30 @@
+[
+    {
+    "name" : "Conditioning",
+    "reps_mutation" : 3,
+    "intensity_mutation":0,
+    "intensity_delta":0,
+    "reps_delta":2
+    },
+    {
+    "name" : "Volume",
+    "reps_mutation" : 5,
+    "intensity_mutation":0,
+    "intensity_delta":0.025,
+    "reps_delta":0
+    },
+    {
+    "name" : "Strength",
+    "reps_mutation" : 0,
+    "intensity_mutation":0.05,
+    "intensity_delta":0.030,
+    "reps_delta":0
+    },
+    {
+    "name" : "Power",
+    "reps_mutation" : 0,
+    "intensity_mutation":0.075,
+    "intensity_delta":0.030,
+    "reps_delta":-1
+    }
+]

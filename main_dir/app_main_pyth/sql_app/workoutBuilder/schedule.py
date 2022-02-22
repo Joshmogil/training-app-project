@@ -47,7 +47,7 @@ def build_schedule(scheduleData : ScheduleData):#scheduleData : ScheduleData
     splitSchedule = ""
     listIndex = 0
     i = 0 
-    for x in range(57):
+    for x in range(29):
         day = day0 + timedelta(days=i)
         if day.isoweekday() not in workoutDays:
             splitSchedule += "|"+str(day)+":0"
@@ -58,7 +58,7 @@ def build_schedule(scheduleData : ScheduleData):#scheduleData : ScheduleData
                 listIndex = 1
         i +=1
 
-        if x == 56:
+        if x == 28:
             splitSchedule += "|"
     
     return(splitSchedule)

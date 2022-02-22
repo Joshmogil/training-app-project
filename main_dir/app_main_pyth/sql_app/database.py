@@ -1,6 +1,6 @@
 
 from hashlib import sha3_224
-from sqlalchemy import create_engine, Table, Boolean, Column, ForeignKey, Integer, String, Sequence, MetaData, Identity, not_
+from sqlalchemy import create_engine, Table, Boolean, Column, ForeignKey, Integer, String, Sequence, MetaData, Identity, not_,Numeric
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import insert, select
@@ -29,11 +29,22 @@ splits = Table("splits", metadata_obj,
     
 )
 
+periods = Table("periods", metadata_obj,
+    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),
+    Column('name',String(55), unique=True, index=True),
+    Column('reps_mutation',Numeric),
+    Column('intensity_mutation',Numeric),
+    Column('intensity_delta',Numeric),
+    Column('reps_delta',Numeric)
+    
+)
+
 goals = Table("goals", metadata_obj,
     Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),
     Column('name',String(55), unique=True, index=True),
     Column('cardio',Boolean),
     Column('base_reps',Integer),
+    Column('base_intensity',Numeric),
     Column('periods',String(55))
     
 )
@@ -341,8 +352,9 @@ if(trueIfTableContainsData is False):
         name = x["name"]
         cardio = x["cardio"]
         reps= x["base_reps"]
-        periods = x["periods"]      
-        ins = goals.insert().values(name=name, cardio= cardio,base_reps=reps,periods=periods)
+        intensity = x["base_intensity"]
+               
+        ins = goals.insert().values(name=name, cardio= cardio,base_reps=reps,periods=x["periods"],base_intensity =intensity)
         result = db.execute(ins)
         goalId = dict(result.inserted_primary_key)["id"]
         
@@ -377,3 +389,16 @@ if(trueIfTableContainsData is False):
     db.commit()      
     db.close()
 
+#Periods table
+
+if(trueIfTableContainsData is False):
+    print("Populating periods table ...")
+    jsonfile = open("m_periods.json")
+    data = json.load(jsonfile)
+    db = SessionLocal()
+    for x in data:
+        ins = periods.insert().values(name=x["name"],reps_mutation=x["reps_mutation"],intensity_mutation=x["intensity_mutation"],intensity_delta=x["intensity_delta"],reps_delta=x["reps_delta"])        
+        result = db.execute(ins)
+    
+    db.commit()      
+    db.close()

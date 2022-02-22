@@ -4,8 +4,8 @@ from typing import Optional
 from webbrowser import get
 
 from sqlalchemy import select, true
-from sql_app.crud.user_crud import get_user_data, get_user_misc
-from sql_app.database import SessionLocal,sub_splits_exercises,user_exercises, exercises,goals_exercises, goals, splits_sub_splits, user_schedule, sub_splits_muscle_groups, muscle_groups
+from sql_app.crud.user_crud import get_user_data, get_user_goals, get_user_misc
+from sql_app.database import SessionLocal,sub_splits_exercises,user_exercises, exercises,goals_exercises, goals, splits_sub_splits, user_schedule, sub_splits_muscle_groups, muscle_groups, muscles_exercises
 
 class ExerciseData():
 
@@ -59,17 +59,62 @@ def generateMonthOfWorkouts(db:SessionLocal, userId:int):
 
 def populateScheduleWithExercises(db:SessionLocal,userData):
 
-    s = select(splits_sub_splits.c.sub_splits).where(splits_sub_splits.c.split_id == userData["split"])
+    
+    fullySortedExercises = exerciseSortBeforePopulate(db,userData)
+    setsPerMuscleGroup = averageVolumePerMuscleGroup(db,userData)
+    scheduleAsList = getScheduleAsList(db,userData)
 
-    exerciseDataBySubSplit = [] #<Important
-    for row in db.execute(s):
-        row = dict(row)
-        exerciseDataBySubSplit.append(getExercisesBySubsplit(db,row["sub_splits"],userData))
+    
+    """ print(fullySortedExercises)
+    print()
+    print(setsPerMuscleGroup)
+    print()
+    print(scheduleAsList) """
 
-    print(averageVolumePerMuscleGroup(db,userData))
+    #workout is a dict with (date, sub_day) as key, list of tuples (exercise id, sets, reps) as value
+    monthOfWorkouts = {}
+    for x in scheduleAsList:
+        if len(x)<12:
+            break
+        
+        date = x[1:11]
+        day = int(x[12])
+        monthOfWorkouts[(date,day)] = "None yet"
+
+        
+        s = select(sub_splits_muscle_groups.c.muscle_groups).where(sub_splits_muscle_groups.c.sub_splits ==day)
+        for row in db.execute(s):
+            row = dict(row)
+            muscleGroup = row["muscle_groups"]
+        #get exercises
+
+        #get sets
+
+            hold = setsPerMuscleGroup[muscleGroup]
+            print("sets:",hold,"sub_split",day,"muscle group:",muscleGroup)
+            exercisesInDax = list(fullySortedExercises[(day,muscleGroup)])
+            
+            exercises = []
+            for j in range(len(exercisesInDax)):
+                exercises.append(fullySortedExercises[(day,muscleGroup)][exercisesInDax[j]])
+
+            for jk in exercises:
+                print(jk.name)
+            
+            goals = get_user_goals(db, userData["goal"])
+
+            baseReps = goals["base_reps"]
+           
+
+        print()
+
+    print(monthOfWorkouts)
 
 
-    #print(exerciseDataBySubSplit)
+def getPeriodMutations(db:SessionLocal,userData):
+
+    return 0
+
 
 def averageVolumePerMuscleGroup(db:SessionLocal,userData):
     
@@ -83,10 +128,8 @@ def averageVolumePerMuscleGroup(db:SessionLocal,userData):
     idealSetsByMuscle = {}
     for row in db.execute(s):
         row = dict(row)
-        idealSetsByMuscle[row["id"]] = row[misc["str_level"]]*8
+        idealSetsByMuscle[row["id"]] = row[misc["str_level"]]*4
         
-    print(muscleGroupCounter)
-    print(idealSetsByMuscle)
 
     averageVolumePerMuscle = {}
 
@@ -94,7 +137,6 @@ def averageVolumePerMuscleGroup(db:SessionLocal,userData):
         averageVolumePerMuscle[x] = idealSetsByMuscle[x]/muscleGroupCounter[x]
 
     return averageVolumePerMuscle
-
 def getMuscleGroupCounter(schedule,db:SessionLocal):
 
     subDayCounter = {}
@@ -131,7 +173,6 @@ def getMuscleGroupCounter(schedule,db:SessionLocal):
                     muscleGroupDict[i[1]] += subDayCounter[x]
 
     return dict(sorted(muscleGroupDict.items()))
-
 def getScheduleAsList(db:SessionLocal, userData):
 
     s = select(user_schedule.c.schedule).where(user_schedule.c.user_id==userData["user_id"])
@@ -148,7 +189,6 @@ def getScheduleAsList(db:SessionLocal, userData):
         schedule = schedule[13:]
 
     return newSchedule
-
 def getExercisesBySubsplit(db:SessionLocal,subSplit:int,userData):
 
     exerciseDatas = {}
@@ -219,10 +259,87 @@ def getExercisesBySubsplit(db:SessionLocal,subSplit:int,userData):
             commonDict[x] = exerciseDatas[x]
     exerciseDatas = commonDict
 
+    
+
     return exerciseDatas
+def exerciseDataBySubSplit(db:SessionLocal,userData):
+    
+    s = select(splits_sub_splits.c.sub_splits).where(splits_sub_splits.c.split_id == userData["split"])
+
+    exerciseDataBySubSplit = {} #<Important
+    for row in db.execute(s):
+        row = dict(row)
+        exerciseDataBySubSplit[row["sub_splits"]]= getExercisesBySubsplit(db,row["sub_splits"],userData)
+    
+    return exerciseDataBySubSplit
+
+def globalFuncGrabExercises(db:SessionLocal,userData):
+
+    #exercises sorted by sub split (have this)
+    #-> sort by muscle group = dictionary with tuple (sub_split,muscle_group) as key and list of exercises as value
+    #--> Sort those dictionary entries by 1. ranked_choice 2.core 3.favorite 4.active = same dictionary of lists but sorted
+    # return
+
+    exerciseDatas = exerciseDataBySubSplit(db,userData)
+
+    s = select(muscles_exercises.c)
+    musclesExercises = []
+    for row in db.execute(s):
+        row = dict(row)
+        musclesExercises.append((row["muscles"],row["exercises"]))
+
+    """ listOfExerciseData = []
+    for x in exerciseDatas:
+        for y in exerciseDatas[x]:
+            listOfExerciseData.append(exerciseDatas[x][y])
+    print(listOfExerciseData[0:1]) """
+
+    musclesSplitsExercises = {}
+    for y in exerciseDatas: #Crazy sort
+        for x in exerciseDatas[y]:
+            for z in musclesExercises:
+                if (y,z[0]) not in musclesSplitsExercises and x==z[1]:
+                    musclesSplitsExercises[y,z[0]] = [exerciseDatas[y][x]]
+                elif x==z[1]:
+                    musclesSplitsExercises[y,z[0]].append(exerciseDatas[y][x])
+    
+
+    return musclesSplitsExercises
+
+def exerciseSortBeforePopulate(db:SessionLocal,userData):
+
+    #--> Sort those dictionary entries by 1. ranked_choice 2.core 3.favorite 4.active = same dictionary of lists but sorted
+    exercisesToSort = globalFuncGrabExercises(db,userData)
+
+    
+    finalSortDict = {}
+    for x in exercisesToSort:
+        sortThis = []
+        unSortedDict = {}
+        for y in exercisesToSort[x]:
+            sortThis.append((y.id,y.ranked_choice,y.favorite,y.core,y.active))
+            unSortedDict[y.id] = y
+        sortThis = Sort_Tuple(sortThis,1)
+        sortThis = Sort_Tuple(sortThis,2)
+        sortThis = Sort_Tuple(sortThis,3)
+        sortThis = Sort_Tuple(sortThis,4)
+        sortThis.reverse()     
+        matchList = []
+        for j in sortThis:            
+            matchList.append(j[0])
+        sortedDict = {}
+        for k in matchList:
+            sortedDict[k] = unSortedDict[k]
+        finalSortDict[x] =sortedDict
+        
+    return finalSortDict
 
 
 
-
-
-
+def Sort_Tuple(tup,pos): 
+  
+    # reverse = None (Sorts in Ascending order) 
+    # key is set to sort using second element of 
+    # sublist lambda has been used 
+    tup.sort(key = lambda x: x[pos]) 
+    return tup 

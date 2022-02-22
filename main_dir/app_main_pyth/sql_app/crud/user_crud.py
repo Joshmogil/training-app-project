@@ -4,7 +4,7 @@ from sqlalchemy.sql import insert, select
 from fastapi import HTTPException
 from sql_app.workoutBuilder.schedule import create_schedule
 
-from ..database import engine, users, settings, user_misc
+from ..database import engine, users, settings, user_misc, goals
 
 from ..authorization.authschemas import AuthDetails, RegisterDetails
 from ..authorization.auth import AuthHandler
@@ -105,6 +105,13 @@ def get_user_data(db: Session, userId: int):
 def get_user_misc(db: Session, userId: int):
 
     s = select(user_misc.c).where(user_misc.c.user_id == userId)
+
+    for row in db.execute(s):
+        return dict(row)
+
+def get_user_goals(db: Session, goalName: int):
+
+    s = select(goals.c).where(goals.c.name == goalName)
 
     for row in db.execute(s):
         return dict(row)
