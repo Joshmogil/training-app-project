@@ -4,237 +4,237 @@
     "category": "Upper-Pull",
     "description": "All-Biceps",
     "regularity_factor": 0,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Biceps Curls With EZ-bar",
     "category": "Upper-Pull",
     "description": "All-Biceps",
     "regularity_factor": 1,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Biceps Curls With Barbell",
     "category": "Upper-Pull",
     "description": "All-Biceps",
     "regularity_factor": 1,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Cheat curl",
     "category": "Upper-Pull",
     "description": "All-Biceps",
     "regularity_factor": 1,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Tricep Extension With Ropes",
     "category": "Upper-Push",
     "description": "All-Triceps",
     "regularity_factor": 0,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Skull Crushers",
     "category": "Upper-Push",
     "description": "Strength-Triceps",
     "regularity_factor": 2,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Tricep Extension With Bar",
     "category": "Upper-Push",
     "description": "All-Triceps",
     "regularity_factor": 1,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Barbell Squat",
     "category": "Leg-Push",
     "description": "All-Core(Strength)-Core(Athleticism)-Quads",
     "regularity_factor": 0,
-    "fatigue_factor": 30
+    "fatigue_factor": 3
 },
 {
     "name": "Bulgarian Splitsquat",
     "category": "Leg-Push",
     "description": "All-Core(Health)-Core(Athleticism)-Quads",
     "regularity_factor": 2,
-    "fatigue_factor": 25
+    "fatigue_factor": 2
 },
 {
     "name": "Lunges",
     "category": "Leg-Push",
     "description": "All-Core(Health)-Quads",
     "regularity_factor": 1,
-    "fatigue_factor": 25
+    "fatigue_factor": 2
 },
 {
     "name": "Leg-press",
     "category": "Leg-Push",
     "description": "Strength-Health-Quads",
     "regularity_factor": 1,
-    "fatigue_factor": 30
+    "fatigue_factor": 2
 },
 {
     "name": "Deadlift",
     "category": "Leg-Pull",
     "description": "All-Core(Strength)-Hamstrings",
     "regularity_factor": 0,
-    "fatigue_factor": 35
+    "fatigue_factor": 3
 },
 {
     "name": "Stiff-Leg Deadlift",
     "category": "Leg-Pull",
     "description": "Strength-Hamstrings",
     "regularity_factor": 1,
-    "fatigue_factor": 25
+    "fatigue_factor": 3
 },
 {
     "name": "Romanian Deadlift",
     "category": "Leg-Pull",
     "description": "All-Hamstrings",
     "regularity_factor": 2,
-    "fatigue_factor": 25
+    "fatigue_factor": 3
 },
 {
     "name": "Snatch Grip Deadlift",
     "category": "Leg-Pull",
     "description": "Strength-Athleticism-Hamstrings",
     "regularity_factor": 3,
-    "fatigue_factor": 25
+    "fatigue_factor": 3
 },
 {
     "name": "Bench Press",
     "category": "Upper-Push",
     "description": "All-Core(Strength)-Chest",
     "regularity_factor": 0,
-    "fatigue_factor": 25
+    "fatigue_factor": 3
 },
 {
     "name": "Dumbbell Bench Press",
     "category": "Upper-Push",
     "description": "All-Core(Health)-Chest",
     "regularity_factor": 1,
-    "fatigue_factor": 20
+    "fatigue_factor": 1
 },
 {
     "name": "Incline Bench",
     "category": "Upper-Push",
     "description": "All-Chest",
     "regularity_factor": 2,
-    "fatigue_factor": 25
+    "fatigue_factor": 2
 },
 {
     "name": "Incline Dumbbell Bench",
     "category": "Upper-Push",
     "description": "All-Chest",
     "regularity_factor": 2,
-    "fatigue_factor": 20
+    "fatigue_factor": 1
 },
 {
     "name": "Barbell Overhead Press",
     "category": "Upper-Push",
     "description": "All-Shoulders",
     "regularity_factor": 0,
-    "fatigue_factor": 20
+    "fatigue_factor": 2
 },
 {
     "name": "Push Press",
     "category": "Upper-Push",
     "description": "Core(Athleticism)-Shoulders",
     "regularity_factor": 0,
-    "fatigue_factor": 20
+    "fatigue_factor": 3
 },
 {
     "name": "Dumbbell Overhead Press",
     "category": "Upper-Push",
     "description": "All-Shoulders",
     "regularity_factor": 1,
-    "fatigue_factor": 20
+    "fatigue_factor": 2
 },
 { 
     "name": "Shoulder Raise",
     "category": "Upper-Push",
     "description": "All-Shoulders",
     "regularity_factor": 1,
-    "fatigue_factor": 10
+    "fatigue_factor": 1
 },
 {
     "name": "Face Pull",
     "category": "Upper-Pull",
     "description": "All-Upperback",
     "regularity_factor": 0,
-    "fatigue_factor": 10
+    "fatigue_factor": 1
 },
 {
     "name": "Shrugs",
     "category": "Upper-Pull",
     "description": "All-Upperback",
     "regularity_factor": 1,
-    "fatigue_factor": 20
+    "fatigue_factor": 2
 },
 {
     "name": "Rear Delt Fly With Dumbbell",
     "category": "Upper-Pull",
     "description": "All-Upperback",
     "regularity_factor": 1,
-    "fatigue_factor": 10
+    "fatigue_factor": 1
 },
 {
     "name": "Lat Pulldown",
     "category": "Upper-Pull",
     "description": "All-Core(Strength)-Back",
     "regularity_factor": 0,
-    "fatigue_factor": 20
+    "fatigue_factor": 2
 },
 {
     "name": "Pull Up",
     "category": "Upper-Pull",
     "description": "All-Core(Athleticism)-Core(Health)-Back",
     "regularity_factor": 1,
-    "fatigue_factor": 25
+    "fatigue_factor": 2
 },
 {
     "name": "Chin Up",
     "category": "Upper-Pull",
     "description": "All-Back",
     "regularity_factor": 2,
-    "fatigue_factor": 25
+    "fatigue_factor": 2
 },
 {
     "name": "Barbell Row",
     "category": "Upper-Pull",
     "description": "All-Back",
     "regularity_factor": 0,
-    "fatigue_factor": 30
+    "fatigue_factor": 3
 },
 {
     "name": "Cable Row",
     "category": "Upper-Pull",
     "description": "All-Back",
     "regularity_factor": 1,
-    "fatigue_factor": 25
+    "fatigue_factor": 2
 },
 {
     "name": "Dumbbell Row",
     "category": "Upper-Pull",
     "description": "All-Back",
     "regularity_factor": 1,
-    "fatigue_factor": 20
+    "fatigue_factor": 2
 },
 {
     "name": "Plank",
     "category": "Core-Front",
     "description": "Test Exercise",
     "regularity_factor": 0,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 },
 {
     "name": "Back Extension",
     "category": "Core-Back",
     "description": "Test Exercise",
     "regularity_factor": 0,
-    "fatigue_factor": 15
+    "fatigue_factor": 1
 }
 ]

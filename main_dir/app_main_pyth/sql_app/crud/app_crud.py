@@ -5,7 +5,7 @@ from sqlalchemy.sql import select, update
 from sql_app.crud.models import exerciseList
 from sql_app.workoutBuilder.schedule import update_schedule
 
-from ..database import settings, user_exercises, splits_sub_splits
+from ..database import settings, user_exercises, splits_sub_splits, user_misc, periods
 
 
 
@@ -37,8 +37,25 @@ def update_user_settings(db:Session, newSettings: settings):
     
     stmt = update(settings).where(settings.c.user_id == newSettings.user_id).values(user_id = user_id ,goal = goal, split = split, preffered_days = pd, cardio = cardio)
 
-    print(update(settings))
+    #print(update(settings))
 
+    result = db.execute(stmt)
+
+    db.commit()
+
+    update_schedule(db, user_id)
+
+def update_user_misc(db:Session, newMisc: user_misc):
+
+    user_id = newMisc.user_id
+    cp = newMisc.current_period
+    vp  = newMisc.variation_pref
+    sl = newMisc.str_level
+    
+    
+    stmt = update(user_misc).where(user_misc.c.user_id == newMisc.user_id).values(user_id = user_id,current_period = cp, variation_pref = vp,str_level=sl)
+
+    #print(stmt)
     result = db.execute(stmt)
 
     db.commit()

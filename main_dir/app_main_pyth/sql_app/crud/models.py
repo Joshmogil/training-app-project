@@ -23,6 +23,14 @@ class settings(BaseModel):
     preffered_days: str
     cardio:bool
 
+class misc(BaseModel):
+
+    user_id: int
+    current_period: str
+    variation_pref: str
+    str_level: str
+    
+
 class goalsListSplitsList(BaseModel):
     goalsList : List[str]
     splitsList :List[str]

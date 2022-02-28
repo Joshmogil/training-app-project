@@ -1,0 +1,244 @@
+{
+  "user_id": 1,
+  "exercise_list": [
+    {
+      "id": 1,
+      "max": 110,
+      "ranked_choice": 1,
+      "favorite": true,
+      "active": true
+    },
+    {
+        "id": 2,
+        "max": 110,
+        "ranked_choice": 3,
+        "favorite": false,
+        "active": true
+    },
+    {
+        "id": 3,
+        "max": 100,
+        "ranked_choice": 2,
+        "favorite": false,
+        "active": false
+    },
+    {
+        "id": 4,
+        "max": 130,
+        "ranked_choice": 4,
+        "favorite": false,
+        "active": true
+    },
+    {
+        "id": 5,
+        "max": 120,
+        "ranked_choice": 1,
+        "favorite": true,
+        "active": true
+    },
+    {
+        "id": 6,
+        "max": 100,
+        "ranked_choice": 3,
+        "favorite": false,
+        "active": true
+    },
+    {
+        "id": 7,
+        "max": 140,
+        "ranked_choice": 2,
+        "favorite": true,
+        "active": true
+      },
+      {
+          "id": 8,
+          "max": 285,
+          "ranked_choice": 3,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 9,
+          "max": 90,
+          "ranked_choice": 1,
+          "favorite": true,
+          "active": true
+      },
+      {
+          "id": 10,
+          "max": 100,
+          "ranked_choice": 2,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 11,
+          "max": 400,
+          "ranked_choice": 4,
+          "favorite": false,
+          "active": false
+      },
+      {
+        "id": 12,
+        "max": 405,
+        "ranked_choice": 1,
+        "favorite": true,
+        "active": true
+      },
+      {
+          "id": 13,
+          "max": 265,
+          "ranked_choice": 3,
+          "favorite": false,
+          "active": true
+      },
+      {
+        "id": 14,
+        "max": 365,
+        "ranked_choice": 4,
+        "favorite": false,
+        "active": false
+      },
+      {
+          "id": 15,
+          "max": 365,
+          "ranked_choice": 2,
+          "favorite": true,
+          "active": true
+      },
+      {
+          "id": 16,
+          "max": 235,
+          "ranked_choice": 2,
+          "favorite": true,
+          "active": true
+      },
+      {
+          "id": 17,
+          "max": 180,
+          "ranked_choice": 1,
+          "favorite": true,
+          "active": true
+      },
+      {
+          "id": 18,
+          "max": 215,
+          "ranked_choice": 3,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 19,
+          "max": 130,
+          "ranked_choice": 4,
+          "favorite": false,
+          "active": true
+      },
+      {
+        "id": 20,
+        "max": 170,
+        "ranked_choice": 1,
+        "favorite": false,
+        "active": true
+      },
+      {
+          "id": 21,
+          "max": 215,
+          "ranked_choice": 2,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 22,
+          "max": 160,
+          "ranked_choice": 3,
+          "favorite": true,
+          "active": true
+      },
+      {
+          "id": 23,
+          "max": 60,
+          "ranked_choice": 4,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 24,
+          "max": 50,
+          "ranked_choice": 3,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 25,
+          "max": 245,
+          "ranked_choice": 2,
+          "favorite": true,
+          "active": true
+      },
+      {
+        "id": 26,
+        "max": 50,
+        "ranked_choice": 1,
+        "favorite": false,
+        "active": true
+      },
+      {
+          "id": 27,
+          "max": 245,
+          "ranked_choice": 1,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 28,
+          "max": 80,
+          "ranked_choice": 2,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 29,
+          "max": 60,
+          "ranked_choice": 3,
+          "favorite": false,
+          "active": true
+      },
+      {
+          "id": 30,
+          "max": 200,
+          "ranked_choice": 3,
+          "favorite": false,
+          "active": false
+      },
+      {
+          "id": 31,
+          "max": 245,
+          "ranked_choice": 2,
+          "favorite": true,
+          "active": true
+      },
+      {
+        "id": 32,
+        "max": 100,
+        "ranked_choice": 1,
+        "favorite": false,
+        "active": true
+      },
+      {
+          "id": 33,
+          "max": 0,
+          "ranked_choice": 1,
+          "favorite": false,
+          "active": true
+      }
+      ,
+      {
+          "id": 33,
+          "max": 0,
+          "ranked_choice": 1,
+          "favorite": false,
+          "active": true
+      }
+  ]
+}

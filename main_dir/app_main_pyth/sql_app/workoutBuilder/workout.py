@@ -1,10 +1,13 @@
+from decimal import Decimal
+from email.mime import base
+import math
 import random
 import sched
 from typing import Optional
 from webbrowser import get
 
 from sqlalchemy import select, true
-from sql_app.crud.user_crud import get_user_data, get_user_goals, get_user_misc
+from sql_app.crud.user_crud import get_user_data, get_user_goals, get_user_misc, get_user_period_info
 from sql_app.database import SessionLocal,sub_splits_exercises,user_exercises, exercises,goals_exercises, goals, splits_sub_splits, user_schedule, sub_splits_muscle_groups, muscle_groups, muscles_exercises
 
 class ExerciseData():
@@ -73,40 +76,121 @@ def populateScheduleWithExercises(db:SessionLocal,userData):
 
     #workout is a dict with (date, sub_day) as key, list of tuples (exercise id, sets, reps) as value
     monthOfWorkouts = {}
+
+    goals = get_user_goals(db, userData["goal"])
+    period_info = get_user_period_info(db,userData["user_id"])
+    user_misc = get_user_misc(db, userData["user_id"])
+
+    dayToDayVarCounterDict = dict()
+    dayToDayVar = 0
     for x in scheduleAsList:
+
+        print("Begin new day")
+
         if len(x)<12:
             break
-        
         date = x[1:11]
         day = int(x[12])
         monthOfWorkouts[(date,day)] = "None yet"
+        
 
+        ## HACKY
+        setsAlot = 2
         
         s = select(sub_splits_muscle_groups.c.muscle_groups).where(sub_splits_muscle_groups.c.sub_splits ==day)
+
         for row in db.execute(s):
+            
             row = dict(row)
             muscleGroup = row["muscle_groups"]
         #get exercises
-
         #get sets
+            sets = setsPerMuscleGroup[muscleGroup]
+            #print("sets:",sets,"sub_split",day,"muscle group:",muscleGroup)
 
-            hold = setsPerMuscleGroup[muscleGroup]
-            print("sets:",hold,"sub_split",day,"muscle group:",muscleGroup)
-            exercisesInDax = list(fullySortedExercises[(day,muscleGroup)])
-            
+            exercisesInDax = list(fullySortedExercises[(day,muscleGroup)]) 
             exercises = []
-            for j in range(len(exercisesInDax)):
-                exercises.append(fullySortedExercises[(day,muscleGroup)][exercisesInDax[j]])
-
-            for jk in exercises:
-                print(jk.name)
             
-            goals = get_user_goals(db, userData["goal"])
+            exercisesRange = 0
+
+            
+            if user_misc["str_level"] == "Novice" or user_misc["str_level"] == "Intermediate":
+                setsAlot = 3
+
+                setsIndex = sets
+
+                while setsIndex > 1:
+                    setsIndex -= setsAlot
+                    exercisesRange += 1
+
+            if user_misc["str_level"] == "Advanced":
+                setsAlot = 4
+
+                setsIndex = sets
+
+                while setsIndex > 1:
+                    setsIndex -= setsAlot
+                    exercisesRange += 1
+
+            if user_misc["variation_pref"] == "High":
+                if muscleGroup not in dayToDayVarCounterDict:
+                    dayToDayVarCounterDict[muscleGroup] = 0
+                else:
+                    if dayToDayVarCounterDict[muscleGroup] + exercisesRange>= len(exercisesInDax):
+                        dayToDayVarCounterDict[muscleGroup] = 0                       
+                    else:
+                        dayToDayVarCounterDict[muscleGroup] +=1
+                dayToDayVar = dayToDayVarCounterDict[muscleGroup]
+                #print(dayToDayVar)
+                for j in range(dayToDayVar,exercisesRange+dayToDayVar):
+                    try:
+                        exercises.append(fullySortedExercises[(day,muscleGroup)][exercisesInDax[j]])
+                    except:
+                        print("Indexing error hit")
+                        dayToDayVarCounterDict[day] = 0
+
+            if user_misc["variation_pref"] == "Medium":
+                
+                #print(dayToDayVar)
+                for j in range(exercisesRange):
+                    try:
+                        exercises.append(fullySortedExercises[(day,muscleGroup)][exercisesInDax[j]])
+                    except:
+                        print("Indexing error hit")
+                        dayToDayVarCounterDict[day] = 0
+
+            if user_misc["variation_pref"] == "Low":
+                
+                #print(dayToDayVar)
+                for j in range(math.ceil(exercisesRange/2)):
+                    try:
+                        exercises.append(fullySortedExercises[(day,muscleGroup)][exercisesInDax[j]])
+                    except:
+                        print("Indexing error hit")
+                        dayToDayVarCounterDict[day] = 0
+
+
 
             baseReps = goals["base_reps"]
-           
+            repsMutation = period_info["reps_mutation"]
+            newBaseReps = baseReps + repsMutation
+            
+            #print(newBaseReps)
+            baseIntensity = goals["base_intensity"]
+            intensityMutation = period_info["intensity_mutation"]
+            newIntensity = baseIntensity+intensityMutation
+            #print(newIntensity)
+
+            for jk in exercises:
+                print(f"{jk.name} | Sets x {probabilistic_round(sets/exercisesRange)} | Reps x {newBaseReps + ff(jk.fatigue_factor)[0]} | Weight x {myround(jk.max * (Decimal(newIntensity)+Decimal(ff(jk.fatigue_factor)[1])))} |")
+
 
         print()
+
+
+        print("End workout day")
+        print()
+    print(dayToDayVarCounterDict)
 
     print(monthOfWorkouts)
 
@@ -114,7 +198,6 @@ def populateScheduleWithExercises(db:SessionLocal,userData):
 def getPeriodMutations(db:SessionLocal,userData):
 
     return 0
-
 
 def averageVolumePerMuscleGroup(db:SessionLocal,userData):
     
@@ -334,7 +417,8 @@ def exerciseSortBeforePopulate(db:SessionLocal,userData):
         
     return finalSortDict
 
-
+def finalSelectExercises():
+    return "hi"
 
 def Sort_Tuple(tup,pos): 
   
@@ -343,3 +427,13 @@ def Sort_Tuple(tup,pos):
     # sublist lambda has been used 
     tup.sort(key = lambda x: x[pos]) 
     return tup 
+
+def probabilistic_round(x):
+    return int(math.floor(x + random.random()))
+
+def ff(x):
+    ff = {1:(5,-0.10),2:(3,-0.05),3:(0,0),4:(-1,.025)}
+    return ff[x]
+
+def myround(x, base=5):
+    return base * round(x/base)

@@ -1,3 +1,4 @@
+from tkinter import Misc
 from typing import List
 
 from fastapi import Depends, FastAPI, HTTPException
@@ -7,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 
-from sql_app.crud.models import exerciseList, settings
+from sql_app.crud.models import exerciseList, settings, misc
 
 from sql_app.crud import user_crud
 from sql_app.crud import app_crud
@@ -83,6 +84,9 @@ def update_user_settings(newSettings: settings, db: Session = Depends(get_db)):
 
     return app_crud.update_user_settings(db, newSettings)
 
+@app.post("/misc")
+def update_user_misc(userMisc: misc, db: Session = Depends(get_db)):
 
+    return app_crud.update_user_misc(db, userMisc)
 
 
