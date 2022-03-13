@@ -41,18 +41,21 @@ def build_schedule(scheduleData : ScheduleData):#scheduleData : ScheduleData
             workoutDays.add(7)
         
         i+=1      
-
+    
     day0 = date.today()
     
     splitSchedule = ""
-    listIndex = 0
+    listIndex = 1
     i = 0 
     for x in range(29):
         day = day0 + timedelta(days=i)
+        
         if day.isoweekday() not in workoutDays:
+            
             splitSchedule += "|"+str(day)+":0"
         if day.isoweekday() in workoutDays:
             splitSchedule += "|"+str(day)+":" + str(subSplits[listIndex])
+            
             listIndex += 1
             if listIndex == len(subSplits):
                 listIndex = 1
@@ -96,6 +99,7 @@ def update_schedule(db:SessionLocal,user_id):
     scheduleData = grab_single_schedule_data(db,user_id)
 
     schedule = build_schedule(scheduleData)
+
        
     ins = update(user_schedule).where(user_schedule.c.user_id == user_id).values(user_id = user_id, schedule = schedule)     
     result = db.execute(ins)     

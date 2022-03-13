@@ -1,5 +1,6 @@
 from decimal import Decimal
 from email.mime import base
+import json
 import math
 import random
 import sched
@@ -76,6 +77,7 @@ def populateScheduleWithExercises(db:SessionLocal,userData):
 
     #workout is a dict with (date, sub_day) as key, list of tuples (exercise id, sets, reps) as value
     monthOfWorkouts = {}
+    
 
     goals = get_user_goals(db, userData["goal"])
     period_info = get_user_period_info(db,userData["user_id"])
@@ -91,15 +93,20 @@ def populateScheduleWithExercises(db:SessionLocal,userData):
             break
         date = x[1:11]
         day = int(x[12])
-        monthOfWorkouts[(date,day)] = "None yet"
+        monthOfWorkouts[date] = day
+        
         
 
         ## HACKY
         setsAlot = 2
         
         s = select(sub_splits_muscle_groups.c.muscle_groups).where(sub_splits_muscle_groups.c.sub_splits ==day)
+        completeWorkout = []
+
 
         for row in db.execute(s):
+
+            
             
             row = dict(row)
             muscleGroup = row["muscle_groups"]
@@ -112,7 +119,7 @@ def populateScheduleWithExercises(db:SessionLocal,userData):
             exercises = []
             
             exercisesRange = 0
-
+            
             
             if user_misc["str_level"] == "Novice" or user_misc["str_level"] == "Intermediate":
                 setsAlot = 3
@@ -182,17 +189,33 @@ def populateScheduleWithExercises(db:SessionLocal,userData):
             #print(newIntensity)
 
             for jk in exercises:
-                print(f"{jk.name} | Sets x {probabilistic_round(sets/exercisesRange)} | Reps x {newBaseReps + ff(jk.fatigue_factor)[0]} | Weight x {myround(jk.max * (Decimal(newIntensity)+Decimal(ff(jk.fatigue_factor)[1])))} |")
+                x = f"{jk.name} | Sets x {probabilistic_round(sets/exercisesRange)} | Reps x {newBaseReps + ff(jk.fatigue_factor)[0]} | Weight x {myround(jk.max * (Decimal(newIntensity)+Decimal(ff(jk.fatigue_factor)[1])))} |"
+                completeWorkout.append(x)
+                
+                
+            #print(completeWorkout)
+
+        for date in monthOfWorkouts:
+            if monthOfWorkouts[date] == day:
+                monthOfWorkouts[date] = completeWorkout
 
 
-        print()
+        #print(completeWorkout)
+        #print("Below is a seperate thing")
+            
+        #print(completeWorkout)
 
+    #print(dayToDayVarCounterDict)
 
-        print("End workout day")
-        print()
-    print(dayToDayVarCounterDict)
+    #print(monthOfWorkouts)
 
-    print(monthOfWorkouts)
+    with open('WORKOUT.json', 'w') as outfile:
+        
+        json.dump(monthOfWorkouts,outfile)
+
+        """ for x in monthOfWorkouts:
+            json.dump("\n", outfile)
+            json.dump(monthOfWorkouts[x], outfile) """
 
 
 def getPeriodMutations(db:SessionLocal,userData):

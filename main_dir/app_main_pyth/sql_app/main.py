@@ -57,6 +57,7 @@ def get_db():
 
 @app.get("/cors")
 def cors_test(db: Session = Depends(get_db)):
+    update_schedule(db,1)
     generateMonthOfWorkouts(db,1) 
 
 @app.post("/register")
