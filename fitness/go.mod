@@ -1,4 +1,4 @@
-module fitness
+module github.com/Joshmogil/training-app-project/fitness
 
 go 1.21.5
 
