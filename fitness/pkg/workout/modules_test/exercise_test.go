@@ -2,7 +2,8 @@ package modules_test
 
 import (
     "testing"
-	"fitness/pkg/workout"    
+	"fitness/pkg/workout"
+	//"github.com/Joshmogil/training-app-project/fitness"    
 	"github.com/Joshmogil/training-app-project/tree/main/fitness"
 )
 
