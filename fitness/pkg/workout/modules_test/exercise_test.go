@@ -2,13 +2,11 @@ package modules_test
 
 import (
     "testing"
-	"fitness/pkg/workout"
-	//"github.com/Joshmogil/training-app-project/fitness"    
-	"github.com/Joshmogil/training-app-project/tree/main/fitness"
+	"fitness/pkg/workout/modules"
 )
 
 
-func TestUser_Save(t *testing.T) {
-    u := &Exercise{Name: "Susy Queue"}
+func TestExercise_Insert(t *testing.T) {
+    u := &modules.Exercise{Name: "Susy Queue"}
     ok(t, u.Save())
 }

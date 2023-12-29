@@ -1,0 +1,32 @@
+.
+├── cmd
+│   └── myapp
+│       └── main.go
+├── file
+├── go.mod #module named fitness
+├── go.sum
+├── infra
+│   └── dev
+│       ├── cleanup
+│       │   ├── __cleanup.sh
+│       │   └── neo4j.sh
+│       └── setup
+│           ├── neo4j.sh
+│           └── __setup.sh
+├── internal
+├── Makefile
+├── pkg
+│   ├── user
+│   └── workout
+│       ├── logic
+│       │   └── engine.go
+│       ├── modules
+│       │   ├── exercise.go
+│       │   ├── muscle.go
+│       │   └── routine.go
+│       ├── modules_test
+│       │   └── exercise_test.go
+│       └── static_resources
+└── README.md
+
+37 directories, 95 files

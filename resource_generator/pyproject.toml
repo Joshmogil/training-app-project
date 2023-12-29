@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rscgenie"
+version = "0.1.0"
+description = "Resource Genie is an automatic resource generator for applications using LLMs. Supply the structure of the resource you want and some simple prompts and resource genie will work to generate a csv/sqlite file of resources you desire."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

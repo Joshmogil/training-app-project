@@ -1,0 +1,1732 @@
+[
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Security",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPAuthorizationCredentials",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "exerciseList",
+        "importPath": "sql_app.crud.models",
+        "description": "sql_app.crud.models",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "goalsListSplitsList",
+        "importPath": "sql_app.crud.models",
+        "description": "sql_app.crud.models",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "exerciseList",
+        "importPath": "sql_app.crud.models",
+        "description": "sql_app.crud.models",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "sql_app.crud.models",
+        "description": "sql_app.crud.models",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "misc",
+        "importPath": "sql_app.crud.models",
+        "description": "sql_app.crud.models",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "update_schedule",
+        "importPath": "sql_app.workoutBuilder.schedule",
+        "description": "sql_app.workoutBuilder.schedule",
+        "isExtraImport": true,
+        "detail": "sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "create_schedule",
+        "importPath": "sql_app.workoutBuilder.schedule",
+        "description": "sql_app.workoutBuilder.schedule",
+        "isExtraImport": true,
+        "detail": "sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "create_schedule",
+        "importPath": "sql_app.workoutBuilder.schedule",
+        "description": "sql_app.workoutBuilder.schedule",
+        "isExtraImport": true,
+        "detail": "sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "update_schedule",
+        "importPath": "sql_app.workoutBuilder.schedule",
+        "description": "sql_app.workoutBuilder.schedule",
+        "isExtraImport": true,
+        "detail": "sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "true",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "MetaData",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Identity",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "not_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Numeric",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "orm",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "BACKQUOTE",
+        "importPath": "lib2to3.pgen2.token",
+        "description": "lib2to3.pgen2.token",
+        "isExtraImport": true,
+        "detail": "lib2to3.pgen2.token",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "monthrange",
+        "importPath": "calendar",
+        "description": "calendar",
+        "isExtraImport": true,
+        "detail": "calendar",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "user_schedule",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sub_splits_exercises",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "user_exercises",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "exercises",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "goals_exercises",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "goals",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "splits_sub_splits",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "user_schedule",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sub_splits_muscle_groups",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "muscle_groups",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "muscles_exercises",
+        "importPath": "sql_app.database",
+        "description": "sql_app.database",
+        "isExtraImport": true,
+        "detail": "sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "importPath": "email.mime",
+        "description": "email.mime",
+        "isExtraImport": true,
+        "detail": "email.mime",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "sched",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sched",
+        "description": "sched",
+        "detail": "sched",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "importPath": "webbrowser",
+        "description": "webbrowser",
+        "isExtraImport": true,
+        "detail": "webbrowser",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_data",
+        "importPath": "sql_app.crud.user_crud",
+        "description": "sql_app.crud.user_crud",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_goals",
+        "importPath": "sql_app.crud.user_crud",
+        "description": "sql_app.crud.user_crud",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_misc",
+        "importPath": "sql_app.crud.user_crud",
+        "description": "sql_app.crud.user_crud",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_period_info",
+        "importPath": "sql_app.crud.user_crud",
+        "description": "sql_app.crud.user_crud",
+        "isExtraImport": true,
+        "detail": "sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "sha3_224",
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "isExtraImport": true,
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "Misc",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "user_crud",
+        "importPath": "sql_app.crud",
+        "description": "sql_app.crud",
+        "isExtraImport": true,
+        "detail": "sql_app.crud",
+        "documentation": {}
+    },
+    {
+        "label": "app_crud",
+        "importPath": "sql_app.crud",
+        "description": "sql_app.crud",
+        "isExtraImport": true,
+        "detail": "sql_app.crud",
+        "documentation": {}
+    },
+    {
+        "label": "dynamicDB_crud",
+        "importPath": "sql_app.crud",
+        "description": "sql_app.crud",
+        "isExtraImport": true,
+        "detail": "sql_app.crud",
+        "documentation": {}
+    },
+    {
+        "label": "generateMonthOfWorkouts",
+        "importPath": "sql_app.workoutBuilder.workout",
+        "description": "sql_app.workoutBuilder.workout",
+        "isExtraImport": true,
+        "detail": "sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy.sql.sqltypes",
+        "description": "sqlalchemy.sql.sqltypes",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.sqltypes",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "exercise_data",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "exercise_data",
+        "description": "exercise_data",
+        "detail": "exercise_data",
+        "documentation": {}
+    },
+    {
+        "label": "Exercise",
+        "importPath": "exercise_data",
+        "description": "exercise_data",
+        "isExtraImport": true,
+        "detail": "exercise_data",
+        "documentation": {}
+    },
+    {
+        "label": "AuthHandler",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.authorization.auth",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.authorization.auth",
+        "peekOfCode": "class AuthHandler():\n    security = HTTPBearer()\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    secret = 'SECRETIOU'\n    def get_password_hash(self, password):\n        return self.pwd_context.hash(password)\n    def verify_password(self, plain_password, hashed_password):\n        return self.pwd_context.verify(plain_password, hashed_password)\n    def encode_token(self, user_id):\n        payload = {",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.authorization.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthDetails",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.authorization.authschemas",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.authorization.authschemas",
+        "peekOfCode": "class AuthDetails(BaseModel):\n    email: str\n    password: str\nclass RegisterDetails(BaseModel):\n    email: str\n    password: str\n    confirmPassword: str",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.authorization.authschemas",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterDetails",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.authorization.authschemas",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.authorization.authschemas",
+        "peekOfCode": "class RegisterDetails(BaseModel):\n    email: str\n    password: str\n    confirmPassword: str",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.authorization.authschemas",
+        "documentation": {}
+    },
+    {
+        "label": "send_user_exercise_preference",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "peekOfCode": "def send_user_exercise_preference(db: Session, exerciseList: exerciseList):\n    user_id = exerciseList.user_id\n    for x in exerciseList.exercise_list:\n        id= x.id\n        max = x.max\n        rc = x.ranked_choice\n        fav = x.favorite\n        active = x.active\n        ins = user_exercises.insert().values(user_id = user_id, exercises_id = id, max = max, ranked_choice = rc, favorite =fav, active =active)        \n        result = db.execute(ins)     ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_settings",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "peekOfCode": "def update_user_settings(db:Session, newSettings: settings):\n    user_id = newSettings.user_id\n    goal = newSettings.goal\n    split  = newSettings.split\n    pd = newSettings.preffered_days\n    cardio = newSettings.cardio\n    stmt = update(settings).where(settings.c.user_id == newSettings.user_id).values(user_id = user_id ,goal = goal, split = split, preffered_days = pd, cardio = cardio)\n    #print(update(settings))\n    result = db.execute(stmt)\n    db.commit()",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_misc",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "peekOfCode": "def update_user_misc(db:Session, newMisc: user_misc):\n    user_id = newMisc.user_id\n    cp = newMisc.current_period\n    vp  = newMisc.variation_pref\n    sl = newMisc.str_level\n    stmt = update(user_misc).where(user_misc.c.user_id == newMisc.user_id).values(user_id = user_id,current_period = cp, variation_pref = vp,str_level=sl)\n    #print(stmt)\n    result = db.execute(stmt)\n    db.commit()\n    update_schedule(db, user_id)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.app_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_goals_and_all_splits",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.dynamicDB_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.dynamicDB_crud",
+        "peekOfCode": "def get_all_goals_and_all_splits(db: Session):\n    goalsAndSplits = {}\n    goalsList = []\n    splitsList =[]\n    s = select(goals)\n    for row in db.execute(s):       \n        row = dict(row)\n        goalsList.append(row[\"name\"]) \n    s = select(splits)\n    for row in db.execute(s):        ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.dynamicDB_crud",
+        "documentation": {}
+    },
+    {
+        "label": "personalExercise",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "peekOfCode": "class personalExercise(BaseModel):\n    id: int\n    max: int\n    ranked_choice: int\n    favorite: bool\n    active: bool\nclass exerciseList(BaseModel):\n    user_id: int\n    exercise_list : List[personalExercise]\nclass settings(BaseModel):",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "exerciseList",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "peekOfCode": "class exerciseList(BaseModel):\n    user_id: int\n    exercise_list : List[personalExercise]\nclass settings(BaseModel):\n    user_id: int\n    goal: str\n    split: int\n    preffered_days: str\n    cardio:bool\nclass misc(BaseModel):",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "peekOfCode": "class settings(BaseModel):\n    user_id: int\n    goal: str\n    split: int\n    preffered_days: str\n    cardio:bool\nclass misc(BaseModel):\n    user_id: int\n    current_period: str\n    variation_pref: str",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "misc",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "peekOfCode": "class misc(BaseModel):\n    user_id: int\n    current_period: str\n    variation_pref: str\n    str_level: str\nclass goalsListSplitsList(BaseModel):\n    goalsList : List[str]\n    splitsList :List[str]",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "goalsListSplitsList",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "peekOfCode": "class goalsListSplitsList(BaseModel):\n    goalsList : List[str]\n    splitsList :List[str]",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def create_user(db: Session, reg_details: RegisterDetails):\n    if (reg_details.password != reg_details.confirmPassword):\n        raise HTTPException(status_code=401, detail='Password and Confirm password must match')\n    s = select(users.c.email).where(users.c.email==reg_details.email)\n    trueIfEmailExists = False\n    for row in db.execute(s):\n        trueIfEmailExists = True\n    if trueIfEmailExists is False:\n        gen_hashed_password = auth_handler.get_password_hash(reg_details.password)\n        ins = users.insert().values(email=reg_details.email,hashed_password=gen_hashed_password, is_active = True, needs_setup = True)        ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def login(db: Session, user_credentials: AuthDetails):\n    db_user = get_user_by_email(db, user_credentials.email)\n    if (db_user is None) or (not auth_handler.verify_password(user_credentials.password, db_user[2])):\n        raise HTTPException(status_code=401, detail='Invalid username and/or password')\n    user_response = dict(db_user)\n    print(type(user_response))\n    user_response.pop(\"hashed_password\")\n    print(user_response)\n    token = auth_handler.encode_token(db_user[1])\n    return {'token':token, 'user':user_response}    ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "check_if_email_used",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def check_if_email_used(db: Session, email: str):\n    s = select(users.c.email).where(users.c.email==email)\n    trueIfEmailExists = False\n    for row in db.execute(s):\n        trueIfEmailExists = True\n    return trueIfEmailExists\ndef get_user_by_email(db: Session, email: str):\n    s = select(users).where(users.c.email==email)\n    for row in db.execute(s):\n        return row",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_email",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def get_user_by_email(db: Session, email: str):\n    s = select(users).where(users.c.email==email)\n    for row in db.execute(s):\n        return row\ndef get_user_data(db: Session, userId: int):\n    s = select(settings.c).where(settings.c.user_id == userId)\n    for row in db.execute(s):\n        return dict(row)\ndef get_user_misc(db: Session, userId: int):\n    s = select(user_misc.c).where(user_misc.c.user_id == userId)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_data",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def get_user_data(db: Session, userId: int):\n    s = select(settings.c).where(settings.c.user_id == userId)\n    for row in db.execute(s):\n        return dict(row)\ndef get_user_misc(db: Session, userId: int):\n    s = select(user_misc.c).where(user_misc.c.user_id == userId)\n    for row in db.execute(s):\n        return dict(row)\ndef get_user_goals(db: Session, goalName: int):\n    s = select(goals.c).where(goals.c.name == goalName)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_misc",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def get_user_misc(db: Session, userId: int):\n    s = select(user_misc.c).where(user_misc.c.user_id == userId)\n    for row in db.execute(s):\n        return dict(row)\ndef get_user_goals(db: Session, goalName: int):\n    s = select(goals.c).where(goals.c.name == goalName)\n    for row in db.execute(s):\n        return dict(row)\ndef get_user_period_info(db: Session, userId: int):\n    s = select(user_misc.c).where(user_misc.c.user_id == userId)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_goals",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def get_user_goals(db: Session, goalName: int):\n    s = select(goals.c).where(goals.c.name == goalName)\n    for row in db.execute(s):\n        return dict(row)\ndef get_user_period_info(db: Session, userId: int):\n    s = select(user_misc.c).where(user_misc.c.user_id == userId)\n    userPeriod = \"\"\n    for row in db.execute(s):\n        userPeriod = dict(row)[\"current_period\"]\n    #print(userPeriod)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_period_info",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "def get_user_period_info(db: Session, userId: int):\n    s = select(user_misc.c).where(user_misc.c.user_id == userId)\n    userPeriod = \"\"\n    for row in db.execute(s):\n        userPeriod = dict(row)[\"current_period\"]\n    #print(userPeriod)\n    s = select(periods.c).where(periods.c.name == userPeriod)\n    for row in db.execute(s):\n        return dict(row)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "conn = engine.connect()\nauth_handler = AuthHandler()\ndef create_user(db: Session, reg_details: RegisterDetails):\n    if (reg_details.password != reg_details.confirmPassword):\n        raise HTTPException(status_code=401, detail='Password and Confirm password must match')\n    s = select(users.c.email).where(users.c.email==reg_details.email)\n    trueIfEmailExists = False\n    for row in db.execute(s):\n        trueIfEmailExists = True\n    if trueIfEmailExists is False:",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "auth_handler",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "peekOfCode": "auth_handler = AuthHandler()\ndef create_user(db: Session, reg_details: RegisterDetails):\n    if (reg_details.password != reg_details.confirmPassword):\n        raise HTTPException(status_code=401, detail='Password and Confirm password must match')\n    s = select(users.c.email).where(users.c.email==reg_details.email)\n    trueIfEmailExists = False\n    for row in db.execute(s):\n        trueIfEmailExists = True\n    if trueIfEmailExists is False:\n        gen_hashed_password = auth_handler.get_password_hash(reg_details.password)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleData",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "peekOfCode": "class ScheduleData():\n    user_id: Optional[int]\n    cardio: Optional[bool]\n    preffered_days: Optional[str]\n    sub_splits: Optional[List[int]]\ndef build_schedule(scheduleData : ScheduleData):#scheduleData : ScheduleData\n    subSplits = scheduleData.sub_splits \n    prefferedDays = scheduleData.preffered_days\n    workoutDays = set({})\n    i = 0",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "build_schedule",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "peekOfCode": "def build_schedule(scheduleData : ScheduleData):#scheduleData : ScheduleData\n    subSplits = scheduleData.sub_splits \n    prefferedDays = scheduleData.preffered_days\n    workoutDays = set({})\n    i = 0\n    for x in prefferedDays:\n        if i == 0 and x == str(1):\n            workoutDays.add(1)\n        if i == 1 and x == str(1):\n            workoutDays.add(2)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "grab_single_schedule_data",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "peekOfCode": "def grab_single_schedule_data(db:SessionLocal,user_id):\n    s = select(settings.c).where(user_id==settings.c.user_id)\n    sd = ScheduleData()\n    for row in db.execute(s):\n        row = dict(row)\n        sd.user_id = row[\"user_id\"]\n        sd.cardio = row[\"cardio\"]\n        sd.preffered_days = row[\"preffered_days\"]\n        sd.sub_splits = [0]\n        s = select(splits_sub_splits.c.sub_splits).where(row[\"split\"] == splits_sub_splits.c.split_id)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "create_schedule",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "peekOfCode": "def create_schedule(db:SessionLocal,user_id):\n    scheduleData = grab_single_schedule_data(db,user_id)\n    schedule = build_schedule(scheduleData)\n    ins = user_schedule.insert().values(user_id = user_id, schedule = schedule)        \n    result = db.execute(ins)     \n    db.commit()\ndef update_schedule(db:SessionLocal,user_id):\n    scheduleData = grab_single_schedule_data(db,user_id)\n    schedule = build_schedule(scheduleData)\n    ins = update(user_schedule).where(user_schedule.c.user_id == user_id).values(user_id = user_id, schedule = schedule)     ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "update_schedule",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "peekOfCode": "def update_schedule(db:SessionLocal,user_id):\n    scheduleData = grab_single_schedule_data(db,user_id)\n    schedule = build_schedule(scheduleData)\n    ins = update(user_schedule).where(user_schedule.c.user_id == user_id).values(user_id = user_id, schedule = schedule)     \n    result = db.execute(ins)     \n    db.commit()",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.schedule",
+        "documentation": {}
+    },
+    {
+        "label": "ExerciseData",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "class ExerciseData():\n    id: Optional[int]\n    name: Optional[str]\n    category: Optional[str]\n    regularity_factor: Optional[int]\n    fatigue_factor:Optional[int]\n    description: Optional[str]\n    max:Optional[int]\n    ranked_choice:Optional[int]\n    favorite:Optional[bool]",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "generateMonthOfWorkouts",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def generateMonthOfWorkouts(db:SessionLocal, userId:int):\n    userData = get_user_data(db,userId)\n    populateScheduleWithExercises(db,userData)\n    #getSchedule    \n    #scheduleExercises(userId) -> returns list dates(workouts) with associated exercises\n        #getExercisesBySubsplit(sub split id) -Run for each sub split type in the user's schedule\n            #\n            #>sub_splits_exercises sort #1\n            #>select from exercises off of that set\n            #->user_exercises sort #2 -> add additional info from user_exercises to each exercise",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "populateScheduleWithExercises",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def populateScheduleWithExercises(db:SessionLocal,userData):\n    fullySortedExercises = exerciseSortBeforePopulate(db,userData)\n    setsPerMuscleGroup = averageVolumePerMuscleGroup(db,userData)\n    scheduleAsList = getScheduleAsList(db,userData)\n    \"\"\" print(fullySortedExercises)\n    print()\n    print(setsPerMuscleGroup)\n    print()\n    print(scheduleAsList) \"\"\"\n    #workout is a dict with (date, sub_day) as key, list of tuples (exercise id, sets, reps) as value",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "getPeriodMutations",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def getPeriodMutations(db:SessionLocal,userData):\n    return 0\ndef averageVolumePerMuscleGroup(db:SessionLocal,userData):\n    schedule = getScheduleAsList(db,userData)\n    muscleGroupCounter = getMuscleGroupCounter(schedule,db)\n    misc = get_user_misc(db,userData[\"user_id\"])\n    s = select(muscle_groups.c)\n    idealSetsByMuscle = {}\n    for row in db.execute(s):\n        row = dict(row)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "averageVolumePerMuscleGroup",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def averageVolumePerMuscleGroup(db:SessionLocal,userData):\n    schedule = getScheduleAsList(db,userData)\n    muscleGroupCounter = getMuscleGroupCounter(schedule,db)\n    misc = get_user_misc(db,userData[\"user_id\"])\n    s = select(muscle_groups.c)\n    idealSetsByMuscle = {}\n    for row in db.execute(s):\n        row = dict(row)\n        idealSetsByMuscle[row[\"id\"]] = row[misc[\"str_level\"]]*4\n    averageVolumePerMuscle = {}",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "getMuscleGroupCounter",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def getMuscleGroupCounter(schedule,db:SessionLocal):\n    subDayCounter = {}\n    for x in schedule:\n        subDay = x[12:]\n        if subDay == \"\":\n            continue\n        if int(subDay) not in subDayCounter:\n            subDayCounter[int(subDay)] = 1\n        else:\n            subDayCounter[int(subDay)] += 1    ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "getScheduleAsList",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def getScheduleAsList(db:SessionLocal, userData):\n    s = select(user_schedule.c.schedule).where(user_schedule.c.user_id==userData[\"user_id\"])\n    schedule = \"\"\n    for row in db.execute(s):\n        row = dict(row)\n        schedule = row[\"schedule\"]\n    newSchedule = []\n    while len(schedule)>0:\n        begin = schedule.find(\"|\")\n        newSchedule.append(schedule[begin:13])",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "getExercisesBySubsplit",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def getExercisesBySubsplit(db:SessionLocal,subSplit:int,userData):\n    exerciseDatas = {}\n    set1 = set({})\n    s = select(sub_splits_exercises.c).where(subSplit==sub_splits_exercises.c.sub_splits)\n    for row in db.execute(s):\n        row = dict(row)\n        set1.add(int(row[\"exercises\"]))\n    s = select(exercises.c).where(exercises.c.id.in_(set1))\n    for row in db.execute(s):\n        row = dict(row)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "exerciseDataBySubSplit",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def exerciseDataBySubSplit(db:SessionLocal,userData):\n    s = select(splits_sub_splits.c.sub_splits).where(splits_sub_splits.c.split_id == userData[\"split\"])\n    exerciseDataBySubSplit = {} #<Important\n    for row in db.execute(s):\n        row = dict(row)\n        exerciseDataBySubSplit[row[\"sub_splits\"]]= getExercisesBySubsplit(db,row[\"sub_splits\"],userData)\n    return exerciseDataBySubSplit\ndef globalFuncGrabExercises(db:SessionLocal,userData):\n    #exercises sorted by sub split (have this)\n    #-> sort by muscle group = dictionary with tuple (sub_split,muscle_group) as key and list of exercises as value",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "globalFuncGrabExercises",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def globalFuncGrabExercises(db:SessionLocal,userData):\n    #exercises sorted by sub split (have this)\n    #-> sort by muscle group = dictionary with tuple (sub_split,muscle_group) as key and list of exercises as value\n    #--> Sort those dictionary entries by 1. ranked_choice 2.core 3.favorite 4.active = same dictionary of lists but sorted\n    # return\n    exerciseDatas = exerciseDataBySubSplit(db,userData)\n    s = select(muscles_exercises.c)\n    musclesExercises = []\n    for row in db.execute(s):\n        row = dict(row)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "exerciseSortBeforePopulate",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def exerciseSortBeforePopulate(db:SessionLocal,userData):\n    #--> Sort those dictionary entries by 1. ranked_choice 2.core 3.favorite 4.active = same dictionary of lists but sorted\n    exercisesToSort = globalFuncGrabExercises(db,userData)\n    finalSortDict = {}\n    for x in exercisesToSort:\n        sortThis = []\n        unSortedDict = {}\n        for y in exercisesToSort[x]:\n            sortThis.append((y.id,y.ranked_choice,y.favorite,y.core,y.active))\n            unSortedDict[y.id] = y",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "finalSelectExercises",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def finalSelectExercises():\n    return \"hi\"\ndef Sort_Tuple(tup,pos): \n    # reverse = None (Sorts in Ascending order) \n    # key is set to sort using second element of \n    # sublist lambda has been used \n    tup.sort(key = lambda x: x[pos]) \n    return tup \ndef probabilistic_round(x):\n    return int(math.floor(x + random.random()))",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "Sort_Tuple",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def Sort_Tuple(tup,pos): \n    # reverse = None (Sorts in Ascending order) \n    # key is set to sort using second element of \n    # sublist lambda has been used \n    tup.sort(key = lambda x: x[pos]) \n    return tup \ndef probabilistic_round(x):\n    return int(math.floor(x + random.random()))\ndef ff(x):\n    ff = {1:(5,-0.10),2:(3,-0.05),3:(0,0),4:(-1,.025)}",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "probabilistic_round",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def probabilistic_round(x):\n    return int(math.floor(x + random.random()))\ndef ff(x):\n    ff = {1:(5,-0.10),2:(3,-0.05),3:(0,0),4:(-1,.025)}\n    return ff[x]\ndef myround(x, base=5):\n    return base * round(x/base)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "ff",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def ff(x):\n    ff = {1:(5,-0.10),2:(3,-0.05),3:(0,0),4:(-1,.025)}\n    return ff[x]\ndef myround(x, base=5):\n    return base * round(x/base)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "myround",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "peekOfCode": "def myround(x, base=5):\n    return base * round(x/base)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.workoutBuilder.workout",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"postgresql+psycopg2://postgres:postgres1@localhost:5432/wamuu-life\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(bind=engine)\nmetadata_obj = MetaData()\nusers = Table(\"users\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('email',String(100), unique=True, index=True),\n    Column('hashed_password',String(255)),\n    Column('is_active',Boolean),\n    Column('needs_setup',Boolean)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(bind=engine)\nmetadata_obj = MetaData()\nusers = Table(\"users\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('email',String(100), unique=True, index=True),\n    Column('hashed_password',String(255)),\n    Column('is_active',Boolean),\n    Column('needs_setup',Boolean)\n)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "SessionLocal = sessionmaker(bind=engine)\nmetadata_obj = MetaData()\nusers = Table(\"users\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('email',String(100), unique=True, index=True),\n    Column('hashed_password',String(255)),\n    Column('is_active',Boolean),\n    Column('needs_setup',Boolean)\n)\nsplits = Table(\"splits\", metadata_obj,",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "metadata_obj",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "metadata_obj = MetaData()\nusers = Table(\"users\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('email',String(100), unique=True, index=True),\n    Column('hashed_password',String(255)),\n    Column('is_active',Boolean),\n    Column('needs_setup',Boolean)\n)\nsplits = Table(\"splits\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "users = Table(\"users\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('email',String(100), unique=True, index=True),\n    Column('hashed_password',String(255)),\n    Column('is_active',Boolean),\n    Column('needs_setup',Boolean)\n)\nsplits = Table(\"splits\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "splits",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "splits = Table(\"splits\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True)\n)\nperiods = Table(\"periods\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True),\n    Column('reps_mutation',Numeric),\n    Column('intensity_mutation',Numeric),\n    Column('intensity_delta',Numeric),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "periods",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "periods = Table(\"periods\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True),\n    Column('reps_mutation',Numeric),\n    Column('intensity_mutation',Numeric),\n    Column('intensity_delta',Numeric),\n    Column('reps_delta',Numeric)\n)\ngoals = Table(\"goals\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "goals",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "goals = Table(\"goals\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True),\n    Column('cardio',Boolean),\n    Column('base_reps',Integer),\n    Column('base_intensity',Numeric),\n    Column('periods',String(55))\n)\nsettings =Table(\"settings\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\")),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "exercises",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "exercises = Table(\"exercises\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(100)),\n    Column('category',String(55)),\n    Column('regularity_factor',Integer),\n    Column('fatigue_factor',Integer),\n    Column('description',String(2555)),\n)\nsub_splits = Table(\"sub_splits\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sub_splits",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "sub_splits = Table(\"sub_splits\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True)\n)\nsplits_sub_splits = Table(\"splits_sub_splits\", metadata_obj,\n    Column('split_id',Integer, ForeignKey(\"splits.id\")),\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),\n)\nsub_splits_exercises = Table(\"sub_splits_exercises\", metadata_obj,\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "splits_sub_splits",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "splits_sub_splits = Table(\"splits_sub_splits\", metadata_obj,\n    Column('split_id',Integer, ForeignKey(\"splits.id\")),\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),\n)\nsub_splits_exercises = Table(\"sub_splits_exercises\", metadata_obj,\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),\n    Column('exercises',Integer, ForeignKey(\"exercises.id\")),\n)\nsub_splits_muscle_groups = Table(\"sub_splits_muscle_groups\", metadata_obj,\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sub_splits_exercises",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "sub_splits_exercises = Table(\"sub_splits_exercises\", metadata_obj,\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),\n    Column('exercises',Integer, ForeignKey(\"exercises.id\")),\n)\nsub_splits_muscle_groups = Table(\"sub_splits_muscle_groups\", metadata_obj,\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),\n    Column('muscle_groups',Integer, ForeignKey(\"muscle_groups.id\"))\n)\ngoals_exercises = Table(\"goals_exercises\", metadata_obj,\n    Column('goals',Integer, ForeignKey(\"goals.id\")),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sub_splits_muscle_groups",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "sub_splits_muscle_groups = Table(\"sub_splits_muscle_groups\", metadata_obj,\n    Column('sub_splits',Integer, ForeignKey(\"sub_splits.id\")),\n    Column('muscle_groups',Integer, ForeignKey(\"muscle_groups.id\"))\n)\ngoals_exercises = Table(\"goals_exercises\", metadata_obj,\n    Column('goals',Integer, ForeignKey(\"goals.id\")),\n    Column('exercises',Integer, ForeignKey(\"exercises.id\")),\n    Column('core',Boolean)\n)\nmuscle_groups = Table(\"muscle_groups\", metadata_obj,",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "goals_exercises",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "goals_exercises = Table(\"goals_exercises\", metadata_obj,\n    Column('goals',Integer, ForeignKey(\"goals.id\")),\n    Column('exercises',Integer, ForeignKey(\"exercises.id\")),\n    Column('core',Boolean)\n)\nmuscle_groups = Table(\"muscle_groups\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True),\n    Column('Novice',Integer),\n    Column('Intermediate',Integer),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "muscle_groups",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "muscle_groups = Table(\"muscle_groups\", metadata_obj,\n    Column('id',Integer, Identity(start=1, cycle=True), primary_key=True, index=True),\n    Column('name',String(55), unique=True, index=True),\n    Column('Novice',Integer),\n    Column('Intermediate',Integer),\n    Column('Advanced',Integer)\n)\nmuscles_exercises = Table(\"muscles_exercises\", metadata_obj,\n    Column('muscles',Integer, ForeignKey(\"muscle_groups.id\")),\n    Column('exercises',Integer, ForeignKey(\"exercises.id\")),    ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "muscles_exercises",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "muscles_exercises = Table(\"muscles_exercises\", metadata_obj,\n    Column('muscles',Integer, ForeignKey(\"muscle_groups.id\")),\n    Column('exercises',Integer, ForeignKey(\"exercises.id\")),    \n)\nuser_exercises = Table(\"user_exercises\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\")),\n    Column('exercises_id',Integer, ForeignKey(\"exercises.id\")),\n    Column('max',Integer),\n    Column('ranked_choice', Integer),\n    Column('favorite',Boolean),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "user_exercises",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "user_exercises = Table(\"user_exercises\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\")),\n    Column('exercises_id',Integer, ForeignKey(\"exercises.id\")),\n    Column('max',Integer),\n    Column('ranked_choice', Integer),\n    Column('favorite',Boolean),\n    Column('active',Boolean)\n)\nuser_future_workouts = Table(\"user_future_workouts\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\"),unique=True),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "user_future_workouts",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "user_future_workouts = Table(\"user_future_workouts\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\"),unique=True),\n    Column('workout_object',String(2255)),    \n)\nuser_past_workouts = Table(\"user_past_workouts\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\")),\n    Column('workout_object',String(2255)),    \n)\nuser_schedule= Table(\"user_schedule\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\"),unique=True),",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "user_past_workouts",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "user_past_workouts = Table(\"user_past_workouts\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\")),\n    Column('workout_object',String(2255)),    \n)\nuser_schedule= Table(\"user_schedule\", metadata_obj,\n    Column('user_id',Integer, ForeignKey(\"users.id\"),unique=True),\n    Column('schedule',String(1000)),    \n)\nmetadata_obj.create_all(engine)\n#database data loader",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "db = SessionLocal()\ns = select(exercises.c.id).where(exercises.c.id == 1)\ntrueIfExercisesContainsData = False\nfor row in db.execute(s):\n        trueIfExercisesContainsData = True\ndb.close()\nif(trueIfExercisesContainsData is False):\n    print(\"Populating exercises table ...\")\n    jsonfile = open(\"m_exercises.json\")\n    data = json.load(jsonfile)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "s = select(exercises.c.id).where(exercises.c.id == 1)\ntrueIfExercisesContainsData = False\nfor row in db.execute(s):\n        trueIfExercisesContainsData = True\ndb.close()\nif(trueIfExercisesContainsData is False):\n    print(\"Populating exercises table ...\")\n    jsonfile = open(\"m_exercises.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "trueIfExercisesContainsData",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "trueIfExercisesContainsData = False\nfor row in db.execute(s):\n        trueIfExercisesContainsData = True\ndb.close()\nif(trueIfExercisesContainsData is False):\n    print(\"Populating exercises table ...\")\n    jsonfile = open(\"m_exercises.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()\n    for x in data:",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "db = SessionLocal()\ns = select(muscle_groups.c.id).where(muscle_groups.c.id == 1)\ntrueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True   \ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating muscle groups table ...\")\n    jsonfile = open(\"m_muscle_groups.json\")\n    data = json.load(jsonfile)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "s = select(muscle_groups.c.id).where(muscle_groups.c.id == 1)\ntrueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True   \ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating muscle groups table ...\")\n    jsonfile = open(\"m_muscle_groups.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "trueIfTableContainsData",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "trueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True   \ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating muscle groups table ...\")\n    jsonfile = open(\"m_muscle_groups.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()\n    for x in data:",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "db = SessionLocal()\ns = select(sub_splits.c.id).where(sub_splits.c.id == 1)\ntrueIfSsTableContainsData = False\nfor row in db.execute(s):\n        trueIfSsTableContainsData = True\ndb.close()\nif(trueIfSsTableContainsData is False):\n    print(\"Populating sub_splits table ...\")\n    jsonfile = open(\"m_sub_splits.json\")\n    data = json.load(jsonfile)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "s = select(sub_splits.c.id).where(sub_splits.c.id == 1)\ntrueIfSsTableContainsData = False\nfor row in db.execute(s):\n        trueIfSsTableContainsData = True\ndb.close()\nif(trueIfSsTableContainsData is False):\n    print(\"Populating sub_splits table ...\")\n    jsonfile = open(\"m_sub_splits.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "trueIfSsTableContainsData",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "trueIfSsTableContainsData = False\nfor row in db.execute(s):\n        trueIfSsTableContainsData = True\ndb.close()\nif(trueIfSsTableContainsData is False):\n    print(\"Populating sub_splits table ...\")\n    jsonfile = open(\"m_sub_splits.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()\n    print(\"Connecting the dots...\")",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "db = SessionLocal()\ns = select(splits.c.id).where(splits.c.id == 1)\ntrueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True\ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating splits table ...\")\n    jsonfile = open(\"m_splits.json\")\n    data = json.load(jsonfile)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "s = select(splits.c.id).where(splits.c.id == 1)\ntrueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True\ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating splits table ...\")\n    jsonfile = open(\"m_splits.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "trueIfTableContainsData",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "trueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True\ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating splits table ...\")\n    jsonfile = open(\"m_splits.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()\n    for x in data:",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "db = SessionLocal()\ns = select(goals.c.id).where(goals.c.id == 1)\ntrueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True   \ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating goals table ...\")\n    jsonfile = open(\"m_goals.json\")\n    data = json.load(jsonfile)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "s = select(goals.c.id).where(goals.c.id == 1)\ntrueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True   \ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating goals table ...\")\n    jsonfile = open(\"m_goals.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "trueIfTableContainsData",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "peekOfCode": "trueIfTableContainsData = False\nfor row in db.execute(s):\n        trueIfTableContainsData = True   \ndb.close()\nif(trueIfTableContainsData is False):\n    print(\"Populating goals table ...\")\n    jsonfile = open(\"m_goals.json\")\n    data = json.load(jsonfile)\n    db = SessionLocal()\n    insertList = []",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.get(\"/cors\")\ndef cors_test(db: Session = Depends(get_db)):\n    update_schedule(db,1)\n    generateMonthOfWorkouts(db,1) ",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "cors_test",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "def cors_test(db: Session = Depends(get_db)):\n    update_schedule(db,1)\n    generateMonthOfWorkouts(db,1) \n@app.post(\"/register\")\ndef create_user(reg_details: RegisterDetails, db: Session = Depends(get_db)):\n    return user_crud.create_user(db, reg_details)\n@app.post(\"/login\")\ndef login(user_credentials: AuthDetails, db: Session = Depends(get_db)):\n    JWT = user_crud.login(db, user_credentials)\n    return JWT",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "def create_user(reg_details: RegisterDetails, db: Session = Depends(get_db)):\n    return user_crud.create_user(db, reg_details)\n@app.post(\"/login\")\ndef login(user_credentials: AuthDetails, db: Session = Depends(get_db)):\n    JWT = user_crud.login(db, user_credentials)\n    return JWT\n#app functions\n@app.post(\"/exercises\")\ndef send_user_exercise_preferences(exerciseList: exerciseList, db: Session = Depends(get_db)):\n    return app_crud.send_user_exercise_preference(db, exerciseList)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "def login(user_credentials: AuthDetails, db: Session = Depends(get_db)):\n    JWT = user_crud.login(db, user_credentials)\n    return JWT\n#app functions\n@app.post(\"/exercises\")\ndef send_user_exercise_preferences(exerciseList: exerciseList, db: Session = Depends(get_db)):\n    return app_crud.send_user_exercise_preference(db, exerciseList)\n@app.post(\"/settings\")\ndef update_user_settings(newSettings: settings, db: Session = Depends(get_db)):\n    update_schedule(db,1)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "send_user_exercise_preferences",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "def send_user_exercise_preferences(exerciseList: exerciseList, db: Session = Depends(get_db)):\n    return app_crud.send_user_exercise_preference(db, exerciseList)\n@app.post(\"/settings\")\ndef update_user_settings(newSettings: settings, db: Session = Depends(get_db)):\n    update_schedule(db,1)\n    return app_crud.update_user_settings(db, newSettings)\n@app.post(\"/misc\")\ndef update_user_misc(userMisc: misc, db: Session = Depends(get_db)):\n    return app_crud.update_user_misc(db, userMisc)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_settings",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "def update_user_settings(newSettings: settings, db: Session = Depends(get_db)):\n    update_schedule(db,1)\n    return app_crud.update_user_settings(db, newSettings)\n@app.post(\"/misc\")\ndef update_user_misc(userMisc: misc, db: Session = Depends(get_db)):\n    return app_crud.update_user_misc(db, userMisc)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_misc",
+        "kind": 2,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "def update_user_misc(userMisc: misc, db: Session = Depends(get_db)):\n    return app_crud.update_user_misc(db, userMisc)",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "app = FastAPI()\norigins = [\n    \"http://localhost\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "origins = [\n    \"http://localhost\",\n    \"http://localhost:8080\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\n#Registration and login\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.get(\"/cors\")\ndef cors_test(db: Session = Depends(get_db)):",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.main",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "peekOfCode": "class UserBase(BaseModel):\n    email: str\nclass UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    is_active: bool\nclass LoginResponse(BaseModel):\n    token: str\n    user: User",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    is_active: bool\nclass LoginResponse(BaseModel):\n    token: str\n    user: User",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "peekOfCode": "class User(UserBase):\n    id: int\n    is_active: bool\nclass LoginResponse(BaseModel):\n    token: str\n    user: User",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LoginResponse",
+        "kind": 6,
+        "importPath": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "description": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "peekOfCode": "class LoginResponse(BaseModel):\n    token: str\n    user: User",
+        "detail": "x_old.main_dir.app_main_pyth.sql_app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Exercise",
+        "kind": 6,
+        "importPath": "x_old.wger-api-testground.exercise_db_builder.exercise_data",
+        "description": "x_old.wger-api-testground.exercise_db_builder.exercise_data",
+        "peekOfCode": "class Exercise():\n    name: str\n    category: str\n    description: str\n    regularity_factor: int\n    fatigue_factor: int\n    parent_variation_id: int\n    def toJSON(self):\n        return json.dumps(self, default=lambda o: o.__dict__, indent=4)\n\"\"\" @dataclass",
+        "detail": "x_old.wger-api-testground.exercise_db_builder.exercise_data",
+        "documentation": {}
+    },
+    {
+        "label": "Exercise",
+        "kind": 6,
+        "importPath": "x_old.wger-api-testground.exercise_db_builder.exercise_data",
+        "description": "x_old.wger-api-testground.exercise_db_builder.exercise_data",
+        "peekOfCode": "class Exercise():\n#this data class won't be used\n    app_id: int    \n    regularity: int\n    wg_id: int\n    name: str\n    category: str\n    description: str\n    muscles: list\n    variation_fam_members: list",
+        "detail": "x_old.wger-api-testground.exercise_db_builder.exercise_data",
+        "documentation": {}
+    },
+    {
+        "label": "base_url",
+        "kind": 5,
+        "importPath": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "description": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "peekOfCode": "base_url = \"https://wger.de/api/v2/\"\n#https://wger.de/api/v2/exerciseiinfo/<id>/\nresponse = requests.get(\n    \"https://wger.de/api/v2/exerciseinfo/?language=2&limit=400&offset=20\",\n     headers={'Authorization': 'Token adcb0fdccbcb7a4dac294291bfc2b84e468d0cab'},\n)\nexercise_results = json.loads(response.text)[\"results\"]\nlistOfExerciseDataObj = []\nwith open(\"exercises.json\", \"a\") as outfile:\n        outfile.write(\"[\")",
+        "detail": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "description": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "peekOfCode": "response = requests.get(\n    \"https://wger.de/api/v2/exerciseinfo/?language=2&limit=400&offset=20\",\n     headers={'Authorization': 'Token adcb0fdccbcb7a4dac294291bfc2b84e468d0cab'},\n)\nexercise_results = json.loads(response.text)[\"results\"]\nlistOfExerciseDataObj = []\nwith open(\"exercises.json\", \"a\") as outfile:\n        outfile.write(\"[\")\nfor x in exercise_results:\n    name = x[\"name\"]",
+        "detail": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "documentation": {}
+    },
+    {
+        "label": "exercise_results",
+        "kind": 5,
+        "importPath": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "description": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "peekOfCode": "exercise_results = json.loads(response.text)[\"results\"]\nlistOfExerciseDataObj = []\nwith open(\"exercises.json\", \"a\") as outfile:\n        outfile.write(\"[\")\nfor x in exercise_results:\n    name = x[\"name\"]\n    category = \"Weights\"\n    desc= x[\"description\"]\n    cleanedDesc = re.sub(re.compile('\\u00a0'), '', re.sub(re.compile('\\n'), '', re.sub(re.compile('<.*?>'), '', desc)))\n    regularity_factor = 0",
+        "detail": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "documentation": {}
+    },
+    {
+        "label": "listOfExerciseDataObj",
+        "kind": 5,
+        "importPath": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "description": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "peekOfCode": "listOfExerciseDataObj = []\nwith open(\"exercises.json\", \"a\") as outfile:\n        outfile.write(\"[\")\nfor x in exercise_results:\n    name = x[\"name\"]\n    category = \"Weights\"\n    desc= x[\"description\"]\n    cleanedDesc = re.sub(re.compile('\\u00a0'), '', re.sub(re.compile('\\n'), '', re.sub(re.compile('<.*?>'), '', desc)))\n    regularity_factor = 0\n    fatigue_factor = 0",
+        "detail": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "documentation": {}
+    },
+    {
+        "label": "entryNum",
+        "kind": 5,
+        "importPath": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "description": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "peekOfCode": "entryNum = 0 \nfor x in exercise_results:\n    app_id = entryNum\n    wg_id = x[\"id\"]\n    name = x[\"name\"]\n    category = x[\"category\"][\"name\"]   \n    desc= x[\"description\"]\n    cleanedDesc = re.sub(re.compile('\\n'), '', re.sub(re.compile('<.*?>'), '', desc))\n    muscles = []\n    for z in x[\"muscles\"]: ",
+        "detail": "x_old.wger-api-testground.exercise_db_builder.wger_api",
+        "documentation": {}
+    }
+]
