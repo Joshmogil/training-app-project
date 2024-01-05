@@ -12,7 +12,6 @@ type Exercise struct{
 }
 
 
-
 func (e *Exercise) String() string {
     return fmt.Sprintf("Exercise (id: %d, name: %q)", e.Id, e.Name)
 }

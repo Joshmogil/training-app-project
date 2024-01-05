@@ -1,5 +1,150 @@
 [
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic.config",
+        "description": "pydantic.config",
+        "isExtraImport": true,
+        "detail": "pydantic.config",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
@@ -126,30 +271,6 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -457,84 +578,11 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
         "label": "BACKQUOTE",
         "importPath": "lib2to3.pgen2.token",
         "description": "lib2to3.pgen2.token",
         "isExtraImport": true,
         "detail": "lib2to3.pgen2.token",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
         "documentation": {}
     },
     {
@@ -845,6 +893,87 @@
         "description": "exercise_data",
         "isExtraImport": true,
         "detail": "exercise_data",
+        "documentation": {}
+    },
+    {
+        "label": "Generator",
+        "kind": 6,
+        "importPath": "resource_generator.generator",
+        "description": "resource_generator.generator",
+        "peekOfCode": "class Generator:\n    model_bundle: str \n    #TODO\n    # import \n    # import anything in the file that",
+        "detail": "resource_generator.generator",
+        "documentation": {}
+    },
+    {
+        "label": "Gender",
+        "kind": 6,
+        "importPath": "resource_generator.llm_interface",
+        "description": "resource_generator.llm_interface",
+        "peekOfCode": "class Gender(str, Enum):\n    male = 'male'\n    female = 'female'\n    other = 'other'\n    not_given = 'not_given'\nclass MainModel(BaseModel):\n    This is the description of the main model\n    model_config = ConfigDict(title='Main')\n    foo_bar: FooBar\n    gender: Annotated[Union[Gender, None], Field(alias='Gender')] = None",
+        "detail": "resource_generator.llm_interface",
+        "documentation": {}
+    },
+    {
+        "label": "MainModel",
+        "kind": 6,
+        "importPath": "resource_generator.llm_interface",
+        "description": "resource_generator.llm_interface",
+        "peekOfCode": "class MainModel(BaseModel):\n    This is the description of the main model\n    model_config = ConfigDict(title='Main')\n    foo_bar: FooBar\n    gender: Annotated[Union[Gender, None], Field(alias='Gender')] = None\n    snap: int = Field(\n        42,\n        title='The Snap',\n        description='this is the value of snap',\n        gt=30,",
+        "detail": "resource_generator.llm_interface",
+        "documentation": {}
+    },
+    {
+        "label": "FooBar",
+        "kind": 6,
+        "importPath": "resource_generator.resource",
+        "description": "resource_generator.resource",
+        "peekOfCode": "class FooBar(BaseModel):\n    count: int\n    size: Union[float, None] = None\nclass Gender(str, Enum):\n    male = 'male'\n    female = 'female'\n    other = 'other'\n    not_given = 'not_given'\nclass MainModel(BaseModel):\n    \"\"\"",
+        "detail": "resource_generator.resource",
+        "documentation": {}
+    },
+    {
+        "label": "Gender",
+        "kind": 6,
+        "importPath": "resource_generator.resource",
+        "description": "resource_generator.resource",
+        "peekOfCode": "class Gender(str, Enum):\n    male = 'male'\n    female = 'female'\n    other = 'other'\n    not_given = 'not_given'\nclass MainModel(BaseModel):\n    \"\"\"\n    This is the description of the main model\n    \"\"\"\n    model_config = ConfigDict(title='Main')",
+        "detail": "resource_generator.resource",
+        "documentation": {}
+    },
+    {
+        "label": "MainModel",
+        "kind": 6,
+        "importPath": "resource_generator.resource",
+        "description": "resource_generator.resource",
+        "peekOfCode": "class MainModel(BaseModel):\n    \"\"\"\n    This is the description of the main model\n    \"\"\"\n    model_config = ConfigDict(title='Main')\n    foo_bar: FooBar\n    gender: Annotated[Union[Gender, None], Field(alias='Gender')] = None\n    snap: int = Field(\n        42,\n        title='The Snap',",
+        "detail": "resource_generator.resource",
+        "documentation": {}
+    },
+    {
+        "label": "d2",
+        "kind": 5,
+        "importPath": "resource_generator.resource",
+        "description": "resource_generator.resource",
+        "peekOfCode": "d2 = {\n  \"model_config\": {\"title\": \"Main\"},\n  \"foo_bar\": {\"count\": 15, \"size\": None},\n  \"Gender\": \"other\",\n  \"snap\": 40\n}\nd3 = {\n  \"model_config\": {\"title\": \"Main\"},\n  \"foo_bar\": {\"count\": 8, \"size\": 3.2},\n  \"Gender\": \"not_given\",",
+        "detail": "resource_generator.resource",
+        "documentation": {}
+    },
+    {
+        "label": "d3",
+        "kind": 5,
+        "importPath": "resource_generator.resource",
+        "description": "resource_generator.resource",
+        "peekOfCode": "d3 = {\n  \"model_config\": {\"title\": \"Main\"},\n  \"foo_bar\": {\"count\": 8, \"size\": 3.2},\n  \"Gender\": \"not_given\",\n  \"snap\": 32\n}\nres = [\n    MainModel(**d0),\n    MainModel(**d1),\n    MainModel(**d2),",
+        "detail": "resource_generator.resource",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "resource_generator.resource",
+        "description": "resource_generator.resource",
+        "peekOfCode": "res = [\n    MainModel(**d0),\n    MainModel(**d1),\n    MainModel(**d2),\n    MainModel(**d3)\n]\nprint(res)\n#print(json.dumps(MainModel.model_json_schema(), indent=2))",
+        "detail": "resource_generator.resource",
         "documentation": {}
     },
     {
