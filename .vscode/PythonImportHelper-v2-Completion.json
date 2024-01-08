@@ -1,5 +1,22 @@
 [
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "firestore",
+        "importPath": "google.cloud",
+        "description": "google.cloud",
+        "isExtraImport": true,
+        "detail": "google.cloud",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -893,6 +910,51 @@
         "description": "exercise_data",
         "isExtraImport": true,
         "detail": "exercise_data",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "firestore.test",
+        "description": "firestore.test",
+        "peekOfCode": "db = firestore.Client(project=\"my-project-id\")\ndoc_ref = db.collection(\"users\").document(\"alovelace\")\ndoc_ref.set({\"first\": \"Ada\", \"last\": \"Lovelace\", \"born\": 1815})\ndoc_ref = db.collection(\"users\").document(\"aturing\")\ndoc_ref.set({\"first\": \"Alan\", \"middle\": \"Mathison\", \"last\": \"Turing\", \"born\": 1912})\nusers_ref = db.collection(\"users\")\ndocs = users_ref.stream()\nfor doc in docs:\n    print(f\"{doc.id} => {doc.to_dict()}\")",
+        "detail": "firestore.test",
+        "documentation": {}
+    },
+    {
+        "label": "doc_ref",
+        "kind": 5,
+        "importPath": "firestore.test",
+        "description": "firestore.test",
+        "peekOfCode": "doc_ref = db.collection(\"users\").document(\"alovelace\")\ndoc_ref.set({\"first\": \"Ada\", \"last\": \"Lovelace\", \"born\": 1815})\ndoc_ref = db.collection(\"users\").document(\"aturing\")\ndoc_ref.set({\"first\": \"Alan\", \"middle\": \"Mathison\", \"last\": \"Turing\", \"born\": 1912})\nusers_ref = db.collection(\"users\")\ndocs = users_ref.stream()\nfor doc in docs:\n    print(f\"{doc.id} => {doc.to_dict()}\")",
+        "detail": "firestore.test",
+        "documentation": {}
+    },
+    {
+        "label": "doc_ref",
+        "kind": 5,
+        "importPath": "firestore.test",
+        "description": "firestore.test",
+        "peekOfCode": "doc_ref = db.collection(\"users\").document(\"aturing\")\ndoc_ref.set({\"first\": \"Alan\", \"middle\": \"Mathison\", \"last\": \"Turing\", \"born\": 1912})\nusers_ref = db.collection(\"users\")\ndocs = users_ref.stream()\nfor doc in docs:\n    print(f\"{doc.id} => {doc.to_dict()}\")",
+        "detail": "firestore.test",
+        "documentation": {}
+    },
+    {
+        "label": "users_ref",
+        "kind": 5,
+        "importPath": "firestore.test",
+        "description": "firestore.test",
+        "peekOfCode": "users_ref = db.collection(\"users\")\ndocs = users_ref.stream()\nfor doc in docs:\n    print(f\"{doc.id} => {doc.to_dict()}\")",
+        "detail": "firestore.test",
+        "documentation": {}
+    },
+    {
+        "label": "docs",
+        "kind": 5,
+        "importPath": "firestore.test",
+        "description": "firestore.test",
+        "peekOfCode": "docs = users_ref.stream()\nfor doc in docs:\n    print(f\"{doc.id} => {doc.to_dict()}\")",
+        "detail": "firestore.test",
         "documentation": {}
     },
     {
