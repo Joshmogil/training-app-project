@@ -1,5 +1,22 @@
 [
     {
+        "label": "dataclasses",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -33,6 +50,71 @@
         "documentation": {}
     },
     {
+        "label": "pydantic",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "FirestoreDocument",
         "importPath": "firestore_utils",
         "description": "firestore_utils",
@@ -49,12 +131,11 @@
         "documentation": {}
     },
     {
-        "label": "json",
-        "kind": 6,
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "detail": "enum",
         "documentation": {}
     },
     {
@@ -63,6 +144,14 @@
         "description": "enum",
         "isExtraImport": true,
         "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -146,43 +235,11 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "Annotated",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
         "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "Field",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "typing_extensions",
         "documentation": {}
     },
     {
@@ -191,6 +248,23 @@
         "description": "pydantic.config",
         "isExtraImport": true,
         "detail": "pydantic.config",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic.config",
+        "description": "pydantic.config",
+        "isExtraImport": true,
+        "detail": "pydantic.config",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -902,14 +976,6 @@
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -949,7 +1015,7 @@
         "kind": 6,
         "importPath": "firestore.user.firestore_utils",
         "description": "firestore.user.firestore_utils",
-        "peekOfCode": "class FirestoreDocument:\n    def __init__(\n            self,\n            firestore_client: firestore.Client,\n            user_id: str,\n            collection_key: str\n            ):\n        self.db=firestore_client\n        self.collection=collection_key \n        self.document_id = collection_key.to_lower() + \"_\" + user_id ",
+        "peekOfCode": "class FirestoreDocument:\n    def __init__(\n            self,\n            firestore_client: firestore.Client,\n            user_id: str,\n            collection_key: str,\n            pydantic_model: pydantic.BaseModel\n            ):\n        self.__db=firestore_client\n        self.__collection=collection_key ",
         "detail": "firestore.user.firestore_utils",
         "documentation": {}
     },
@@ -963,11 +1029,38 @@
         "documentation": {}
     },
     {
+        "label": "FooBar",
+        "kind": 6,
+        "importPath": "firestore.user.journal",
+        "description": "firestore.user.journal",
+        "peekOfCode": "class FooBar(BaseModel):\n    count: int\n    size: Union[float, None] = None\nclass Gender(str, Enum):\n    male = 'male'\n    female = 'female'\n    other = 'other'\n    not_given = 'not_given'\nclass MainModel(BaseModel):\n    \"\"\"",
+        "detail": "firestore.user.journal",
+        "documentation": {}
+    },
+    {
+        "label": "Gender",
+        "kind": 6,
+        "importPath": "firestore.user.journal",
+        "description": "firestore.user.journal",
+        "peekOfCode": "class Gender(str, Enum):\n    male = 'male'\n    female = 'female'\n    other = 'other'\n    not_given = 'not_given'\nclass MainModel(BaseModel):\n    \"\"\"\n    This is the description of the main model\n    \"\"\"\n    model_config = ConfigDict(title='Main')",
+        "detail": "firestore.user.journal",
+        "documentation": {}
+    },
+    {
+        "label": "MainModel",
+        "kind": 6,
+        "importPath": "firestore.user.journal",
+        "description": "firestore.user.journal",
+        "peekOfCode": "class MainModel(BaseModel):\n    \"\"\"\n    This is the description of the main model\n    \"\"\"\n    model_config = ConfigDict(title='Main')\n    foo_bar: FooBar\n    gender: Annotated[Union[Gender, None], Field(alias='Gender')] = None\n    snap: int = Field(\n        42,\n        title='The Snap',",
+        "detail": "firestore.user.journal",
+        "documentation": {}
+    },
+    {
         "label": "UserJournal",
         "kind": 6,
         "importPath": "firestore.user.journal",
         "description": "firestore.user.journal",
-        "peekOfCode": "class UserJournal(FirestoreDocument):\n    def __init__(\n            self,\n            firestore_client: firestore.Client,\n            user_id: str\n            ):\n        super().__init__(firestore_client, user_id=user_id, collection_key=COLLECTION_KEY)\nif __name__ == \"__main__\":\n    use_local_firestore()\n    new_journal = UserJournal(",
+        "peekOfCode": "class UserJournal(FirestoreDocument):\n    def __init__(\n            self,\n            firestore_client: firestore.Client,\n            user_id: str\n            ):\n        super().__init__(\n            firestore_client=firestore_client,\n            user_id=user_id,\n            collection_key=COLLECTION_KEY,",
         "detail": "firestore.user.journal",
         "documentation": {}
     },
