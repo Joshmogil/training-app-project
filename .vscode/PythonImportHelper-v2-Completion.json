@@ -17,6 +17,38 @@
         "documentation": {}
     },
     {
+        "label": "firestore",
+        "importPath": "google.cloud",
+        "description": "google.cloud",
+        "isExtraImport": true,
+        "detail": "google.cloud",
+        "documentation": {}
+    },
+    {
+        "label": "firestore",
+        "importPath": "google.cloud",
+        "description": "google.cloud",
+        "isExtraImport": true,
+        "detail": "google.cloud",
+        "documentation": {}
+    },
+    {
+        "label": "FirestoreDocument",
+        "importPath": "firestore_utils",
+        "description": "firestore_utils",
+        "isExtraImport": true,
+        "detail": "firestore_utils",
+        "documentation": {}
+    },
+    {
+        "label": "use_local_firestore",
+        "importPath": "firestore_utils",
+        "description": "firestore_utils",
+        "isExtraImport": true,
+        "detail": "firestore_utils",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -910,6 +942,33 @@
         "description": "exercise_data",
         "isExtraImport": true,
         "detail": "exercise_data",
+        "documentation": {}
+    },
+    {
+        "label": "FirestoreDocument",
+        "kind": 6,
+        "importPath": "firestore.user.firestore_utils",
+        "description": "firestore.user.firestore_utils",
+        "peekOfCode": "class FirestoreDocument:\n    def __init__(\n            self,\n            firestore_client: firestore.Client,\n            user_id: str,\n            collection_key: str\n            ):\n        self.db=firestore_client\n        self.collection=collection_key \n        self.document_id = collection_key.to_lower() + \"_\" + user_id ",
+        "detail": "firestore.user.firestore_utils",
+        "documentation": {}
+    },
+    {
+        "label": "use_local_firestore",
+        "kind": 2,
+        "importPath": "firestore.user.firestore_utils",
+        "description": "firestore.user.firestore_utils",
+        "peekOfCode": "def use_local_firestore():\n    FIRESTORE_EMULATOR_HOST='127.0.0.1:8083'\n    os.environ['FIRESTORE_EMULATOR_HOST']=FIRESTORE_EMULATOR_HOST",
+        "detail": "firestore.user.firestore_utils",
+        "documentation": {}
+    },
+    {
+        "label": "UserJournal",
+        "kind": 6,
+        "importPath": "firestore.user.journal",
+        "description": "firestore.user.journal",
+        "peekOfCode": "class UserJournal(FirestoreDocument):\n    def __init__(\n            self,\n            firestore_client: firestore.Client,\n            user_id: str\n            ):\n        super().__init__(firestore_client, user_id=user_id, collection_key=COLLECTION_KEY)\nif __name__ == \"__main__\":\n    use_local_firestore()\n    new_journal = UserJournal(",
+        "detail": "firestore.user.journal",
         "documentation": {}
     },
     {
